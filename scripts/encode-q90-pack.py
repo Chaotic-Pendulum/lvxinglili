@@ -137,8 +137,8 @@ def main() -> int:
     if source_pack.get("imageEncoding", {}).get("quality") == 90:
         raise ValueError("Use the preserved pre-compression manifest; do not recompress a Q90 release")
     assets = source_pack["assets"]
-    if not 1 <= len(assets) <= 512:
-        raise ValueError("Expected 1 to 512 assets")
+    if not 1 <= len(assets) <= 1024:
+        raise ValueError("Expected 1 to 1024 assets")
     baseline = {}
     errors = []
     for asset_id, asset in assets.items():

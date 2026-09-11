@@ -25,5 +25,7 @@ jobs:
         run: npm test
       - name: Check syntax, assets and documentation
         run: npm run check
+      - name: Verify all destination photos
+        run: node scripts/check-travel-photos.mjs
       - name: Build distributable archives
         run: npm run package

@@ -53,6 +53,21 @@ export function defaultPhotoFor(pack, destinationId) {
     placeholder: true,
   };
 }
+export function refreshDefaultPhotos(pack, trips) {
+  let changed = false;
+  for (const trip of trips.filter(Boolean)) {
+    const replacement = defaultPhotoFor(pack, trip.destinationId);
+    if (replacement.placeholder) continue;
+    for (const photo of [trip, ...(trip.itinerary?.nodes || [])]) {
+      if (photo.defaultPhotoPlaceholder !== true || photo.imageId ||
+          ["queued", "generating"].includes(photo.imageStatus)) continue;
+      photo.sampleAsset = replacement.asset;
+      photo.defaultPhotoPlaceholder = false;
+      changed = true;
+    }
+  }
+  return changed;
+}
 export function createCoinMail(settings) {
   return {
     intervalMinutes: whole(settings.coinMailMinutes, 30, 1, 43200),

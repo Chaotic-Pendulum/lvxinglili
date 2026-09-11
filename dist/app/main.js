@@ -54,6 +54,7 @@ import {
   apiAvailability,
   travelApiPolicy,
   defaultPhotoFor,
+  refreshDefaultPhotos,
   collectTravelCoins,
 } from "./core/travel.js";
 import { AtlasMap } from "./atlas.js";
@@ -182,6 +183,8 @@ export class Atelier {
         trip.sampleAsset = photo.asset;
       }
     }
+    if (refreshDefaultPhotos(this.pack, [this.state.currentTrip, ...this.state.trips]))
+      await this.saveNow();
     if (!this.runtime?.proxy) this.state.settings.connectionMode = "direct";
     await this.refreshMediaUrls();
     this.bind();
@@ -934,7 +937,7 @@ export class Atelier {
           : "");
     this.showModal(
       trip.title || `${trip.destinationName}的来信`,
-      `${src ? `<img class="detail-photo" src="${esc(src)}" alt="${esc(trip.title)}">` : `<div class="detail-placeholder">${icon(active ? "globe" : "photo", 40)}<h3>${active ? "还在旅途中" : "这段旅程，等一张照片"}</h3><p>${active ? `它会自己安排回家的时间` : "旅程已记录，生图可以等你准备好再开始。"}</p></div>`}<div class="detail-meta"><span class="tag">${esc(trip.destinationName)}</span><small>${date(trip.startedAt)} · ${trip.destinationMode === "directed" ? `指定地点 · ${trip.destinationFee || 0}金币` : "免费随机旅行"}</small></div><p class="detail-reason">${esc(trip.reason)}</p><p class="field-help">本程已寄回 ${trip.coinsReceived || 0} 金币</p><details class="prompt-details"><summary>这段旅程的生图提示词</summary><textarea id="trip-prompt" rows="7" ${active ? "readonly" : ""}>${esc(trip.prompt)}</textarea>${!active ? button("save-trip-prompt", "保存提示词", "check", "small", `data-id="${id}"`) : ""}${button("copy-prompt", "复制提示词", "book", "small", `data-id="${id}"`)}</details>${trip.sampleAsset && !trip.imageId ? `<p class="field-help">${trip.defaultPhotoPlaceholder ? "该地点的专属默认图尚未补齐，暂用通用示例图。" : "这是该地点的默认照片。"}${trip.photoMode === "generated" ? "新照片生成后会替换此图。" : "没有调用生图 API。"}</p>` : ""}<div class="modal-actions">${trip.imageId ? button("download-photo", "保存图片", "download", "primary", `data-image-id="${trip.imageId}"`) : !active && apiAvailability(this.state.settings, this.secrets, this.runtime).image ? button("generate-photo", trip.imageStatus === "generating" ? "正在生成…" : "调用图片 API 生成一张", "spark", "primary", `data-id="${id}" ${trip.imageStatus === "generating" ? "disabled" : ""}`) : ""}${button("close-modal", "先收好", "", "quiet")}</div>`,
+      `${src ? `<img class="detail-photo" src="${esc(src)}" alt="${esc(trip.title)}">` : `<div class="detail-placeholder">${icon(active ? "globe" : "photo", 40)}<h3>${active ? "还在旅途中" : "这段旅程，等一张照片"}</h3><p>${active ? `它会自己安排回家的时间` : "旅程已记录，生图可以等你准备好再开始。"}</p></div>`}<div class="detail-meta"><span class="tag">${esc(trip.destinationName)}</span><small>${date(trip.startedAt)} · ${trip.destinationMode === "directed" ? `指定地点 · ${trip.destinationFee || 0}金币` : "免费随机旅行"}</small></div><p class="detail-reason">${esc(trip.reason)}</p><p class="field-help">本程已寄回 ${trip.coinsReceived || 0} 金币</p><details class="prompt-details"><summary>这段旅程的生图提示词</summary><textarea id="trip-prompt" rows="7" ${active ? "readonly" : ""}>${esc(trip.prompt)}</textarea>${!active ? button("save-trip-prompt", "保存提示词", "check", "small", `data-id="${id}"`) : ""}${button("copy-prompt", "复制提示词", "book", "small", `data-id="${id}"`)}</details>${trip.sampleAsset && !trip.imageId ? `<p class="field-help">${trip.defaultPhotoPlaceholder ? "该地点的专属默认图尚未补齐，暂用通用示例图。" : "这是该地点的内置照片。"}${trip.photoMode === "generated" ? "新照片生成后会替换此图。" : "没有调用生图 API。"}</p>` : ""}<div class="modal-actions">${trip.imageId ? button("download-photo", "保存图片", "download", "primary", `data-image-id="${trip.imageId}"`) : !active && apiAvailability(this.state.settings, this.secrets, this.runtime).image ? button("generate-photo", trip.imageStatus === "generating" ? "正在生成…" : "调用图片 API 生成一张", "spark", "primary", `data-id="${id}" ${trip.imageStatus === "generating" ? "disabled" : ""}`) : ""}${button("close-modal", "先收好", "", "quiet")}</div>`,
       true,
     );
   }

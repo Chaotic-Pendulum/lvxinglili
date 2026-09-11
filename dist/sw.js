@@ -1,4 +1,4 @@
-const CACHE = "roam-atelier-20260911-v21-export-live-edit";
+const CACHE = "roam-atelier-20260911-v22-travel-photos-228";
 const CORE = [
   "./",
   "./index.html",

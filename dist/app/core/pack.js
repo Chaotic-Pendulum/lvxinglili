@@ -1,9 +1,10 @@
 import { PHOTO_STYLES, PACK_STYLE_ID } from "./photo-styles.js";
 import { destinationById } from "./catalog.js";
 export const LIMITS = {
+  assets: 1024,
   fileBytes: 30 * 1024 * 1024,
   totalBytes: 512 * 1024 * 1024,
-  entries: 750,
+  entries: 1500,
   jsonBytes: 2 * 1024 * 1024,
 };
 export const safePath = (path) =>
@@ -76,8 +77,8 @@ export function validatePack(pack) {
   fail(object(pack.assets), "缺少 assets");
   const assets = object(pack.assets) ? pack.assets : {};
   fail(
-    Object.keys(assets).length > 0 && Object.keys(assets).length <= 512,
-    "素材数量须为 1–512",
+    Object.keys(assets).length > 0 && Object.keys(assets).length <= LIMITS.assets,
+    `素材数量须为 1–${LIMITS.assets}`,
   );
   for (const [id, asset] of Object.entries(assets)) {
     fail(idOk(id), `非法素材 id：${id}`);

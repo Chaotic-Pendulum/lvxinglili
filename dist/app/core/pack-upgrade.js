@@ -135,6 +135,14 @@ export function upgradeReadingRoom(record, bundled) {
   }
   // Built-in additions are merged without replacing custom definitions or uploaded art.
   if (bundled.revision?.startsWith("expanded-") && !Object.keys(blobs).length) {
+    // Add built-in destination photos while preserving custom mappings and assets.
+    for (const [destinationId, assetId] of Object.entries(bundled.destinationPhotos || {})) {
+      if (Object.hasOwn(pack.destinationPhotos || {}, destinationId) || !canAdd(assetId)) continue;
+      pack.assets[assetId] = structuredClone(bundled.assets[assetId]);
+      pack.destinationPhotos ||= {};
+      pack.destinationPhotos[destinationId] = assetId;
+      changed = true;
+    }
     const referencedBy = (value, result = new Set()) => {
       if (!value || typeof value !== "object") return result;
       if (typeof value.asset === "string") result.add(value.asset);
@@ -192,6 +200,8 @@ export function upgradeReadingRoom(record, bundled) {
   }
   if (!changed) return { record, changed: false };
   const referenced = new Set(pack.scenes.map((s) => s.background));
+  if (pack.defaultPhotoAsset) referenced.add(pack.defaultPhotoAsset);
+  for (const assetId of Object.values(pack.destinationPhotos || {})) referenced.add(assetId);
   const findFrames = (value) => {
     if (!value || typeof value !== "object") return;
     if (typeof value.asset === "string") referenced.add(value.asset);
