@@ -14,9 +14,11 @@
 
 小青蛙，谢谢你的陪伴。出门记得吃饱一点。
 
-**无需 API Key 即可体验基础玩法 · 无需安装 npm 依赖 · 浏览器本地存档**
+**[点这里，直接试玩《旅行栗栗》](https://roam-atelier-q90-trial.yukipeng256.chatgpt.site/)**
 
-[在线试玩](https://roam-atelier-q90-trial.yukipeng256.chatgpt.site) · [快速启动](#快速启动) · [开发文档](#开发与自定义) · [反馈问题](https://github.com/Chaotic-Pendulum/roam-atelier-q90/issues)
+不用安装，也不用配置 Key。试玩版已经准备好了 **228 个目的地的明信片图库**，栗栗会在旅行途中把各地的风景寄给你，慢慢收进你的相册。
+
+[在自己电脑上玩](#快速启动) · [开发文档](#开发与自定义) · [反馈问题](https://github.com/Chaotic-Pendulum/roam-atelier-q90/issues)
 
 [![Checks](https://github.com/Chaotic-Pendulum/roam-atelier-q90/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaotic-Pendulum/roam-atelier-q90/actions/workflows/ci.yml) · [代码许可：MIT](LICENSE)
 
