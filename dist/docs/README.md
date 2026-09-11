@@ -2,27 +2,27 @@
 
 # 旅行栗栗
 
-![游戏形象支持自定义修改，可以把你的小青蛙素材导入进来哦。](docs/assets/custom-companion.svg)
+![角色形象支持自定义修改，可以把你的小青蛙素材导入进来哦。](docs/assets/custom-companion.svg)
 
 看到《旅行青蛙·中国之旅》的告别公告，我们挺舍不得的。还想给蛙蛙收拾行囊，等它从远方多寄几张明信片回来。🐸 谢谢原作的制作组，给我们留下了这么多温暖的回忆。
 
-为了纪念蛙蛙，我们也做了一个小游戏，叫《旅行栗栗》。栗栗是一只我们自己创作的小水獭，没沿用蛙蛙的形象。你可以给它布置小屋，准备好行囊，再等它把路上的照片和来信寄回来。
+我们制作了《旅行栗栗》。栗栗是一只我们自己创作的小水獭，没沿用蛙蛙的形象。你可以给它布置小屋，准备好行囊，再等它把路上的照片和来信寄回来。
 
 《旅行栗栗》会把代码完整开源，可以在自己的电脑上玩，也有直接打开就能玩的试玩链接。
 
-我们也很在意游戏里攒下来的回忆能不能留下。栗栗的照片和存档都能导入、导出，大家可以留一份在自己手里。哪天暂时不想玩了，就先好好收着。
+我们也很在意和栗栗一起攒下来的回忆能不能留下。栗栗的照片和存档都能导入、导出，大家可以留一份在自己手里。哪天暂时不想玩了，就先好好收着。
 
 如果你愿意，欢迎来认识栗栗。
 
 小青蛙，谢谢你的陪伴。出门记得吃饱一点。
 
-**[点这里，直接试玩《旅行栗栗》](https://roam-atelier-q90-trial.yukipeng256.chatgpt.site/)**
+**[点这里，直接试玩《旅行栗栗》](https://lvxinglili.chaoticpendulum.com/)**
 
 不用安装，也不用配置 Key。试玩版已经准备好了 **228 个目的地的明信片图库**，栗栗会在旅行途中把各地的风景寄给你，慢慢收进你的相册。
 
-[在自己电脑上玩](#快速启动) · [开发文档](#开发与自定义) · [反馈问题](https://github.com/Chaotic-Pendulum/roam-atelier-q90/issues)
+[在自己电脑上玩](#快速启动) · [开发文档](#开发与自定义) · [反馈问题](https://github.com/Chaotic-Pendulum/lvxinglili/issues)
 
-[![Checks](https://github.com/Chaotic-Pendulum/roam-atelier-q90/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaotic-Pendulum/roam-atelier-q90/actions/workflows/ci.yml) · [代码许可：MIT](LICENSE)
+[![Checks](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml) · [代码许可：MIT](LICENSE)
 
 ## 演示视频
 
@@ -33,8 +33,8 @@ https://github.com/user-attachments/assets/3dfdde4a-86aa-4310-ab29-ed92073e150a
 需要 **Node.js 20.12 或更新版本**。
 
 ```bash
-git clone https://github.com/Chaotic-Pendulum/roam-atelier-q90.git
-cd roam-atelier-q90
+git clone https://github.com/Chaotic-Pendulum/lvxinglili.git
+cd lvxinglili
 npm start
 ```
 
@@ -50,7 +50,7 @@ Windows PowerShell 如果提示禁止运行 `npm.ps1`，使用：
 npm.cmd start
 ```
 
-或直接运行 `node server/dev.mjs`。不要双击 `dist/index.html`；游戏需要通过 HTTP(S) 服务读取资源。
+或直接运行 `node server/dev.mjs`。不要双击 `dist/index.html`；页面需要通过 HTTP(S) 服务读取资源。
 
 
 ## 可以怎么玩
@@ -79,7 +79,7 @@ npm.cmd start
 
 ### 等一封旅行来信
 
-收拾好行囊，就让栗栗出门吧。随机出发免费，也可以花游戏金币指定一个想去的地方。临行前留句话，等它把路上的照片和金币寄回来。
+收拾好行囊，就让栗栗出门吧。随机出发免费，也可以花金币指定一个想去的地方。临行前留句话，等它把路上的照片和金币寄回来。
 
 <p>
   <img src="docs/gifs/05-destination.gif" alt="选择旅行目的地" width="720">
@@ -98,13 +98,13 @@ npm.cmd start
 
 ### 制作自己的版本
 
-**下载源码后，你可以用 AI 制作自己的小青蛙形象，替换角色配置和对应的互动素材，做一份属于自己的游戏。**
+**下载源码后，你可以用 AI 制作自己的小青蛙形象，替换角色配置和对应的互动素材，做一份属于自己的版本。**
 
 角色图、日常动作和默认明信片需要分别准备，素材可以自己制作，也可以用 AI 生成。具体做法见 [素材制作指南](docs/AI-ASSET-AUTHORING.md) 和 [素材包规范](docs/ASSET-PACK-SPEC.md)。
 
 ## 旅行来信如何生成
 
-**不用配置 API，也能收到明信片。** 游戏里已经准备好覆盖 228 个目的地的旅行图库，栗栗会按旅行目的地寄回对应的图片，文案由本地规则提供。
+**不用配置 API，也能收到明信片。** 我们已经准备好覆盖 228 个目的地的旅行图库，栗栗会按旅行目的地寄回对应的图片，文案由本地规则提供。
 
 下面这几张，就来自内置图库。
 
@@ -157,7 +157,7 @@ npm.cmd start
 具体模型名称、尺寸和质量参数以供应商支持情况为准。
 
 - 文字模型按已确定的目的地、装扮和行囊规划旅行内容；图片模型生成沿途照片。
-- 配置可用的 Key 后，游戏**不设每日三次限制**，旧存档里的限制字段也会忽略。
+- 配置可用的 Key 后，AI 生成**不设每日三次限制**，旧存档里的限制字段也会忽略。
 - 每程仍按 **1–3 个来信节点**逐张生成，后续旅程可以继续生成；供应商余额和速率限制仍然适用。
 - AI 请求失败时使用本地文案和默认图片，不会自动无限重试。
 - 页面输入的 Key 仅保存在当前页面内存，刷新后需重新填写；不会写入存档或素材包。
@@ -172,7 +172,7 @@ npm.cmd start
 
 进度、素材和照片通过 IndexedDB 保存在当前浏览器。不同设备、浏览器及站点地址的存档彼此独立，没有公共账号或云端自动同步。
 
-在「设置 → 开发者设置 → 导出完整存档」中等待准备进度完成，再点击 **「保存 ZIP 文件」**。文件包含游戏进度、素材和照片，可以用「导入存档」恢复或迁移到另一台设备。
+在「设置 → 开发者设置 → 导出完整存档」中等待准备进度完成，再点击 **「保存 ZIP 文件」**。文件包含进度、素材和照片，可以用「导入存档」恢复或迁移到另一台设备。
 
 首次导出需要收集内置素材、旅行图库和个人照片，请保持页面打开。清理浏览器数据可能导致本地存档丢失，建议提前备份。
 
@@ -200,7 +200,7 @@ npm.cmd start
 
 ```text
 dist/app/           界面、渲染、存储与 AI 适配
-dist/app/core/      游戏规则、旅行、计时与素材校验
+dist/app/core/      互动规则、旅行、计时与素材校验
 dist/packs/         示例素材包
 dist/maps/          地图和来源说明
 dist/ui/            手绘界面资源
@@ -234,7 +234,7 @@ npm run package
 
 | 文件 | 用途 |
 | --- | --- |
-| `roam-atelier-game-q90.zip` | 可部署的静态游戏 |
+| `roam-atelier-game-q90.zip` | 可部署的静态版本 |
 | `roam-atelier-source.zip` | 源码、运行素材、代理、文档与测试 |
 | `reading-room.roampack.zip` | 可通过素材管理导入的示例包 |
 | `Q90-RELEASE-MANIFEST.json` | 文件体积和 SHA-256 |
@@ -247,7 +247,7 @@ npm run package
 
 这是开源预览版。基础玩法已做自动测试和 Windows 浏览器实际操作验证；真实模型供应商、iOS Safari、微信内置浏览器和弱网环境仍需分别联调。
 
-遇到问题，请在 [Issues](https://github.com/Chaotic-Pendulum/roam-atelier-q90/issues) 提供设备、浏览器、复现步骤、预期和实际结果。请勿上传 Key、`.env` 或含私人照片的存档。
+遇到问题，请在 [Issues](https://github.com/Chaotic-Pendulum/lvxinglili/issues) 提供设备、浏览器、复现步骤、预期和实际结果。请勿上传 Key、`.env` 或含私人照片的存档。
 
 ## 许可
 
