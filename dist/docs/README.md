@@ -2,7 +2,7 @@
 
 # 旅行栗栗
 
-![角色形象支持自定义修改，可以把你的小青蛙素材导入进来哦。](docs/assets/custom-companion.svg)
+**角色形象支持自定义修改，可以把你的小青蛙素材导入进来哦。**
 
 看到《旅行青蛙·中国之旅》的告别公告，我们挺舍不得的。还想给蛙蛙收拾行囊，等它从远方多寄几张明信片回来。🐸 谢谢原作的制作组，给我们留下了这么多温暖的回忆。
 
@@ -22,7 +22,14 @@
 
 [在自己电脑上玩](#快速启动) · [开发文档](#开发与自定义) · [反馈问题](https://github.com/Chaotic-Pendulum/lvxinglili/issues)
 
-[![Checks](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml) · [代码许可：MIT](LICENSE)
+[![Checks](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml/badge.svg)](https://github.com/Chaotic-Pendulum/lvxinglili/actions/workflows/ci.yml) · [代码许可：MIT](LICENSE) · [小红书 · 私信与群聊反馈](https://xhslink.cn/o/8nCxQEyycWl)
+
+遇到 Bug 或有想法，欢迎在[小红书](https://xhslink.cn/o/8nCxQEyycWl)私信我们，也可以加入我们的小红书群聊反馈，一起把栗栗慢慢做好。
+
+<p>
+  <img src="docs/gifs/lili-companion.gif" alt="小青蛙挥手告别，栗栗张开双手陪你" width="160" align="middle">
+  <strong>如果喜欢栗栗，请给我们一颗 <a href="https://github.com/Chaotic-Pendulum/lvxinglili">Star</a> ⭐</strong>
+</p>
 
 ## 演示视频
 
@@ -60,10 +67,8 @@ npm.cmd start
 给栗栗挑一套喜欢的衣服，再去商店选些随身物品，装进行囊里。
 
 <p>
-  <img src="docs/gifs/01-outfit.gif" alt="给栗栗换衣服" width="720">
-</p>
-<p>
-  <img src="docs/gifs/02-shop.gif" alt="在商店购买随身物品" width="720">
+  <img src="docs/gifs/01-outfit.gif" alt="给栗栗换衣服" width="320">
+  <img src="docs/gifs/02-shop.gif" alt="在商店购买随身物品" width="320">
 </p>
 
 ### 布置自己的小屋
@@ -71,10 +76,8 @@ npm.cmd start
 换个喜欢的生活场景，再把家具慢慢摆好。位置、大小、水平翻转和前后遮挡，都可以自己调整。
 
 <p>
-  <img src="docs/gifs/03-scenes.gif" alt="切换栗栗的生活场景" width="720">
-</p>
-<p>
-  <img src="docs/gifs/04-furniture.gif" alt="摆放和缩放家具" width="720">
+  <img src="docs/gifs/03-scenes.gif" alt="切换栗栗的生活场景" width="320">
+  <img src="docs/gifs/04-furniture.gif" alt="摆放和缩放家具" width="320">
 </p>
 
 ### 等一封旅行来信
@@ -82,10 +85,8 @@ npm.cmd start
 收拾好行囊，就让栗栗出门吧。随机出发免费，也可以花金币指定一个想去的地方。临行前留句话，等它把路上的照片和金币寄回来。
 
 <p>
-  <img src="docs/gifs/05-destination.gif" alt="选择旅行目的地" width="720">
-</p>
-<p>
-  <img src="docs/gifs/06-departure.gif" alt="给旅途留言后出发" width="720">
+  <img src="docs/gifs/05-destination.gif" alt="选择旅行目的地" width="320">
+  <img src="docs/gifs/06-departure.gif" alt="给旅途留言后出发" width="320">
 </p>
 
 旅行需要一些时间，支持自定义修改时长，并从下一程开始生效。
@@ -94,7 +95,7 @@ npm.cmd start
 
 回来时翻翻相册，看看栗栗又去了哪里。也可以导入自己的旧照片，给它们写个标题，留几句备注。
 
-<img src="docs/gifs/07-album.gif" alt="查看旅行照片与来信" width="720">
+<img src="docs/gifs/07-album.gif" alt="查看旅行照片与来信" width="320">
 
 ### 制作自己的版本
 
@@ -111,15 +112,15 @@ npm.cmd start
 北京与上海
 
 <p>
-  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-11.webp" alt="北京明信片，栗栗在天坛前盖印章" width="350">
-  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-31.webp" alt="上海明信片，栗栗在黄浦江边喝热茶" width="350">
+  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-11.webp" alt="北京明信片，栗栗在天坛前盖印章" width="220">
+  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-31.webp" alt="上海明信片，栗栗在黄浦江边喝热茶" width="220">
 </p>
 
 海南与西藏
 
 <p>
-  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-46.webp" alt="海南明信片，栗栗在海边听音乐盒" width="350">
-  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-54.webp" alt="西藏明信片，栗栗在布达拉宫旁摇扇休息" width="350">
+  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-46.webp" alt="海南明信片，栗栗在海边听音乐盒" width="220">
+  <img src="dist/packs/reading-room/assets/travel-20260911-v2/cn-54.webp" alt="西藏明信片，栗栗在布达拉宫旁摇扇休息" width="220">
 </p>
 
 **配好文字和图片 API 后，也可以生成新的旅行来信。** 文案和照片会结合目的地、栗栗的装扮、随身物品和所选风格生成。请在出发前保存配置，新出发的旅程就会使用它。
@@ -265,7 +266,7 @@ npm run package
 
 这是开源预览版。基础玩法已做自动测试和 Windows 浏览器实际操作验证；真实模型供应商、iOS Safari、微信内置浏览器和弱网环境仍需分别联调。
 
-遇到问题，请在 [Issues](https://github.com/Chaotic-Pendulum/lvxinglili/issues) 提供设备、浏览器、复现步骤、预期和实际结果。请勿上传 Key、`.env` 或含私人照片的存档。
+遇到 Bug，可以在[小红书](https://xhslink.cn/o/8nCxQEyycWl)私信我们，或加入我们的小红书群聊反馈；也欢迎提交 [Issue](https://github.com/Chaotic-Pendulum/lvxinglili/issues)。请尽量附上设备、浏览器、复现步骤、预期和实际结果。请勿上传 Key、`.env` 或含私人照片的存档。
 
 ## 许可
 
