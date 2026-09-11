@@ -22,7 +22,7 @@
 
 ## 演示视频
 
-<!-- 视频待补：将演示视频链接放在这里。 -->
+https://github.com/user-attachments/assets/3dfdde4a-86aa-4310-ab29-ed92073e150a
 
 ## 快速启动
 
