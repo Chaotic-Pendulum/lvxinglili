@@ -1,0 +1,206 @@
+{
+  "method": "Built-in image generation; reviewed original PNG; pixel-identical lossless WebP.",
+  "newScenes": 18,
+  "totalScenes": 20,
+  "runtimeAssetBytes": 443226097,
+  "assets": {
+    "scene-sunroom-glass": {
+      "sceneId": "sunroom-glass",
+      "file": "assets/scene-sunroom-glass.webp",
+      "original": "output/scene-expansion-20260911/originals/sunroom-glass.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "20210bb39c910e32c3d1bb93edc89f31098355c7237133411c5b433f1c3451b4",
+      "sha256": "a09b988fd5d95ae1c2ffa49a82aa71241b2ab1c0948219f1699edcd2965da4ad",
+      "pixelsLossless": true,
+      "bytes": 2066414
+    },
+    "scene-seaside-loft": {
+      "sceneId": "seaside-loft",
+      "file": "assets/scene-seaside-loft.webp",
+      "original": "output/scene-expansion-20260911/originals/seaside-loft.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "5d60199aa4ceec7c90976dce0ad78036c95afb891341f8914e00caec61504b1b",
+      "sha256": "42d20c9a13c0273155dc8aba82b8e6f3e7ff88472ee9eb5ae5ecd5367d13c174",
+      "pixelsLossless": true,
+      "bytes": 1719772
+    },
+    "scene-snow-cabin": {
+      "sceneId": "snow-cabin",
+      "file": "assets/scene-snow-cabin.webp",
+      "original": "output/scene-expansion-20260911/originals/snow-cabin.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "941f53d4b2e7425319201feed35e2aaece67ac0eced5dc3930e133f6ecf26abf",
+      "sha256": "9e8d9517081ca543faa236359acae2d35c805b08705a34539ef5af9345a6e9f4",
+      "pixelsLossless": true,
+      "bytes": 1725598
+    },
+    "scene-treehouse-canopy": {
+      "sceneId": "treehouse-canopy",
+      "file": "assets/scene-treehouse-canopy.webp",
+      "original": "output/scene-expansion-20260911/originals/treehouse-canopy.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "48aa40efe29eb5038bcdde47a3f6d08a7f6e8b975d1320d3058a4c98cbcce5c7",
+      "sha256": "a82fd65a2b2a547f0ef104cfccb59ad065020aa39d7bf8cb77910ee8b2b01b7a",
+      "pixelsLossless": true,
+      "bytes": 1837574
+    },
+    "scene-bamboo-veranda": {
+      "sceneId": "bamboo-veranda",
+      "file": "assets/scene-bamboo-veranda.webp",
+      "original": "output/scene-expansion-20260911/originals/bamboo-veranda.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "618ebaa91a0037047d264fd58b889c9db5fb84cf0b69eb47bd8dc9327645ef56",
+      "sha256": "92110422325606a791fb88e108499064b48016d4b5ce8b8757587d44d998a4a2",
+      "pixelsLossless": true,
+      "bytes": 1861568
+    },
+    "scene-moon-observatory": {
+      "sceneId": "moon-observatory",
+      "file": "assets/scene-moon-observatory.webp",
+      "original": "output/scene-expansion-20260911/originals/moon-observatory.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "4c7b2d95ebbbd5d8d066088fec116b02a34fb51c7836be2e31f8c8020f71153a",
+      "sha256": "e32068b49737d398090f0ed0055e87aadec60345eba1486321ffd788b475dc1a",
+      "pixelsLossless": true,
+      "bytes": 1799180
+    },
+    "scene-lakeside-deck": {
+      "sceneId": "lakeside-deck",
+      "file": "assets/scene-lakeside-deck.webp",
+      "original": "output/scene-expansion-20260911/originals/lakeside-deck.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "a098468b2940e06d7a6e4727c7a2515af1b8a12affdd87b1cfefa42a1a2f5f3b",
+      "sha256": "bbf84d73fa6cb26f53d95d0e5a83e11d5d4775f6215a2bcc20a42c355f8b5c4a",
+      "pixelsLossless": true,
+      "bytes": 1917394
+    },
+    "scene-meadow-clearing": {
+      "sceneId": "meadow-clearing",
+      "file": "assets/scene-meadow-clearing.webp",
+      "original": "output/scene-expansion-20260911/originals/meadow-clearing.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "79f7c734f995bee64cc1dd26926b4644b0b012ff949aa24047a5e5e902e18c98",
+      "sha256": "7cc68248889e2542c887df0f4a6f8f57ded8805fe8ae206bf51c9025acc313c9",
+      "pixelsLossless": true,
+      "bytes": 2297496
+    },
+    "scene-bamboo-courtyard": {
+      "sceneId": "bamboo-courtyard",
+      "file": "assets/scene-bamboo-courtyard.webp",
+      "original": "output/scene-expansion-20260911/originals/bamboo-courtyard.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "05e3721bf900ad3f660edcce3a249f993d53ded33b0463413cc1064114eb2c5b",
+      "sha256": "e3f80717bb9a422fa991730400ed507c04a1871cfea1eebb9e736fd16cccdba2",
+      "pixelsLossless": true,
+      "bytes": 2198350
+    },
+    "scene-autumn-grove": {
+      "sceneId": "autumn-grove",
+      "file": "assets/scene-autumn-grove.webp",
+      "original": "output/scene-expansion-20260911/originals/autumn-grove.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "3dbf46648deafbe887b89677d73fb5447d1f7b251d94ce2d3ef0db57b3a9bb0b",
+      "sha256": "27a2888540a43cf981cf72b3b264016d2161df84be9c350fc792de8308cf91c2",
+      "pixelsLossless": true,
+      "bytes": 2346896
+    },
+    "scene-cherry-garden": {
+      "sceneId": "cherry-garden",
+      "file": "assets/scene-cherry-garden.webp",
+      "original": "output/scene-expansion-20260911/originals/cherry-garden.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "cc4b2f217a898f93a066e5e9144be5d53419eecb654e0eab127b98076748fba2",
+      "sha256": "0306ccb306e5519e1c934623b177501b67d7ff1ab1b3d749472e64e7e16f4950",
+      "pixelsLossless": true,
+      "bytes": 2352396
+    },
+    "scene-creekside-bank": {
+      "sceneId": "creekside-bank",
+      "file": "assets/scene-creekside-bank.webp",
+      "original": "output/scene-expansion-20260911/originals/creekside-bank.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "75bc1ea5be35b65078a92e9396514e3d01f41e1f5097ef1c5adb7e8f9e315313",
+      "sha256": "57ac5a5f1c3dc88f1d7e1f3b44abed2ef60765bcbc46c4e9d74dbeb79f59c865",
+      "pixelsLossless": true,
+      "bytes": 2349552
+    },
+    "scene-seaside-terrace": {
+      "sceneId": "seaside-terrace",
+      "file": "assets/scene-seaside-terrace.webp",
+      "original": "output/scene-expansion-20260911/originals/seaside-terrace.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "96c61955fb9287a5392a245ab08e08f83530bbcd15b94bbbce616e81e5df4687",
+      "sha256": "41790b644839dc943939b739dd15e33381a75015435eaade5f9ba1e60ea8f982",
+      "pixelsLossless": true,
+      "bytes": 1798734
+    },
+    "scene-lavender-hills": {
+      "sceneId": "lavender-hills",
+      "file": "assets/scene-lavender-hills.webp",
+      "original": "output/scene-expansion-20260911/originals/lavender-hills.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "8ddfc9cbb2d9752b4d37c61f04a592e7446eb376ff12eebf7e4143e355fb4a7e",
+      "sha256": "7c0acdc3aeeb75a04c62f6f8109594c5977d1dc986228bb514bdd04c1472806b",
+      "pixelsLossless": true,
+      "bytes": 1801330
+    },
+    "scene-cloud-mountain": {
+      "sceneId": "cloud-mountain",
+      "file": "assets/scene-cloud-mountain.webp",
+      "original": "output/scene-expansion-20260911/originals/cloud-mountain.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "91f5f412898aee2fed977d5a35e9e772feadf2f580257534c7dd83e8850b112b",
+      "sha256": "1942e0faf0bbc5feaabf1cb0a4916a3e6e9944e7ba093621ad2aec36343dd9b8",
+      "pixelsLossless": true,
+      "bytes": 1886524
+    },
+    "scene-orchard-corner": {
+      "sceneId": "orchard-corner",
+      "file": "assets/scene-orchard-corner.webp",
+      "original": "output/scene-expansion-20260911/originals/orchard-corner.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "7b92db7f28f6011cdb90fc94f172afcc5699440eb5a8bcb8a49599b98b48b160",
+      "sha256": "960e2e25a4d6bb28cf5db2d78b8b859bb98e433d3f358c7a2c16b2179426ad45",
+      "pixelsLossless": true,
+      "bytes": 2061494
+    },
+    "scene-desert-oasis": {
+      "sceneId": "desert-oasis",
+      "file": "assets/scene-desert-oasis.webp",
+      "original": "output/scene-expansion-20260911/originals/desert-oasis.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "4e9fa9f8863bb3772a23a3b88a71b8665394e54506e7beb24c0279544dd8b149",
+      "sha256": "dd71be79627e2eeebf281250de58856734267d7e844aa41bcf97d1e8381bb7fc",
+      "pixelsLossless": true,
+      "bytes": 1933150
+    },
+    "scene-firefly-pond": {
+      "sceneId": "firefly-pond",
+      "file": "assets/scene-firefly-pond.webp",
+      "original": "output/scene-expansion-20260911/originals/firefly-pond.png",
+      "width": 1536,
+      "height": 1024,
+      "sourceSha256": "b574081a0b3b36af9b9f09f0b27d11c101d3a3526893f3687542bc2179fd097a",
+      "sha256": "802e4f260c36ea32212aa32f6d1f39c20070d8cad86efd76ab9e2a3c0691cdb8",
+      "pixelsLossless": true,
+      "bytes": 1694154
+    }
+  }
+}

@@ -1,0 +1,494 @@
+{
+  "author": "Roam Atelier",
+  "license": "MIT；适用于本包原创示例美术及配置，详见 LICENSE.txt。第三方地图不在此许可范围内。",
+  "stylePrompt": "Original hand-painted woodland picture-book illustration, fine pencil outlines, honey wood, moss green, warm ivory, soft natural light, richly textured but uncluttered.",
+  "defaults": {
+    "travelMinutes": 120,
+    "frequencyMinutes": 360,
+    "activityMinMinutes": 3,
+    "activityMaxMinutes": 8
+  },
+  "postcards": [
+    {
+      "id": "sample-lake",
+      "title": "湖边的慢时光",
+      "sprite": {
+        "asset": "postcard-lake"
+      }
+    },
+    {
+      "id": "sample-forest",
+      "title": "走进一片绿意",
+      "sprite": {
+        "asset": "postcard-forest"
+      }
+    },
+    {
+      "id": "sample-coast",
+      "title": "海风寄来的信",
+      "sprite": {
+        "asset": "postcard-coast"
+      }
+    }
+  ],
+  "version": 2,
+  "id": "reading-room",
+  "name": "一椅慢时光",
+  "description": "一把阅读椅，三套装扮。翻一页书，喝一口茶。",
+  "character": {
+    "id": "lili",
+    "name": "栗栗",
+    "description": "An original small caramel-brown otter with rounded ears, a cream muzzle and belly, a brown nose, short tail and gentle friendly eyes."
+  },
+  "baseOutfitId": "base",
+  "assets": {
+    "garden": {
+      "src": "assets/garden.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "room": {
+      "src": "assets/room.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "equipment": {
+      "src": "assets/equipment.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-lake": {
+      "src": "assets/postcard-lake.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-forest": {
+      "src": "assets/postcard-forest.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-coast": {
+      "src": "assets/postcard-coast.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "icon": {
+      "src": "assets/app-icon.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "empty-chair": {
+      "src": "assets/empty-chair.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-actions": {
+      "src": "assets/base-actions.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-actions": {
+      "src": "assets/winter-actions.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-actions": {
+      "src": "assets/rain-actions.png",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "outfits": [
+    {
+      "id": "base",
+      "name": "自在原色",
+      "description": "柔软的棕色毛毛，轻轻松松过一天。",
+      "preview": {
+        "asset": "base-actions",
+        "rect": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "registration": {
+          "x": -0.11214133,
+          "y": -0.02095149,
+          "width": 1.04723769,
+          "height": 1.03525187
+        }
+      }
+    },
+    {
+      "id": "winter",
+      "name": "暖冬围巾",
+      "description": "奶油色针织衫与珊瑚围巾，捧住一点暖意。",
+      "preview": {
+        "asset": "winter-actions",
+        "rect": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "registration": {
+          "x": -0.10859873,
+          "y": -0.01888683,
+          "width": 1.03834395,
+          "height": 1.0294898
+        }
+      }
+    },
+    {
+      "id": "rain",
+      "name": "雨天来信",
+      "description": "湖蓝雨帽与蜂蜜黄雨衣，等一阵雨停。",
+      "preview": {
+        "asset": "rain-actions",
+        "rect": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "registration": {
+          "x": -0.10694268,
+          "y": -0.01902416,
+          "width": 1.03834395,
+          "height": 1.03140335
+        }
+      }
+    }
+  ],
+  "furniture": [
+    {
+      "id": "reading-chair",
+      "name": "暖木阅读椅",
+      "empty": {
+        "asset": "empty-chair",
+        "rect": [
+          0,
+          0,
+          627,
+          627
+        ],
+        "registration": {
+          "x": -0.10648305,
+          "y": -0.01711111,
+          "width": 1.03614407,
+          "height": 1.02758333
+        }
+      },
+      "canvas": {
+        "width": 627,
+        "height": 627
+      },
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "defaultWidth": 0.32,
+      "actions": {
+        "read": {
+          "name": "轻轻翻书",
+          "variants": {
+            "base": {
+              "frames": [
+                {
+                  "asset": "base-actions",
+                  "rect": [
+                    0,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.11214133,
+                    "y": -0.02095149,
+                    "width": 1.04723769,
+                    "height": 1.03525187
+                  },
+                  "duration": 4000
+                },
+                {
+                  "asset": "base-actions",
+                  "rect": [
+                    627,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02892704,
+                    "y": -0.02274766,
+                    "width": 1.04948498,
+                    "height": 1.03718692
+                  },
+                  "duration": 1200
+                }
+              ]
+            },
+            "winter": {
+              "frames": [
+                {
+                  "asset": "winter-actions",
+                  "rect": [
+                    0,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.10859873,
+                    "y": -0.01888683,
+                    "width": 1.03834395,
+                    "height": 1.0294898
+                  },
+                  "duration": 4000
+                },
+                {
+                  "asset": "winter-actions",
+                  "rect": [
+                    627,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02414013,
+                    "y": -0.01888683,
+                    "width": 1.03834395,
+                    "height": 1.0294898
+                  },
+                  "duration": 1200
+                }
+              ]
+            },
+            "rain": {
+              "frames": [
+                {
+                  "asset": "rain-actions",
+                  "rect": [
+                    0,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.10694268,
+                    "y": -0.01902416,
+                    "width": 1.03834395,
+                    "height": 1.03140335
+                  },
+                  "duration": 4000
+                },
+                {
+                  "asset": "rain-actions",
+                  "rect": [
+                    627,
+                    0,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02637527,
+                    "y": -0.01902416,
+                    "width": 1.04277186,
+                    "height": 1.03140335
+                  },
+                  "duration": 1200
+                }
+              ]
+            }
+          }
+        },
+        "tea": {
+          "name": "喝一口热茶",
+          "variants": {
+            "base": {
+              "frames": [
+                {
+                  "asset": "base-actions",
+                  "rect": [
+                    0,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.11214133,
+                    "y": 0.02234317,
+                    "width": 1.04723769,
+                    "height": 1.02379151
+                  },
+                  "duration": 3600
+                },
+                {
+                  "asset": "base-actions",
+                  "rect": [
+                    627,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02695931,
+                    "y": 0.02234317,
+                    "width": 1.04723769,
+                    "height": 1.02379151
+                  },
+                  "duration": 1600
+                }
+              ]
+            },
+            "winter": {
+              "frames": [
+                {
+                  "asset": "winter-actions",
+                  "rect": [
+                    0,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.10648305,
+                    "y": 0.0242033,
+                    "width": 1.03614407,
+                    "height": 1.01629121
+                  },
+                  "duration": 3600
+                },
+                {
+                  "asset": "winter-actions",
+                  "rect": [
+                    627,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02414013,
+                    "y": 0.02252294,
+                    "width": 1.03834395,
+                    "height": 1.01815596
+                  },
+                  "duration": 1600
+                }
+              ]
+            },
+            "rain": {
+              "frames": [
+                {
+                  "asset": "rain-actions",
+                  "rect": [
+                    0,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.10906383,
+                    "y": 0.02240331,
+                    "width": 1.04055319,
+                    "height": 1.02190608
+                  },
+                  "duration": 3600
+                },
+                {
+                  "asset": "rain-actions",
+                  "rect": [
+                    627,
+                    627,
+                    627,
+                    627
+                  ],
+                  "registration": {
+                    "x": -0.02608511,
+                    "y": 0.02246324,
+                    "width": 1.04055319,
+                    "height": 1.02002757
+                  },
+                  "duration": 1600
+                }
+              ]
+            }
+          }
+        }
+      },
+      "shadow": {
+        "x": 0.5,
+        "y": 0.93,
+        "width": 0.8,
+        "height": 0.09,
+        "opacity": 0.18
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "telescope",
+      "name": "黄铜望远镜",
+      "tags": [
+        "star",
+        "mountain"
+      ],
+      "description": "看看山那边，还有什么。",
+      "sprite": {
+        "asset": "equipment",
+        "rect": [
+          520,
+          512,
+          496,
+          480
+        ]
+      }
+    },
+    {
+      "id": "picnic-bag",
+      "name": "帆布野餐袋",
+      "tags": [
+        "picnic",
+        "lake",
+        "sea"
+      ],
+      "description": "带一点小点心，在路上慢慢吃。",
+      "sprite": {
+        "asset": "equipment",
+        "rect": [
+          1016,
+          512,
+          496,
+          480
+        ]
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "room",
+      "name": "暖木小屋",
+      "background": "room",
+      "width": 1536,
+      "height": 1024,
+      "placements": [
+        {
+          "id": "room-chair",
+          "furnitureId": "reading-chair",
+          "x": 0.51,
+          "y": 0.78,
+          "width": 0.32,
+          "z": 20
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "name": "林间庭院",
+      "background": "garden",
+      "width": 1536,
+      "height": 1024,
+      "placements": []
+    }
+  ]
+}

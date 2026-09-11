@@ -1,0 +1,16 @@
+{
+  "world": {
+    "file": "./maps/world-standard-GS2020-4403.jpg",
+    "title": "世界地图（完整标准地图原图）",
+    "reviewNumber": "GS(2020)4403号",
+    "sourceLabel": "自然资源部标准地图 · 中国政府网站转载",
+    "sourceUrl": "https://www.haojiang.gov.cn/gkmlpt/content/1/1810/post_1810674.html"
+  },
+  "china": {
+    "file": "./maps/china-standard-GS2023-2764.jpg",
+    "title": "中国地图（含省级地区及南海诸岛）",
+    "reviewNumber": "GS(2023)2764号",
+    "sourceLabel": "自然资源部供图 · 新京报刊载",
+    "sourceUrl": "https://m.bjnews.com.cn/detail/1693209500129622.html"
+  }
+}

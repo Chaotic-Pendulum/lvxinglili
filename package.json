@@ -1,0 +1,19 @@
+{
+  "name": "roam-atelier",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A portable, configurable 2D companion and travel framework.",
+  "scripts": {
+    "dev": "node server/dev.mjs",
+    "start": "node server/dev.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/run-tests.mjs",
+    "build:maps": "node scripts/build-maps.mjs",
+    "package": "node scripts/package.mjs"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT"
+}

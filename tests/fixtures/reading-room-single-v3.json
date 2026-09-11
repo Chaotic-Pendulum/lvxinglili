@@ -1,0 +1,382 @@
+{
+  "author": "Roam Atelier",
+  "license": "MIT；适用于本包原创示例美术及配置，详见 LICENSE.txt。第三方地图不在此许可范围内。",
+  "stylePrompt": "Original hand-painted woodland picture-book illustration, fine pencil outlines, honey wood, moss green, warm ivory, soft natural light, richly textured but uncluttered.",
+  "defaults": {
+    "travelMinutes": 120,
+    "frequencyMinutes": 360,
+    "activityMinMinutes": 3,
+    "activityMaxMinutes": 8,
+    "directedTripCost": 100,
+    "coinMailMinutes": 30,
+    "coinMailAmount": 50,
+    "travelMinMinutes": 60,
+    "travelMaxMinutes": 180,
+    "restMinMinutes": 5,
+    "restMaxMinutes": 15,
+    "journeyMinNodes": 1,
+    "journeyMaxNodes": 3
+  },
+  "postcards": [
+    {
+      "id": "sample-lake",
+      "title": "湖边的慢时光",
+      "sprite": {
+        "asset": "postcard-lake"
+      }
+    },
+    {
+      "id": "sample-forest",
+      "title": "走进一片绿意",
+      "sprite": {
+        "asset": "postcard-forest"
+      }
+    },
+    {
+      "id": "sample-coast",
+      "title": "海风寄来的信",
+      "sprite": {
+        "asset": "postcard-coast"
+      }
+    }
+  ],
+  "version": 2,
+  "id": "reading-room",
+  "name": "一椅慢时光",
+  "description": "独立装扮与家具，逐张生成的缓慢互动。",
+  "character": {
+    "id": "lili",
+    "name": "栗栗",
+    "description": "An original small caramel-brown otter with rounded ears, a cream muzzle and belly, a brown nose, short tail and gentle friendly eyes."
+  },
+  "baseOutfitId": "base",
+  "assets": {
+    "garden": {
+      "src": "assets/garden.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "room": {
+      "src": "assets/room.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "equipment": {
+      "src": "assets/equipment.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-lake": {
+      "src": "assets/postcard-lake.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-forest": {
+      "src": "assets/postcard-forest.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "postcard-coast": {
+      "src": "assets/postcard-coast.png",
+      "width": 1536,
+      "height": 1024
+    },
+    "icon": {
+      "src": "assets/app-icon.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "chair-empty": {
+      "src": "assets/chair-empty.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-outfit": {
+      "src": "assets/base-outfit.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-read-a": {
+      "src": "assets/base-read-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-read-b": {
+      "src": "assets/base-read-b.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-tea-a": {
+      "src": "assets/base-tea-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "base-tea-b": {
+      "src": "assets/base-tea-b.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-outfit": {
+      "src": "assets/winter-outfit.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-read-a": {
+      "src": "assets/winter-read-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-read-b": {
+      "src": "assets/winter-read-b.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-tea-a": {
+      "src": "assets/winter-tea-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "winter-tea-b": {
+      "src": "assets/winter-tea-b.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-outfit": {
+      "src": "assets/rain-outfit.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-read-a": {
+      "src": "assets/rain-read-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-read-b": {
+      "src": "assets/rain-read-b.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-tea-a": {
+      "src": "assets/rain-tea-a.png",
+      "width": 1254,
+      "height": 1254
+    },
+    "rain-tea-b": {
+      "src": "assets/rain-tea-b.png",
+      "width": 1254,
+      "height": 1254
+    }
+  },
+  "outfits": [
+    {
+      "id": "base",
+      "name": "自在原色",
+      "description": "柔软的棕色毛毛，轻轻松松过一天。",
+      "preview": {
+        "asset": "base-outfit"
+      },
+      "price": 0
+    },
+    {
+      "id": "winter",
+      "name": "暖冬围巾",
+      "description": "奶油色针织衫与珊瑚围巾，捧住一点暖意。",
+      "preview": {
+        "asset": "winter-outfit"
+      },
+      "price": 360
+    },
+    {
+      "id": "rain",
+      "name": "雨天来信",
+      "description": "湖蓝雨帽与蜂蜜黄雨衣，等一阵雨停。",
+      "preview": {
+        "asset": "rain-outfit"
+      },
+      "price": 420
+    }
+  ],
+  "furniture": [
+    {
+      "id": "reading-chair",
+      "name": "暖木阅读椅",
+      "empty": {
+        "asset": "chair-empty"
+      },
+      "canvas": {
+        "width": 1254,
+        "height": 1254
+      },
+      "pivot": [
+        0.5370813397129187,
+        0.9609250398724083
+      ],
+      "defaultWidth": 0.32,
+      "actions": {
+        "read": {
+          "name": "轻轻翻书",
+          "variants": {
+            "base": {
+              "frames": [
+                {
+                  "asset": "base-read-a",
+                  "duration": 4000
+                },
+                {
+                  "asset": "base-read-b",
+                  "duration": 1200
+                }
+              ]
+            },
+            "winter": {
+              "frames": [
+                {
+                  "asset": "winter-read-a",
+                  "duration": 4000
+                },
+                {
+                  "asset": "winter-read-b",
+                  "duration": 1200
+                }
+              ]
+            },
+            "rain": {
+              "frames": [
+                {
+                  "asset": "rain-read-a",
+                  "duration": 4000
+                },
+                {
+                  "asset": "rain-read-b",
+                  "duration": 1200
+                }
+              ]
+            }
+          }
+        },
+        "tea": {
+          "name": "喝一口热茶",
+          "variants": {
+            "base": {
+              "frames": [
+                {
+                  "asset": "base-tea-a",
+                  "duration": 3600
+                },
+                {
+                  "asset": "base-tea-b",
+                  "duration": 1600
+                }
+              ]
+            },
+            "winter": {
+              "frames": [
+                {
+                  "asset": "winter-tea-a",
+                  "duration": 3600
+                },
+                {
+                  "asset": "winter-tea-b",
+                  "duration": 1600
+                }
+              ]
+            },
+            "rain": {
+              "frames": [
+                {
+                  "asset": "rain-tea-a",
+                  "duration": 3600
+                },
+                {
+                  "asset": "rain-tea-b",
+                  "duration": 1600
+                }
+              ]
+            }
+          }
+        }
+      },
+      "shadow": {
+        "x": 0.5370813397129187,
+        "y": 0.952,
+        "width": 0.8,
+        "height": 0.085,
+        "opacity": 0.18
+      },
+      "price": 300
+    }
+  ],
+  "items": [
+    {
+      "id": "telescope",
+      "name": "黄铜望远镜",
+      "tags": [
+        "star",
+        "mountain"
+      ],
+      "description": "看看山那边，还有什么。",
+      "sprite": {
+        "asset": "equipment",
+        "rect": [
+          520,
+          512,
+          496,
+          480
+        ]
+      },
+      "price": 160
+    },
+    {
+      "id": "picnic-bag",
+      "name": "帆布野餐袋",
+      "tags": [
+        "picnic",
+        "lake",
+        "sea"
+      ],
+      "description": "带一点小点心，在路上慢慢吃。",
+      "sprite": {
+        "asset": "equipment",
+        "rect": [
+          1016,
+          512,
+          496,
+          480
+        ]
+      },
+      "price": 120
+    }
+  ],
+  "scenes": [
+    {
+      "id": "room",
+      "name": "暖木小屋",
+      "background": "room",
+      "width": 1536,
+      "height": 1024,
+      "placements": [
+        {
+          "id": "room-chair",
+          "furnitureId": "reading-chair",
+          "x": 0.51,
+          "y": 0.78,
+          "width": 0.32,
+          "z": 20
+        }
+      ],
+      "price": 0
+    },
+    {
+      "id": "garden",
+      "name": "林间庭院",
+      "background": "garden",
+      "width": 1536,
+      "height": 1024,
+      "placements": [],
+      "price": 1200
+    }
+  ],
+  "revision": "single-frames-3",
+  "destinationPhotos": {},
+  "defaultPhotoAsset": "postcard-lake"
+}

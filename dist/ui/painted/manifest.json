@@ -1,0 +1,76 @@
+{
+  "id": "painted-paper-wood",
+  "quality": 90,
+  "sourceTool": "built-in image_gen",
+  "assets": {
+    "paper-panel": {
+      "file": "paper-panel-q90.webp",
+      "width": 1196,
+      "height": 1174,
+      "slice": [
+        110,
+        110,
+        110,
+        110
+      ],
+      "borderWidth": 18,
+      "sourceCrop": [
+        33,
+        36,
+        1229,
+        1210
+      ],
+      "originalFile": "output/ui-skin-20260911/originals/paper-panel.png",
+      "sourceSha256": "d158caf9c924ccdcc68fb3cfaae21a46edb0066f2255cc2775e7782eb82c19d8",
+      "sha256": "41ebb8cbbe4e657bd6f45e1b228c4f3fd34087b538870368dec84b5b2af1b40a",
+      "alphaPreserved": true,
+      "bytes": 168186
+    },
+    "button-neutral": {
+      "file": "button-neutral-q90.webp",
+      "width": 1727,
+      "height": 407,
+      "slice": [
+        96,
+        138,
+        112,
+        138
+      ],
+      "borderWidth": 10,
+      "sourceCrop": [
+        223,
+        159,
+        1950,
+        566
+      ],
+      "originalFile": "output/ui-skin-20260911/originals/button-neutral.png",
+      "sourceSha256": "d63050aa3aedf9dc42688d02a12c1d25f2b1c9f10a03d976c2d829252535b6d5",
+      "sha256": "a7de9cca060439e2e2787633df6555a7b7b838f1c73d1f7f739b985c0589e1ea",
+      "alphaPreserved": true,
+      "bytes": 112294
+    },
+    "button-primary": {
+      "file": "button-primary-q90.webp",
+      "width": 1429,
+      "height": 362,
+      "slice": [
+        84,
+        112,
+        84,
+        112
+      ],
+      "borderWidth": 10,
+      "sourceCrop": [
+        51,
+        345,
+        1480,
+        707
+      ],
+      "originalFile": "output/ui-skin-20260911/originals/button-primary.png",
+      "sourceSha256": "97f523bef82677a7f0acba4dc2317fb660bc15427d307ae25cf3be6224921cfc",
+      "sha256": "fce092cc2574f4d94b4bb333ac4bda60e1627b7847f8085b04c39d5deac14a22",
+      "alphaPreserved": true,
+      "bytes": 114984
+    }
+  }
+}

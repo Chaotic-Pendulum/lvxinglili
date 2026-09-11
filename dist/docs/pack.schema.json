@@ -1,0 +1,864 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Roam Atelier furniture interactions v2",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": 2
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "revision": {
+      "type": "string"
+    },
+    "character": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "baseOutfitId": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+    },
+    "assets": {
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 512,
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "outfits": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/outfit"
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "furniture": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/furniture"
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scene"
+      },
+      "minItems": 1,
+      "maxItems": 100
+    },
+    "postcards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "sprite": {
+            "$ref": "#/$defs/frame"
+          }
+        },
+        "required": [
+          "id",
+          "sprite"
+        ]
+      },
+      "minItems": 0,
+      "maxItems": 100
+    },
+    "defaults": {
+      "type": "object",
+      "properties": {
+        "travelMinutes": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "frequencyMinutes": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "activityMinMinutes": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 43200
+        },
+        "activityMaxMinutes": {
+          "type": "number",
+          "minimum": 0.1,
+          "maximum": 43200
+        },
+        "wanderBetweenScenes": {
+          "type": "boolean"
+        },
+        "directedTripCost": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999
+        },
+        "coinMailMinutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "coinMailAmount": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000
+        },
+        "travelMinMinutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "travelMaxMinutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "restMinMinutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "restMaxMinutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 43200
+        },
+        "journeyMinNodes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "journeyMaxNodes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "photoStyleId": {
+          "type": "string",
+          "enum": [
+            "pack-default",
+            "ink-wash",
+            "photorealism",
+            "classical-oil",
+            "impressionism",
+            "post-impressionism",
+            "watercolor",
+            "gouache",
+            "ukiyo-e",
+            "blue-green-shanshui",
+            "graphite",
+            "charcoal",
+            "etching",
+            "pastel",
+            "pointillism",
+            "fauvism",
+            "cubism",
+            "art-nouveau",
+            "art-deco",
+            "paper-cut",
+            "pixel-art"
+          ]
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    },
+    "defaultPhotoAsset": {
+      "$ref": "#/$defs/id"
+    },
+    "destinationPhotos": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "CN-11",
+          "CN-12",
+          "CN-13",
+          "CN-14",
+          "CN-15",
+          "CN-21",
+          "CN-22",
+          "CN-23",
+          "CN-31",
+          "CN-32",
+          "CN-33",
+          "CN-34",
+          "CN-35",
+          "CN-36",
+          "CN-37",
+          "CN-41",
+          "CN-42",
+          "CN-43",
+          "CN-44",
+          "CN-45",
+          "CN-46",
+          "CN-50",
+          "CN-51",
+          "CN-52",
+          "CN-53",
+          "CN-54",
+          "CN-61",
+          "CN-62",
+          "CN-63",
+          "CN-64",
+          "CN-65",
+          "CN-71",
+          "CN-81",
+          "CN-82",
+          "AL",
+          "DZ",
+          "AF",
+          "AR",
+          "AE",
+          "OM",
+          "AZ",
+          "EG",
+          "ET",
+          "IE",
+          "EE",
+          "AD",
+          "AO",
+          "AG",
+          "AT",
+          "AU",
+          "BB",
+          "PG",
+          "BS",
+          "PK",
+          "PY",
+          "PS",
+          "BH",
+          "PA",
+          "BR",
+          "BY",
+          "BG",
+          "MK",
+          "BJ",
+          "BE",
+          "IS",
+          "PL",
+          "BA",
+          "BO",
+          "BZ",
+          "BW",
+          "BT",
+          "BF",
+          "BI",
+          "KP",
+          "GQ",
+          "DK",
+          "DE",
+          "TL",
+          "TG",
+          "DO",
+          "DM",
+          "RU",
+          "EC",
+          "ER",
+          "FR",
+          "VA",
+          "PH",
+          "FJ",
+          "FI",
+          "CV",
+          "GM",
+          "CG",
+          "CD",
+          "CO",
+          "CR",
+          "GD",
+          "GE",
+          "CU",
+          "GY",
+          "KZ",
+          "HT",
+          "KR",
+          "NL",
+          "ME",
+          "HN",
+          "KI",
+          "DJ",
+          "KG",
+          "GN",
+          "GW",
+          "CA",
+          "GH",
+          "GA",
+          "KH",
+          "CZ",
+          "ZW",
+          "CM",
+          "QA",
+          "KM",
+          "CI",
+          "KW",
+          "HR",
+          "KE",
+          "LV",
+          "LS",
+          "LA",
+          "LB",
+          "LT",
+          "LR",
+          "LY",
+          "LI",
+          "LU",
+          "RW",
+          "RO",
+          "MG",
+          "MV",
+          "MT",
+          "MW",
+          "MY",
+          "ML",
+          "MH",
+          "MU",
+          "MR",
+          "US",
+          "MN",
+          "BD",
+          "PE",
+          "FM",
+          "MM",
+          "MD",
+          "MA",
+          "MC",
+          "MZ",
+          "MX",
+          "NA",
+          "ZA",
+          "SS",
+          "NR",
+          "NI",
+          "NP",
+          "NE",
+          "NG",
+          "NO",
+          "PW",
+          "PT",
+          "JP",
+          "SE",
+          "CH",
+          "SV",
+          "WS",
+          "RS",
+          "SL",
+          "SN",
+          "CY",
+          "SC",
+          "SA",
+          "ST",
+          "KN",
+          "LC",
+          "SM",
+          "VC",
+          "LK",
+          "SK",
+          "SI",
+          "SZ",
+          "SD",
+          "SR",
+          "SB",
+          "SO",
+          "TJ",
+          "TH",
+          "TZ",
+          "TO",
+          "TT",
+          "TN",
+          "TV",
+          "TR",
+          "TM",
+          "VU",
+          "GT",
+          "VE",
+          "BN",
+          "UG",
+          "UA",
+          "UY",
+          "UZ",
+          "ES",
+          "GR",
+          "SG",
+          "NZ",
+          "HU",
+          "SY",
+          "JM",
+          "AM",
+          "YE",
+          "IQ",
+          "IR",
+          "IL",
+          "IT",
+          "IN",
+          "ID",
+          "GB",
+          "JO",
+          "VN",
+          "ZM",
+          "TD",
+          "CL",
+          "CF"
+        ]
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/id"
+      }
+    }
+  },
+  "required": [
+    "version",
+    "id",
+    "name",
+    "character",
+    "baseOutfitId",
+    "assets",
+    "outfits",
+    "furniture",
+    "items",
+    "scenes"
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+    },
+    "asset": {
+      "type": "object",
+      "properties": {
+        "src": {
+          "type": "string",
+          "maxLength": 239
+        },
+        "width": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 16384
+        },
+        "height": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 16384
+        }
+      },
+      "required": [
+        "src",
+        "width",
+        "height"
+      ]
+    },
+    "frame": {
+      "type": "object",
+      "properties": {
+        "asset": {
+          "$ref": "#/$defs/id"
+        },
+        "rect": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 16384
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 100,
+          "maximum": 60000
+        },
+        "registration": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": -1,
+              "maximum": 2
+            },
+            "y": {
+              "type": "number",
+              "minimum": -1,
+              "maximum": 2
+            },
+            "width": {
+              "type": "number",
+              "minimum": 0.01,
+              "maximum": 3
+            },
+            "height": {
+              "type": "number",
+              "minimum": 0.01,
+              "maximum": 3
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ]
+        }
+      },
+      "required": [
+        "asset"
+      ]
+    },
+    "clip": {
+      "type": "object",
+      "properties": {
+        "frames": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/frame"
+          },
+          "minItems": 1,
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "frames"
+      ]
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "variants": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/clip"
+          }
+        }
+      },
+      "required": [
+        "name",
+        "variants"
+      ]
+    },
+    "furniture": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "empty": {
+          "$ref": "#/$defs/frame"
+        },
+        "canvas": {
+          "type": "object",
+          "properties": {
+            "width": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 16384
+            },
+            "height": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 16384
+            }
+          },
+          "required": [
+            "width",
+            "height"
+          ]
+        },
+        "pivot": {
+          "type": "array",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "defaultWidth": {
+          "type": "number",
+          "minimum": 0.02,
+          "maximum": 1
+        },
+        "shadow": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "y": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "width": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "height": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "opacity": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height",
+            "opacity"
+          ]
+        },
+        "actions": {
+          "type": "object",
+          "maxProperties": 50,
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/action"
+          }
+        },
+        "price": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "empty",
+        "canvas",
+        "pivot",
+        "defaultWidth",
+        "actions"
+      ]
+    },
+    "placement": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "furnitureId": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "x": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "width": {
+          "type": "number",
+          "minimum": 0.02,
+          "maximum": 1
+        },
+        "z": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "flip": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "furnitureId",
+        "x",
+        "y",
+        "width"
+      ]
+    },
+    "scene": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "background": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "width": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 16384
+        },
+        "height": {
+          "type": "number",
+          "minimum": 1,
+          "maximum": 16384
+        },
+        "placements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/placement"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "price": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "background",
+        "width",
+        "height",
+        "placements"
+      ]
+    },
+    "outfit": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "description": {
+          "type": "string"
+        },
+        "preview": {
+          "$ref": "#/$defs/frame"
+        },
+        "price": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "preview"
+      ]
+    },
+    "item": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9][a-zA-Z0-9_-]{0,63}$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 0,
+          "maxItems": 100
+        },
+        "sprite": {
+          "$ref": "#/$defs/frame"
+        },
+        "price": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99999999
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "sprite"
+      ],
+      "not": {
+        "required": [
+          "slot"
+        ]
+      }
+    }
+  }
+}

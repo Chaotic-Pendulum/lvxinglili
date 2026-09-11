@@ -1,0 +1,117 @@
+[
+  {
+    "file": "winter-outfit.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 927680,
+    "alpha255Pixels": 290,
+    "alphaPartialPixels": 644546,
+    "visibleBoundsAlpha32": [
+      262,
+      23,
+      1090,
+      1229
+    ],
+    "edgePixelsAlpha32OrAbove": 0,
+    "sha256": "3cfa8751f974decc00b0f02cabdf3cdd1edc7ac4bf1f156bf9133317bccc11e0"
+  },
+  {
+    "file": "winter-read-a.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 705030,
+    "alpha255Pixels": 1032,
+    "alphaPartialPixels": 866454,
+    "visibleBoundsAlpha32": [
+      136,
+      41,
+      1208,
+      1207
+    ],
+    "edgePixelsAlpha32OrAbove": 0,
+    "sha256": "3229a5645f8efd354243c6323957d3720c0bea9a1826d2700a8dac3193fda900"
+  },
+  {
+    "file": "winter-read-b.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 700924,
+    "alpha255Pixels": 1262,
+    "alphaPartialPixels": 870330,
+    "visibleBoundsAlpha32": [
+      134,
+      39,
+      1210,
+      1209
+    ],
+    "edgePixelsAlpha32OrAbove": 0,
+    "sha256": "cf2d79936d0f56cd329b27c492f74fff94002ed62a35188989d2bc4ee1f8ec88"
+  },
+  {
+    "file": "winter-tea-a.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 703093,
+    "alpha255Pixels": 1612,
+    "alphaPartialPixels": 867811,
+    "visibleBoundsAlpha32": [
+      136,
+      40,
+      1209,
+      1209
+    ],
+    "edgePixelsAlpha32OrAbove": 0,
+    "sha256": "e069064e73b9e2aa20a779441822b1b89363e6229af8f0fd73591460c5896525"
+  },
+  {
+    "file": "winter-tea-b.png",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "alphaRange": [
+      0,
+      255
+    ],
+    "alphaZeroPixels": 695644,
+    "alpha255Pixels": 1126,
+    "alphaPartialPixels": 875746,
+    "visibleBoundsAlpha32": [
+      133,
+      36,
+      1209,
+      1210
+    ],
+    "edgePixelsAlpha32OrAbove": 0,
+    "sha256": "af9869577d99f8d6fd680d2199949504d00411f405616dfd6d12fcc64850b82d"
+  }
+]

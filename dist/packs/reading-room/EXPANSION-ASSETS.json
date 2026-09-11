@@ -1,0 +1,3237 @@
+{
+  "method": "Local alpha matting, original visible pixels preserved, lossless WebP runtime encoding. Ground offsets use the existing uniform-canvas registration field.",
+  "assets": {
+    "gardener-outfit-local": {
+      "file": "assets/gardener-outfit-local.webp",
+      "sourceSha256": "78d4b8d5502d43ab84f5a9de25cacaa5a8f8ee0b822f5c067ac496520ff56266",
+      "sha256": "bed1d0225e99f423a864823820d5c2b20c77350557b06a5596343fee3e9c31a9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "sailor-outfit-local": {
+      "file": "assets/sailor-outfit-local.webp",
+      "sourceSha256": "a7da17b78e93e31810ac0a364ac85e83c523020c8e2b6bf99a3af47045a982f3",
+      "sha256": "778514d5ae3305d599125bce8e2cb4584cab99d3c80d767bb5ec8217deecfedb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "explorer-outfit-local": {
+      "file": "assets/explorer-outfit-local.webp",
+      "sourceSha256": "528360a1ad4a11b8ae04ada283c0ffa5e28e6527bd3074f1ef458ab02099fc53",
+      "sha256": "e2c23e52287ed3a26d7fc90173e5db0c795956eb8bd8b9eb12641aeddaca20aa",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "pajamas-outfit-local": {
+      "file": "assets/pajamas-outfit-local.webp",
+      "sourceSha256": "13431ce7490a4364cd9096be0529b9057abf2f9634321868c7f49d3f11ca8a2d",
+      "sha256": "60e2bc81d199efb4df14200066b37be1400811fecbc1d1242eff8fc0ccb2f003",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "baker-outfit-local": {
+      "file": "assets/baker-outfit-local.webp",
+      "sourceSha256": "1be2f0c84bc429c2f42444ea4fecdb99543e4fefb8bcada7915a47da86843e55",
+      "sha256": "3b6c5452a818179009012226c25ba3841c387a1e50de96d9bcdd52b638bb406d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "postman-outfit-local": {
+      "file": "assets/postman-outfit-local.webp",
+      "sourceSha256": "eef8018c4bb8c52ff127a36f153315e7e015862780be7ea1f7a2529b8a34cf4e",
+      "sha256": "a990ebfb33cb2f058d5489a6443ef539527d5d8b326395947cb762e30685e9f1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "festival-outfit-local": {
+      "file": "assets/festival-outfit-local.webp",
+      "sourceSha256": "53aa3d57fcaaf9a0f96603d50e46d1f677a945732f843362d4f40383c272c714",
+      "sha256": "0ed8430054b3cc074d97d81b4c1d7223ad6a79d6ae540c598984eb8db98d202f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-empty-local": {
+      "file": "assets/writing-desk-empty-local.webp",
+      "sourceSha256": "7c20bf42657f40fe10a6d2ed7929c2514ebfd7f0a8b518ced9b76766319d6ed6",
+      "sha256": "7e7ac6ac6cbb4ddb17e161dd64105c88e79a1026aaadc4fd7e016a312a241bfa",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-base-write-a-local": {
+      "file": "assets/writing-desk-base-write-a-local.webp",
+      "sourceSha256": "59339f5063a11f2a2fb69fad4e30820da1dd8c898f67885c4631f8718dd25557",
+      "sha256": "34247177cdf15c5471e19d8ea9c81214f0f2c4c24067e883fa4f31202b0a2c01",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-base-write-b-local": {
+      "file": "assets/writing-desk-base-write-b-local.webp",
+      "sourceSha256": "d7cf4ec077c1185d07780cf79ee3d34221187b97b2fdb0cb6b136cf0c4f0cedb",
+      "sha256": "973e29adfae975f5484311d8986301f7d0e59c2a8c7e66c8c5f24f0ee4f95a89",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-base-stamp-a-local": {
+      "file": "assets/writing-desk-base-stamp-a-local.webp",
+      "sourceSha256": "22655754559ab3a8ba69118d6662c01ffc3011ec2b35388a8179d22d0a554abc",
+      "sha256": "f4c543942cfe61562c428d736f9a61b387bc28090cd1513fe49756ed4c3d8668",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-base-stamp-b-local": {
+      "file": "assets/writing-desk-base-stamp-b-local.webp",
+      "sourceSha256": "8fbb4770e7a3be53572b99418d2a28d7d16a2b6733f50afbfd551494010270bd",
+      "sha256": "6ef2c12c06cd22b49b27a451482a08c71622577c55247ca4a3fb5c5308810e82",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-empty-local": {
+      "file": "assets/tea-table-empty-local.webp",
+      "sourceSha256": "555abad57f7d8c641cec05ab96c460608898c4bd6dfd833642e93e2b061b139c",
+      "sha256": "f673c71e4780f2344e5a0f6d9e53b06f0443699c0100f9b2169e92875541f536",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-base-snack-a-local": {
+      "file": "assets/tea-table-base-snack-a-local.webp",
+      "sourceSha256": "36f2c008bf9286fcba60cf6b9fd2a9e0cee1bc1debf49a351559fda62466b78e",
+      "sha256": "bfedc910cc0d6fa701bebfcd91c56000c6ef35576864c946b2bdbe49d3aeb127",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-base-snack-b-local": {
+      "file": "assets/tea-table-base-snack-b-local.webp",
+      "sourceSha256": "e6dd9a3d7df1540854d0bc0e8910bf77140d13697e2129afa334a8d4e5b64e75",
+      "sha256": "afa839f70297d483e8c546b571877ff2b0e921a72f69e2dbb8cf6a4729d51485",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-base-stir-a-local": {
+      "file": "assets/tea-table-base-stir-a-local.webp",
+      "sourceSha256": "b27059c058fa82bc4d59d4c1d287610433236c75ce1d5ee0bfe189bdfb879f95",
+      "sha256": "57b203212a77ec0d81cb459ca28416baabadbbfcf911ed7dbe44d8f6113ca367",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-base-stir-b-local": {
+      "file": "assets/tea-table-base-stir-b-local.webp",
+      "sourceSha256": "7ea3014fc251e162bab01d3e09377b6d0cdd2a2be66c6698d0719d6e60cd7ccb",
+      "sha256": "13d786d0f4cb146f31f11d54aa6976a737ac88b81757b3fc6bf9dfb3ee999c6a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-empty-local": {
+      "file": "assets/cozy-bed-empty-local.webp",
+      "sourceSha256": "a828e73746b5f2c43f4aa71d56ea61a6086c26dd3452a72f132f5f414f7f8865",
+      "sha256": "3e48902a4ea574aecb4586040265d6c637fdd5230d239c236097e0ecf3f9aaee",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-base-nap-a-local": {
+      "file": "assets/cozy-bed-base-nap-a-local.webp",
+      "sourceSha256": "7238138685d06ea2ef29e42a47c5968b1c189fd9e412539e5861821583db07d5",
+      "sha256": "939a38284e765ea72300953d1dd47b26c95a4b0237ea3427ea7b2527790e12b1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-base-nap-b-local": {
+      "file": "assets/cozy-bed-base-nap-b-local.webp",
+      "sourceSha256": "fe59308fdaf6125d6354e25fb14bd604ec7fd8db13963ecfd421cbb03b2a8b3c",
+      "sha256": "b0cf0a9369fc7c0f5b9a9c13def6c2d28cc4562cdc9cf23f57b8169fd41c661a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-base-pillow-a-local": {
+      "file": "assets/cozy-bed-base-pillow-a-local.webp",
+      "sourceSha256": "08ffe62ed2bd158bf36eb3414103a7d275a4912cd2ade15d50f93ed34165e1e4",
+      "sha256": "ec4d6ffe7a307a4d1fa72cd7aa83780906ca4d96a0a70234b92d07e109dcda08",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-base-pillow-b-local": {
+      "file": "assets/cozy-bed-base-pillow-b-local.webp",
+      "sourceSha256": "c6127d13b6a02684afe3f8d40c278eda458e277efb0f08866e0f5ba3fda3aad4",
+      "sha256": "3c9c9cf8af43c8b4bc2afafbb1a10c560866f991a37efb5b25a9d144921b9dc8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-empty-local": {
+      "file": "assets/soft-sofa-empty-local.webp",
+      "sourceSha256": "7e69913050f7af509642b293c11781ed45c72cde1ce11a400b36e35a51ea3700",
+      "sha256": "7ce356eb390ff6ef2d085f9247132b9d704337868e3c93fba49f32d32acce535",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-base-relax-a-local": {
+      "file": "assets/soft-sofa-base-relax-a-local.webp",
+      "sourceSha256": "4e0c082c4402fabe41aea60d6ca0eacf138e4f46d3407251b196fc749f913caa",
+      "sha256": "2d5421ea49e56e63b3e2e177c88642de7adfe2ee6b14e4ed0ff46feebb3a3d6a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-base-relax-b-local": {
+      "file": "assets/soft-sofa-base-relax-b-local.webp",
+      "sourceSha256": "13b36bedf42b8531fcd2fed23b316ac0d3ba8baac5190f97b0a23b20096775ec",
+      "sha256": "d42247311c81858cc98b0f617ca9ce08551a39645f6ad9ed68afb869ce7c99f7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-base-music-a-local": {
+      "file": "assets/soft-sofa-base-music-a-local.webp",
+      "sourceSha256": "40574572cdea410ccbc757a48630df9d5d7bae63451bb65168d5bfdecad9285a",
+      "sha256": "123cd45d36b15fc4fbcac199dbfc6c5ef1c6809d52af9f9569cf2a1464b7b3c0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-base-music-b-local": {
+      "file": "assets/soft-sofa-base-music-b-local.webp",
+      "sourceSha256": "069fb2e3507d8c4cc9856152c575cf64d617cefd3bcb1fb45cb1eb04b4d26ec4",
+      "sha256": "44f7ea2b08430f0116b61feaa9df0564eb78d4b1b2f188ea54a444573dcbfa86",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-empty-local": {
+      "file": "assets/easel-empty-local.webp",
+      "sourceSha256": "6f6d6c69a6da97aca0b7582025097314c2e1675759b15010b17f52e6eef5cf94",
+      "sha256": "fea09f81e9318d9e4e4958d14b6ffce27d73fe0bb9af051d3bb4ad2f1e2a1ec8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-base-paint-a-local": {
+      "file": "assets/easel-base-paint-a-local.webp",
+      "sourceSha256": "cb37b1001a08714bbe7c6b2765454c3d78b59d6fdd8cfaffb93a5f3607ddc328",
+      "sha256": "6a65fe12619131bae548c2b3f2654c4477bd80b0d295feb4c54194d75a2e202f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-base-paint-b-local": {
+      "file": "assets/easel-base-paint-b-local.webp",
+      "sourceSha256": "5ae65a46cd5d971f30e0b5dc58b96c5fd04de81a59f6fb3e3d681c178135065c",
+      "sha256": "e0be48304f1509a07c4522ca71065bc43a2eeda04b40a4274cd24a114b896842",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-base-mix-a-local": {
+      "file": "assets/easel-base-mix-a-local.webp",
+      "sourceSha256": "6abcac54179e4209ee57f269d41309fe7cc8f3c04986de4e6eecbeaaaf2ff9d5",
+      "sha256": "ce150038b11fef5021f48572fe9d8c983871615a9948ec6d1f9460f6b138ccbb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-base-mix-b-local": {
+      "file": "assets/easel-base-mix-b-local.webp",
+      "sourceSha256": "cfa85c180207a123f0ee9d0d2c1a26f324d4c131e8b3a6cd256734fd963f4579",
+      "sha256": "a51610ce0fb4ad3d141dcfd88c5228dd268ba0f02f3ecbbf9529c40a4e716c6a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-empty-local": {
+      "file": "assets/plant-bench-empty-local.webp",
+      "sourceSha256": "f2f431454713afffe3cad386cda96ea9a4302e0d8c66a750b9666a43544f8d98",
+      "sha256": "cbb5529f032271276bbbf9476efee7fb49324414e1fc6eaf6bda544624277734",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-base-water-a-local": {
+      "file": "assets/plant-bench-base-water-a-local.webp",
+      "sourceSha256": "d1823253baa2b8dfaf1dd3976e6c904ea88236eeba20b4de84d9e6139e2eaa31",
+      "sha256": "329fe851adf329fc5623e42d0093c680c59327d018f7eb96affb210a1c793c05",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-base-water-b-local": {
+      "file": "assets/plant-bench-base-water-b-local.webp",
+      "sourceSha256": "18d11f3b18c20c409fd62f22f7814a04c6ebcc40ad5843013119c126093be457",
+      "sha256": "3efc4e377daac4809d23d13d4352861579a816129d50f2f934cfe48e59d572c0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-base-prune-a-local": {
+      "file": "assets/plant-bench-base-prune-a-local.webp",
+      "sourceSha256": "8a4a2763881205ff2c2cb464294fd466f3455c4c8626c2c48dedd67103ce3f90",
+      "sha256": "c4ddf9edb38e19fa334970d78d8c08b0a6e2f24b9634a246bf1af1038be7d105",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-base-prune-b-local": {
+      "file": "assets/plant-bench-base-prune-b-local.webp",
+      "sourceSha256": "9641b9f97295de4ac737ac90ca0e2372f8f539a4aac100eaf1c6a5f5af13518a",
+      "sha256": "696ebc4e1573e93360f1268e3d0cf436ca6780ef8a2212e44701df9d1f9e49d8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-empty-local": {
+      "file": "assets/craft-seat-empty-local.webp",
+      "sourceSha256": "e25e540714ab5837d8972e64c88ec8b83424b90ab6628f5d707fdb744d25debc",
+      "sha256": "a1bf17efb7c8bbce3c23e48a80c0717af7b6b3d1c35ae8196c710b982830fc04",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-base-knit-a-local": {
+      "file": "assets/craft-seat-base-knit-a-local.webp",
+      "sourceSha256": "17a9e8e875c2fb5cc757e93ab1a4642acfc9a55c6272812e19e9affceba4bb70",
+      "sha256": "401b4c1be0592881b0754ca2371587eb17beea796b8fe8c370ca52f7c0068df3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-base-knit-b-local": {
+      "file": "assets/craft-seat-base-knit-b-local.webp",
+      "sourceSha256": "b85037af37332726580618f07c857449beb2b1795d5385d228c8fcfcbabdddef",
+      "sha256": "df4281cf87fef073c72f23b8ba9685f36dc8e4e869d133fe56f808025bb1f4b1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-base-wind-a-local": {
+      "file": "assets/craft-seat-base-wind-a-local.webp",
+      "sourceSha256": "5ad37aa8a2dbd7ba91893c1968875aacff87ce7056bb068d6f5938428a3ed841",
+      "sha256": "925ecc136f70bfff896201970e46e3a9ab527938fe3f96ca8683a31772ced9d0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-base-wind-b-local": {
+      "file": "assets/craft-seat-base-wind-b-local.webp",
+      "sourceSha256": "e9905792845a4cb4f9c6ecc36a4bd6c0d94b18c8edaa3c75386eb458b955a5a1",
+      "sha256": "f7234051566c6ea4ff83fdc4e553e72e9fb894a8b4c0892eece4d3a75ebe9096",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-empty-local": {
+      "file": "assets/telescope-station-empty-local.webp",
+      "sourceSha256": "f5eb0128790c1aefd42d1b081ffd6b6b8b97c457a22fc28b68185b61074c2ef9",
+      "sha256": "b27982fc67201f3427a726e01c1bd75fc6988effa681dcdcbd5e5104932ecab4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-base-observe-a-local": {
+      "file": "assets/telescope-station-base-observe-a-local.webp",
+      "sourceSha256": "dc646c6363731bd90d87b0e0f05b5b58717316bfb7d328072ca7c967d24ef65b",
+      "sha256": "2ddbf332a67f1103471c1624f6d01495a8c588e96dbb78d55a201cd9813e19f3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-base-observe-b-local": {
+      "file": "assets/telescope-station-base-observe-b-local.webp",
+      "sourceSha256": "34049b3f893d6f747fca140471575b41795b4a6ee557f7517a00bf3c3e59464f",
+      "sha256": "56ba216c36591828c485e9523a5a49eb55740f02bf8862fe3ac52de3486c6232",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-base-note-a-local": {
+      "file": "assets/telescope-station-base-note-a-local.webp",
+      "sourceSha256": "0d02a1bb4e64ce95afb245358cb99d7b213c5e864d68304736f8182dc4d3911c",
+      "sha256": "de6f52465103969fde925f525ad66b09f15f129590ab667302d5bf138fd92bd7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-base-note-b-local": {
+      "file": "assets/telescope-station-base-note-b-local.webp",
+      "sourceSha256": "041f4eb251a924f25571bef6ccee549f99942b8aec916b1176036e55677393a0",
+      "sha256": "5387947b18f5a8bc9ff923ee4b2a3e6dd714404f8cc8fcc773fdc441bab50429",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-empty-local": {
+      "file": "assets/mini-piano-empty-local.webp",
+      "sourceSha256": "8acca83f5d5f3e6814f6d6dc203e8b8c629c2c6cbc1b155d0c8e07fb4063db19",
+      "sha256": "118fa3b1c36774cab3ad973aa6da18160b64f1b526740377fe9ab2c433102838",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-base-play-a-local": {
+      "file": "assets/mini-piano-base-play-a-local.webp",
+      "sourceSha256": "7e121ba83e24a0326e2a6e7bf350dbb069d77812a2d9115ce1a206ccd45ac28b",
+      "sha256": "460390ebc143e3f0c1c4ba16217afb0e16472adc5ec15b94aa078c7aa29ee281",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-base-play-b-local": {
+      "file": "assets/mini-piano-base-play-b-local.webp",
+      "sourceSha256": "080da7b4303688313f9f5f4fe54fff2c38f3bd5ee7d3d48fb72bfdac54c1be9d",
+      "sha256": "5ea9e57b000aae63942ec5a5a937fa8804a3310bac081112e6bebbd891c77514",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-base-score-a-local": {
+      "file": "assets/mini-piano-base-score-a-local.webp",
+      "sourceSha256": "107e46fc6343da3729b098276752fbcd38727eea0e7079ad13ed76bc80c9d12c",
+      "sha256": "5019ecd4ef70f7ec1af721369976761fc39c07546a437744282bf44e33be6c98",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-base-score-b-local": {
+      "file": "assets/mini-piano-base-score-b-local.webp",
+      "sourceSha256": "4331c094e8a1cfa4d5f57a954b49ca3b532f2d445e06f535456f35ebc2b0c8e9",
+      "sha256": "a692bc7c52c7622fe25ee1b8cd0a36f4a609b26006ea2ac55544bdd7b00bfbc8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-gardener-read-a-local": {
+      "file": "assets/reading-chair-gardener-read-a-local.webp",
+      "sourceSha256": "c118149fc34641ec6cd21f4a96b30efcabd01a6282e124ae7beba1d547c2c520",
+      "sha256": "27df2a0f318edfa166a77cdc72de26bdd28dd2e2bfd1cf41bf21b110f83b8d5b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-gardener-read-b-local": {
+      "file": "assets/reading-chair-gardener-read-b-local.webp",
+      "sourceSha256": "3f5d837f5b76a2ea97a5dac4762c61e53e82b62d197839a418a29c08a3fcb924",
+      "sha256": "b1c85aaf063c60e50972d9a3a42cb039bb66b9d7d37fda6d35cc82f55c17bb7e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-explorer-read-a-local": {
+      "file": "assets/reading-chair-explorer-read-a-local.webp",
+      "sourceSha256": "e2a0a38cae06cd34509ef5238e2684e0e65a21d6974f1ee6ecf5c1d1281424a0",
+      "sha256": "c4f6670f9d652ab7d5f85db0784314077fea733807670655f6172bb0f3232bb7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-explorer-read-b-local": {
+      "file": "assets/reading-chair-explorer-read-b-local.webp",
+      "sourceSha256": "5e6933acf38c09b4e43a3d8ba84efb244233a2d733cf80daf38e364bc5099a20",
+      "sha256": "e7e912d18df8e5716eb7cff26593ea61f610c4f21e014128107d115d696c6375",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-postman-read-a-local": {
+      "file": "assets/reading-chair-postman-read-a-local.webp",
+      "sourceSha256": "2185d441ed154c72f34c0ec3148d4fd77d60eb380565a5c255ed4974ab388495",
+      "sha256": "c61a753bd552b3edefbcd091faacc9accb58ba9a8a8121261982f888774cae0c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-postman-read-b-local": {
+      "file": "assets/reading-chair-postman-read-b-local.webp",
+      "sourceSha256": "783162b2bd9f5778a55b8300eb0bc60c461cc3c42b68a28e8443db51be5607a0",
+      "sha256": "3b1999a388a4998b2aa1bea48ba0a272e66dae8f9380ca240317444ea8826e0b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-festival-read-a-local": {
+      "file": "assets/reading-chair-festival-read-a-local.webp",
+      "sourceSha256": "15ad1feb4bd89e96fcf0b39123cd20dad8d748255da61adc8958096b9da586f4",
+      "sha256": "eb2544c37aad6cc7e6b985dfd110cde51df54e5bb8c16a22f7614f81a061514b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-festival-read-b-local": {
+      "file": "assets/reading-chair-festival-read-b-local.webp",
+      "sourceSha256": "4887dd5d09560be43e2467fb05e55e25fe23c5c9c60952d6724a1019b4171c74",
+      "sha256": "752fb8428360bce890c3e210927d2b4179dff6a9075941420e0379b38219728d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-sailor-read-a-local": {
+      "file": "assets/reading-chair-sailor-read-a-local.webp",
+      "sourceSha256": "78bbe167d8ff99dc327a9c202b2ed031e66fdabbebe6a42b00424a1afab34569",
+      "sha256": "13a5922be1768eb209a32fb047097dab8149c3de7c5f93caa60feb959b749812",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-sailor-read-b-local": {
+      "file": "assets/reading-chair-sailor-read-b-local.webp",
+      "sourceSha256": "49999a7505ad8c35d7f1183a4c0daa6abc656f91700c5b233bfbdd36b6b26713",
+      "sha256": "f8687593c708cb24dbb00998ba0bb11be40a88c0cd3950485aee7708eb50ba4f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-pajamas-read-a-local": {
+      "file": "assets/reading-chair-pajamas-read-a-local.webp",
+      "sourceSha256": "f22fb234da4e75ad5f08fd3fc616cee7dbb1fd5bb7f918c04684b565480a8425",
+      "sha256": "d5e69048b92dba474d3eee5601ea6424d3ef052e299c8d1e1b5213caf88a2f78",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-pajamas-read-b-local": {
+      "file": "assets/reading-chair-pajamas-read-b-local.webp",
+      "sourceSha256": "7e0be70c8bd3d3c5a14da04622ab2980ba0511bd919137c283dd8a4b5c8fbe8d",
+      "sha256": "d287e5b496f131bbfe6f1278f1097b0c80b27c86ba6f1a9afbdaed845f481f9b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-baker-read-a-local": {
+      "file": "assets/reading-chair-baker-read-a-local.webp",
+      "sourceSha256": "f9f04aa6c13450e24af0d0282af841f319d9ef5ddee598ab1dd3b591d6909663",
+      "sha256": "5f4ae6cad591d1aea29c1100aa732420582057273bb070e17b4d7b19fff173b7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-baker-read-b-local": {
+      "file": "assets/reading-chair-baker-read-b-local.webp",
+      "sourceSha256": "06d8679b11235f1c84c40f084d316c2282689fb624d3d3c6fa88f0572ac72f5b",
+      "sha256": "8299d80f970fa6ae3f4fd07fe14f94e6c64c55db5be16cfe1f7049a556fd4f74",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-gardener-tea-a-local": {
+      "file": "assets/reading-chair-gardener-tea-a-local.webp",
+      "sourceSha256": "e64c2e942d9e17bf3befbc986f0a7dd01120a4c9a43fc4ff3c11a1723495cf75",
+      "sha256": "1bd4e171194abcb06653a926a8df34110ee2586a4ead77779c83e0f2e6118ab3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-gardener-tea-b-local": {
+      "file": "assets/reading-chair-gardener-tea-b-local.webp",
+      "sourceSha256": "8ea0779e6be7ac375fe9620a3e1c85f34cc0178c4b6f44caef231d1544202c72",
+      "sha256": "9da0654f45fd13c323d71a5c59831725e9c14680a3297f80dfa052ea47cc97e2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-explorer-tea-a-local": {
+      "file": "assets/reading-chair-explorer-tea-a-local.webp",
+      "sourceSha256": "604ae32532eda05cb5ed935d38b7c6673a915ee6bc270450a4daa4a39b893018",
+      "sha256": "551b25115d667e22e8437a62df5d650c6239af6b57ef29c281550ea6d6760a66",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-explorer-tea-b-local": {
+      "file": "assets/reading-chair-explorer-tea-b-local.webp",
+      "sourceSha256": "358bc7dd8fb70ba396152575d05e3a43a0b8f083fa3147adcb153176780b3293",
+      "sha256": "dc0bb2b3612a152842db72fe1cac09f02c22980bb91670145281e307aa7b6bee",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-postman-tea-a-local": {
+      "file": "assets/reading-chair-postman-tea-a-local.webp",
+      "sourceSha256": "50b63c6b4b58c9095c21daa21a5dce8d4fbe05bfdfdacad2a59397146bc861c7",
+      "sha256": "8b6106e7fd8710b69858ea53f5c2c4f6fddcccb5cc267554a4440371d85062ae",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-postman-tea-b-local": {
+      "file": "assets/reading-chair-postman-tea-b-local.webp",
+      "sourceSha256": "29a75eb6ea17da0503db90f7a934ebca89080ed6ed10bc16aec2030ceda3d766",
+      "sha256": "9ad5c8ab940f0794e1a93659191946128a9de5807a649fae8d3271601bbfd499",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-festival-tea-a-local": {
+      "file": "assets/reading-chair-festival-tea-a-local.webp",
+      "sourceSha256": "2e613d611cede2b9a3fd735de2e4a0272eb0ffbb156afca3e97ab2db9d7821c2",
+      "sha256": "4e4870d41161836249e141846afd5e26e64e6be2b053d0e208b087ebcc425d68",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-festival-tea-b-local": {
+      "file": "assets/reading-chair-festival-tea-b-local.webp",
+      "sourceSha256": "6785c68c3fc7c0b6b6087bad6c64e32d970e6fa736aa5c0a8d5a6b58833df8fe",
+      "sha256": "15ea608ab7d9870746d9e04bfeedacee933482a68d779ea2111e1776e0d33017",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-sailor-tea-a-local": {
+      "file": "assets/reading-chair-sailor-tea-a-local.webp",
+      "sourceSha256": "4fb73ee380c854e3ffe2905a17d81abef63abd9e72f18f8668a1e8d4233e3657",
+      "sha256": "97f43ae0ee880b030d14c42f9223dbc0e2419c81da49d9aceebb95fdad48e376",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-sailor-tea-b-local": {
+      "file": "assets/reading-chair-sailor-tea-b-local.webp",
+      "sourceSha256": "87be44a3379aeda709a74b4442d9ad1ddb213b1ef85d52939d6c960c7067a69c",
+      "sha256": "bde323299d8d05a44259fb7dd227c6c06c923be9e0133e8c1961d0c1ad155628",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-pajamas-tea-a-local": {
+      "file": "assets/reading-chair-pajamas-tea-a-local.webp",
+      "sourceSha256": "b6dd2f17d2e85eaa3004f01c9b4f0f494bc9464928bafc53efe941fac2e70d61",
+      "sha256": "0b12fca4bee1d6f2db05f3acf867f809c608811d4bedee312db92b00569e0295",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-pajamas-tea-b-local": {
+      "file": "assets/reading-chair-pajamas-tea-b-local.webp",
+      "sourceSha256": "4c74970ef31f39510ec9d8121ff64c7c0df5a417a1aaf086273b6dbce0f12bf5",
+      "sha256": "ad184f2bb29018d0359bbf2b63bf2e2bfb83cdea4da61d8c341e118cc66bae3b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-baker-tea-a-local": {
+      "file": "assets/reading-chair-baker-tea-a-local.webp",
+      "sourceSha256": "c5916af9bd682aa072f84ab4f8548bfec00b39b73f808486757f50337dcda88c",
+      "sha256": "55bd67c67880fc9acba159a44d86511c9f5642ea8a2d9a8927c59e2bdd70a085",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "reading-chair-baker-tea-b-local": {
+      "file": "assets/reading-chair-baker-tea-b-local.webp",
+      "sourceSha256": "a7ccc762c4a334eea6166bad6a50a867d1c2761e28db06a1fd83b960588ba5b0",
+      "sha256": "95e38dbcd21959a52e5e2762af36486ba358771582a3aa37a0b72e33dd133f6a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-winter-nap-a-local": {
+      "file": "assets/cozy-bed-winter-nap-a-local.webp",
+      "sourceSha256": "67019d9fc23374e8a28cfd355e8f18dff66b59f84bfe303e4372523125806008",
+      "sha256": "e3774ed0e7f12bc21e625fdea02923aff7ada0efeab709bdec7cac043b5da111",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-winter-nap-b-local": {
+      "file": "assets/cozy-bed-winter-nap-b-local.webp",
+      "sourceSha256": "bd6eb4a2f19ad1fc7d786b903dd5715f318ff586448f22e4a4b1d0b72d053694",
+      "sha256": "9f8acc67a17608aa4f877f654a1e10f2bf68724fd508281ace47a3816a406370",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-rain-nap-a-local": {
+      "file": "assets/cozy-bed-rain-nap-a-local.webp",
+      "sourceSha256": "09b7fa37ab3a9b043168da9acfa49291821e5a2abacc793eb5e9ec7f1495fead",
+      "sha256": "3c1455f870dbde7e60ff5449bea0651edfa955bc8f86cd407257b1557167e5c0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-rain-nap-b-local": {
+      "file": "assets/cozy-bed-rain-nap-b-local.webp",
+      "sourceSha256": "b0de92e1da5ae7ec2c75ac5933a04791e9a766008c98039f792e7a8a3bca2965",
+      "sha256": "c12e2a0bc588314ec23ee5fef695585aef9c7577090bf09898ac5c747692f746",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-gardener-nap-a-local": {
+      "file": "assets/cozy-bed-gardener-nap-a-local.webp",
+      "sourceSha256": "f9efa00980c29c10553fb71cec0fcc83a08135d9615bc36175e0b27b8decfa35",
+      "sha256": "7f48d9065088903cc2e19274629a7be9842716a2546cb3abf42833a3baec9ef6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-gardener-nap-b-local": {
+      "file": "assets/cozy-bed-gardener-nap-b-local.webp",
+      "sourceSha256": "e4cf6f0543b6ce8087e89670d05a587d3466c7b147e54b7434a7ed7f29eeb542",
+      "sha256": "32dab6c8fdfd17e38ba0588578e61a471cc00bc283ca1e14974f531769dd28f1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-explorer-nap-a-local": {
+      "file": "assets/cozy-bed-explorer-nap-a-local.webp",
+      "sourceSha256": "2b5aecb8dca1f76b326d12c9af983e28c1bd37540c2d4dfc5a4dc32fa7a15843",
+      "sha256": "e9358b1d4f0c21deb71ca7dde386c4a50183661651673dad527b90f0de8ad024",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-explorer-nap-b-local": {
+      "file": "assets/cozy-bed-explorer-nap-b-local.webp",
+      "sourceSha256": "f0b185e8db1bdbec8f77122fbf5e1d7fd129e2f528ce6514b7b8a7ab457c7670",
+      "sha256": "f6197115239bde8eef846db03457d21f34c5883442b298da778cc11bc3b4bc10",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-postman-nap-a-local": {
+      "file": "assets/cozy-bed-postman-nap-a-local.webp",
+      "sourceSha256": "561dcc073d57b82156ee4ea0d168b1f4ce7623879230c1c0280ec7267d7b5c93",
+      "sha256": "f1c22a10f5be9dd2cefd0f6ae916d3f92a5b392a1d0998e10addbc3cd3735f01",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-postman-nap-b-local": {
+      "file": "assets/cozy-bed-postman-nap-b-local.webp",
+      "sourceSha256": "71679e7ac203ca2414aae056bc954dca814c34454ad5061835114a1def7a554f",
+      "sha256": "bbbcce237ec34b1800528899237033f1edfbf5d1bc5669ab6d2195ec480bcdf7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-festival-nap-a-local": {
+      "file": "assets/cozy-bed-festival-nap-a-local.webp",
+      "sourceSha256": "21ac0bd944ca44f3a1f1045aff3d2adc74bb16aa4d7f68bf713497ef87f20f92",
+      "sha256": "131cd86105b4840bd5b2614c66dc33728dfecd6a37c279e7719fae1b852ad48b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-festival-nap-b-local": {
+      "file": "assets/cozy-bed-festival-nap-b-local.webp",
+      "sourceSha256": "4e1f95257a96827a48626271cf1ea4ce2eab44c18760804084cebdec535fdf01",
+      "sha256": "a6163d676f5213345a2725e8b22840e0298316cf17f9e77ef848ef2ae0f6df4c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-sailor-nap-a-local": {
+      "file": "assets/cozy-bed-sailor-nap-a-local.webp",
+      "sourceSha256": "58c6736de04a36d420e394a49a2f41f0b5d1b5b7c06059bf2d522d00097fc049",
+      "sha256": "a0331a9e9d4cc349e6e31775271715b28756f7da70917f8ed803201ec79f9a14",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-sailor-nap-b-local": {
+      "file": "assets/cozy-bed-sailor-nap-b-local.webp",
+      "sourceSha256": "df486aa7a2df78794d02da98a44212923b0fe664ca063d2dfcb3e4f5f700c797",
+      "sha256": "a4828ee3d61748fb9fc3d5a4dc17683193dc2d174acae5ce4aae8fc7f02ac539",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-pajamas-nap-a-local": {
+      "file": "assets/cozy-bed-pajamas-nap-a-local.webp",
+      "sourceSha256": "f08301bd7e74147feda7e8a1de9bca99ae663c4f6a502d64d521b76dd37b8acb",
+      "sha256": "ec8f724da69e8a2b5e38a650f1742f5a99dbf9524935b28dfabfa5f8f7de4d84",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-pajamas-nap-b-local": {
+      "file": "assets/cozy-bed-pajamas-nap-b-local.webp",
+      "sourceSha256": "c9c5799b5caf2a14f148fd422dc384822e67614cc09c142c34b605e809f4e0ec",
+      "sha256": "a8c53e95703971f65cbb2acabe3b7a8e6da2f9128fa1ad0f4df9f94d7c11e9be",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-baker-nap-a-local": {
+      "file": "assets/cozy-bed-baker-nap-a-local.webp",
+      "sourceSha256": "25c60f98999a789d5cb53a4db6ce0697f58e0d305a7e5e549163c9aed7b30e52",
+      "sha256": "cf0cb5bb05197870c07fe2331620669789dd4ba518af7b484f4a4ca5fa3b43f3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-baker-nap-b-local": {
+      "file": "assets/cozy-bed-baker-nap-b-local.webp",
+      "sourceSha256": "254e839b11796aee30b367a1efd2697f04b729f4a620e12d87fca29ca8635c13",
+      "sha256": "7059a0a5901c46a18ba74e568ee5c65bf95f9b4b4e51d5edc539e55ccf69b1a5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-winter-pillow-a-local": {
+      "file": "assets/cozy-bed-winter-pillow-a-local.webp",
+      "sourceSha256": "d50b990558999b606dc4dc1e97a746c927ba7c40b8a069b9b46b77e18a8ebe89",
+      "sha256": "59f7d21205f87a02f8319de29c09244d076f1d123192bb1452bf88344985d5a0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-winter-pillow-b-local": {
+      "file": "assets/cozy-bed-winter-pillow-b-local.webp",
+      "sourceSha256": "d5ec2921e394b5245b41124ee8b2c7dd01055e04e252137b0a45f3411fb30413",
+      "sha256": "ac04202dc1a06d0a8114dd98fbdc58d319c430a305e41c1756429178c0cbf6e9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-rain-pillow-a-local": {
+      "file": "assets/cozy-bed-rain-pillow-a-local.webp",
+      "sourceSha256": "ba4c762469dae19fd8668a77657cdb35b150f5545479663ee0173c8a32cffbf8",
+      "sha256": "249de0ae9a5d7665acdfb510f4fa99b166d6659f44cfa00622425194cda92993",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-rain-pillow-b-local": {
+      "file": "assets/cozy-bed-rain-pillow-b-local.webp",
+      "sourceSha256": "32af5ee5450ee273eea53dde06fa6f72308f60d9b2e9291153915eeac9461c24",
+      "sha256": "70396b3e8e4516c23d22f512a03928f60a2a16bb1e8d84003e2cbea5b0101173",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-gardener-pillow-a-local": {
+      "file": "assets/cozy-bed-gardener-pillow-a-local.webp",
+      "sourceSha256": "6bdb2dba3ed4f134e52c030b23dcceb0a22ad17e830db23fc48ecc96504ffce5",
+      "sha256": "e4b6859b2fe1f7aba139870a1521b5aafa8af717963a8016a8633ee3fd814def",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-gardener-pillow-b-local": {
+      "file": "assets/cozy-bed-gardener-pillow-b-local.webp",
+      "sourceSha256": "95a0c00eaad59f6817e8baf28f914727e535d10341679970b158916d16c51526",
+      "sha256": "2d37eb9c17ee0d24dc7701595978db8010bae6d408f5173c7a56eb47d023ca51",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-explorer-pillow-a-local": {
+      "file": "assets/cozy-bed-explorer-pillow-a-local.webp",
+      "sourceSha256": "436c9b1b5930227372e64068334616685f3bb992f87ce88716ab5cf95153f06c",
+      "sha256": "964ac6f1a0f3d0840909992afb71f0f0fdf6b596459d5e2786abee0221d1b23b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-explorer-pillow-b-local": {
+      "file": "assets/cozy-bed-explorer-pillow-b-local.webp",
+      "sourceSha256": "69c730e8fdbc38ab22eb6d44f2ab890658914feeff464ef68b4db358b6cdae7e",
+      "sha256": "c38f44949d70a24dd449161a26a8fbf64a817b5edfb1543d5b16578a5227ed1f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-postman-pillow-a-local": {
+      "file": "assets/cozy-bed-postman-pillow-a-local.webp",
+      "sourceSha256": "eb941182940b8775bee25d7c7076519efe62c86f54c4635391c12d2201701b16",
+      "sha256": "69850e4cf2509469d322c5be71e8ea9bda77ff4e78c09ce66b56b8f926a72cd6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-postman-pillow-b-local": {
+      "file": "assets/cozy-bed-postman-pillow-b-local.webp",
+      "sourceSha256": "02e8fd8e40cb2e1f2e1104e1961b420fd391ad42b290d62819969f3b11129daf",
+      "sha256": "a8607950e5889ff7e588e56fa582a5d21b5b0f95f7da53d7301d2d76accb59cb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-festival-pillow-a-local": {
+      "file": "assets/cozy-bed-festival-pillow-a-local.webp",
+      "sourceSha256": "dcb4a935199a36354c6a6125dd1c8b93a3862bc671346eb0bb957fc050da5647",
+      "sha256": "00794ffa68ab328596d9ec1ffb13c87c4ea0b00b59d275aa65f864f54c788091",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-festival-pillow-b-local": {
+      "file": "assets/cozy-bed-festival-pillow-b-local.webp",
+      "sourceSha256": "965f0259bec5e7217bfea732f58cd34ac0576eb8f6149ebf42a0a0e18bcfe028",
+      "sha256": "e84c2f6156979463093b1fd79824b305b288c2998bb92bd34031c3ded7495d97",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-sailor-pillow-a-local": {
+      "file": "assets/cozy-bed-sailor-pillow-a-local.webp",
+      "sourceSha256": "9f1cb04231c122f513aa42a42618f06731a1a521d3e50683c7317c47f1615789",
+      "sha256": "a205ca63e37ed4dce4203a2e278c04b7365b23e5e095fefc47f0a23a118c2fd6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-sailor-pillow-b-local": {
+      "file": "assets/cozy-bed-sailor-pillow-b-local.webp",
+      "sourceSha256": "12e07e12b6d3922656c4ade9897ec0bfc6dcb61f027765b934de90a8b9fec394",
+      "sha256": "b5dd2a1e22a5778060394d9182922bb88c654baafa679a21fee8f76b33b3a7bf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-pajamas-pillow-a-local": {
+      "file": "assets/cozy-bed-pajamas-pillow-a-local.webp",
+      "sourceSha256": "36649abb57d56cead44ca300aa739944d557cc0fd14ae0820a63b05aa3d378d0",
+      "sha256": "a24c7add10ecf7a99c12ab74dc251a93c0c2a821ab10ad20257e69572c358ba7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-pajamas-pillow-b-local": {
+      "file": "assets/cozy-bed-pajamas-pillow-b-local.webp",
+      "sourceSha256": "d20665a5d74c67e6c21bb909ecd6fa745210becf4cf8a3c64ed4f77c74ae4052",
+      "sha256": "e8bf7579ffb691383a2a4b9b6977051eb663b6bcf120367d28048485b4550640",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-baker-pillow-a-local": {
+      "file": "assets/cozy-bed-baker-pillow-a-local.webp",
+      "sourceSha256": "79cf4bf223dd9fd0300f5ae9f09d643b96db85f1b2f5db88cec883729223a020",
+      "sha256": "67a2f871bf82b883ca9e1ec54d1458ac803855426c902606bf861b6065af7bb2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "cozy-bed-baker-pillow-b-local": {
+      "file": "assets/cozy-bed-baker-pillow-b-local.webp",
+      "sourceSha256": "0d7768e051a05337e699ab8fc5a3a84bff29d1bae1ca302e26036e3c3e4672f7",
+      "sha256": "a91c0ed994b39ba6b699ea122213e8db6ade78e3f6afe49558efb2385dd64702",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-winter-relax-a-local": {
+      "file": "assets/soft-sofa-winter-relax-a-local.webp",
+      "sourceSha256": "9075eacb50c19d88446dd37a05de6ee9e7da32bd8ddf693c2386400db34f97af",
+      "sha256": "8b2ad80f4b4b028c2f57fbfd5601d8c738988fd0794b0ee521b4c79784836d5c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-winter-relax-b-local": {
+      "file": "assets/soft-sofa-winter-relax-b-local.webp",
+      "sourceSha256": "a0365cc605837315b74350ce7679b2b27090ea67dc39d3232e9474f0bc6497a6",
+      "sha256": "bbb39e859a1f0dded165b971f37a0fca8a05eb81b181b184d33f66d224278523",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-rain-relax-a-local": {
+      "file": "assets/soft-sofa-rain-relax-a-local.webp",
+      "sourceSha256": "97ea67fc4307dde2aa01dc2d0319fe5850d82d496101866ce0c68a35509b1432",
+      "sha256": "813392a37e93bfd96386692f22c38052b1c3e8535464555a2b57160739650c6c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-rain-relax-b-local": {
+      "file": "assets/soft-sofa-rain-relax-b-local.webp",
+      "sourceSha256": "d5f936678cd7a6f95f046f93716c81594fc4c77ccf7d84c5bb5ef50d76344e0f",
+      "sha256": "cb3489bd9d647118451e17b09b7cada292a3e0dfa1d7238d4a8b49e5701a966e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-gardener-relax-a-local": {
+      "file": "assets/soft-sofa-gardener-relax-a-local.webp",
+      "sourceSha256": "a26845349b68933f49d31dff18029980dc7d06abdc1ee4128a1ccc89b787eb6b",
+      "sha256": "8b8b5ad65b5d4bcca0bd1af82dadab2c5223e692d9fcc261c785904c2463231b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-gardener-relax-b-local": {
+      "file": "assets/soft-sofa-gardener-relax-b-local.webp",
+      "sourceSha256": "584ab0e8121c46e6b4353d5d84c76769889b03653f5ed1a2e6a7c5f2ea298c07",
+      "sha256": "ce8a508cc5656e7a94aa1c5d454da39cc38054edc40b03358446546e168cb6ed",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-explorer-relax-a-local": {
+      "file": "assets/soft-sofa-explorer-relax-a-local.webp",
+      "sourceSha256": "0d6ca64dbe533bf7b0c529fc1d985b750d5f79b5871992f6cb7e7b7d777c61af",
+      "sha256": "685f4628311d55494ed33a6a2bffb3f5c2d374672d1f5cfd0605929faf899d2f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-explorer-relax-b-local": {
+      "file": "assets/soft-sofa-explorer-relax-b-local.webp",
+      "sourceSha256": "6078ac14ef77a9a3cd0cfc964d65347d1acccb5cd43d3effbea04ede6fb08127",
+      "sha256": "cbbf4dd93862ecabdd5ea856b883f70704c71789a7a79b9091148797393d8b2d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-postman-relax-a-local": {
+      "file": "assets/soft-sofa-postman-relax-a-local.webp",
+      "sourceSha256": "b25eedfc118d2af1f535d0c59536543315d867b3bde579c6bb15f3f488d7c971",
+      "sha256": "00297251854f15299cb40985d16863b86e4e448a9788a73f0e63ceccc9a48ca4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-postman-relax-b-local": {
+      "file": "assets/soft-sofa-postman-relax-b-local.webp",
+      "sourceSha256": "4cecd8162393c24921cd18ea507bb14e0aa050bb9d596371481bddc5603105bf",
+      "sha256": "42acab273eafae4157101d7e1a524e89f68d97e320bde02488c2a09e6a7c3676",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-festival-relax-a-local": {
+      "file": "assets/soft-sofa-festival-relax-a-local.webp",
+      "sourceSha256": "274918eebd73216a523fa37f71484fde2d27312d7df893febad393ae55706b98",
+      "sha256": "d1bada12749bd2dac596a6d170dec4d793cc3e8af7b879e0df9db534c8b36958",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-festival-relax-b-local": {
+      "file": "assets/soft-sofa-festival-relax-b-local.webp",
+      "sourceSha256": "52af835baf54cb3d45acad7e66ec0852dfd2ac015d37412696b170cdd7d0cd09",
+      "sha256": "aa788a68f25ca65c5875fb4250d77161b3ae213e161e80da6da9d866a807dfaf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-sailor-relax-a-local": {
+      "file": "assets/soft-sofa-sailor-relax-a-local.webp",
+      "sourceSha256": "c79805c231944f9580d8079b3fba274056e28f153409cf1be8a5c16cd51c6929",
+      "sha256": "66e7ec71a65e7fcd3c8194623416d2c4b6245e988fead0bd38b4cba4b33130e7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-sailor-relax-b-local": {
+      "file": "assets/soft-sofa-sailor-relax-b-local.webp",
+      "sourceSha256": "5959df1b92ca22c22f1a2b9a46b6b77b7614fc42464912614ff22a402fa54508",
+      "sha256": "16f916246dfe43c4f994dd3fa9a915ba3e93bd806e9caa4bd5f736fcf7023ea0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-pajamas-relax-a-local": {
+      "file": "assets/soft-sofa-pajamas-relax-a-local.webp",
+      "sourceSha256": "c1c436bfa0039b795ca1f7e395db0ccbd591133400b74ebed56385ba9aabae4d",
+      "sha256": "04b9ed926c893456bdbd2142641b250efd7e1a6a23e41f15ed68ba30878c9892",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-pajamas-relax-b-local": {
+      "file": "assets/soft-sofa-pajamas-relax-b-local.webp",
+      "sourceSha256": "ce255f37a067305482fce1ca8743d8e03fccb4da94ed44492173d1e8e6650134",
+      "sha256": "579894c0f9045502c02722c45d412fe7c318fc283b99b828217c11fd48187f26",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-baker-relax-a-local": {
+      "file": "assets/soft-sofa-baker-relax-a-local.webp",
+      "sourceSha256": "029af7e9e1f46fb9837b3380646ccf21b47612e7b2242b377867f7e40f23752f",
+      "sha256": "e669b02508b8d604a2e578f4be61abdb47d74ddb4d0a709bb8cb85ec52e23275",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-baker-relax-b-local": {
+      "file": "assets/soft-sofa-baker-relax-b-local.webp",
+      "sourceSha256": "1e9372a6f45545ef63c7abf9ae78447b321f07e05bde79de0b07fd216fa46123",
+      "sha256": "a20bb3879d8467647c940e18acd6fb846e6ef501aa1681bf4e4bc1cc1c984289",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-winter-music-a-local": {
+      "file": "assets/soft-sofa-winter-music-a-local.webp",
+      "sourceSha256": "707beed3ae783753793cb352220a9bae7fb2dcff53091588a4362014a3ed8a80",
+      "sha256": "45ae98aa947f8b56b951586a3a8149f58d398f85080ecb5812fd321e9f1c6970",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-winter-music-b-local": {
+      "file": "assets/soft-sofa-winter-music-b-local.webp",
+      "sourceSha256": "85fa98389e2c87d284c13dd44f25e2ba36688b9e460fe4ed8073cf36e843c29e",
+      "sha256": "3ace8849ade01732d880ba58c8bfe031ab6ec4a2e7f53ebea7b69d9290c256d2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-rain-music-a-local": {
+      "file": "assets/soft-sofa-rain-music-a-local.webp",
+      "sourceSha256": "40df60f1154d69e185bc60c224039b01b209aa9570e207a374b411eac31ab881",
+      "sha256": "679a7f4f3b1e8deeadb0d31e09ba4fe95771514fc05a61e65d79b50ba2e717ff",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-rain-music-b-local": {
+      "file": "assets/soft-sofa-rain-music-b-local.webp",
+      "sourceSha256": "1d928aac57e081306eed9218eb05990b21fd22d74df531344a31c9775d36b0ac",
+      "sha256": "b21a9f7d5e8400a65d583f0791f1e6f082810c4e50f096fe64c191f9585c79d8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-gardener-music-a-local": {
+      "file": "assets/soft-sofa-gardener-music-a-local.webp",
+      "sourceSha256": "2f499ac10849c511fc93cf1c1b1b8fbcdf716fb99fcf577221ebb4a7bb72d7f0",
+      "sha256": "1a83d74b66ba465b0fc6b1df087a7a3d86b4fe7a8212caa681858c3bf0b670ed",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-gardener-music-b-local": {
+      "file": "assets/soft-sofa-gardener-music-b-local.webp",
+      "sourceSha256": "3297a3d17a97afa33e03b041e25458700b034c9ab517ca76584703171868c46b",
+      "sha256": "07ba43b7050f59c2a30cadac331d25e874cd950b4ffa3a6493c23df6cc2f491f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-explorer-music-a-local": {
+      "file": "assets/soft-sofa-explorer-music-a-local.webp",
+      "sourceSha256": "a0bcf36c665efad66d7fa77037d53cb48eccd54aab2fd4245d35ececae650b43",
+      "sha256": "47fb7c43449419255aea1a1b21aa3e60238a3388114d8d09fc17ec27ae3690f2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-explorer-music-b-local": {
+      "file": "assets/soft-sofa-explorer-music-b-local.webp",
+      "sourceSha256": "65f2be028b19d54fd3c4001c8a2ea1bb58745a8092228b2e77ec10edee801001",
+      "sha256": "cd41823451f7505e39b9385ef180f8dc3ecd6634cee23180bdafd0b6211bf543",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-postman-music-a-local": {
+      "file": "assets/soft-sofa-postman-music-a-local.webp",
+      "sourceSha256": "aa5e3ad3f263cd23e354103e6a18a0c5794bd583ca28523f6931ba3450b639c0",
+      "sha256": "c53508d1c9452619c62a89e39ffe88e7da14ab36adbf0ba3a26c6a06f1c8120b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-postman-music-b-local": {
+      "file": "assets/soft-sofa-postman-music-b-local.webp",
+      "sourceSha256": "68ac5c7097fb4de860e95d43e290ae86b35c6a9d78882df89a429ab1913ebc5a",
+      "sha256": "f5c5ab931759d19f9e5cdbd6a9c1dcf4aa620b8f687cfb96bdc09c42d62b6f99",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-festival-music-a-local": {
+      "file": "assets/soft-sofa-festival-music-a-local.webp",
+      "sourceSha256": "b3829070572c6c6b49ac35ce177462f229acf952f51acb5c1e7cbcfee7faa2b9",
+      "sha256": "509df045d1578642c887223ba44f9ad233f09a67b9fc3a451fcf2eb6d8f45b97",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-festival-music-b-local": {
+      "file": "assets/soft-sofa-festival-music-b-local.webp",
+      "sourceSha256": "39150725bb011dc593550a8c215f0fb725d4b3590141484fcd75c2d5772426bf",
+      "sha256": "fda90c29bd20fcbe9482c5e7c341559ff0122c17ad6d4000b7c0c4cf315ad6d4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-sailor-music-a-local": {
+      "file": "assets/soft-sofa-sailor-music-a-local.webp",
+      "sourceSha256": "d1fec1cf3df0b6586742f9a7cf42f5aa35a8bb9c7d87a9fcc90740746b95a569",
+      "sha256": "b65cf32183107a39aca88334082d3fa0adbb1420e18602f77ba16bbaa45601ad",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-sailor-music-b-local": {
+      "file": "assets/soft-sofa-sailor-music-b-local.webp",
+      "sourceSha256": "8a031063a0d0f6ef1083c12bfca1e0a0381eabe862b77efe6fd7ef53030dc1dd",
+      "sha256": "01ade08cb197255dd4ebba8d1fa62bedcc95fafe23ea39702ae656dbc7c3ae99",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-pajamas-music-a-local": {
+      "file": "assets/soft-sofa-pajamas-music-a-local.webp",
+      "sourceSha256": "cac2ff8959daa9c0c2e380861a054a3c90d57776e8c37aa75f95132edf596d0a",
+      "sha256": "e9639bdc3dd300835d1499f7b59aff2b3830c44a2db927dafdd5f0606e52073b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-pajamas-music-b-local": {
+      "file": "assets/soft-sofa-pajamas-music-b-local.webp",
+      "sourceSha256": "bac024624f1cb48a9283b6d591d7fe74cb8cb0e61e77172888eb382428d5559f",
+      "sha256": "9c5d6110f5d3ed216e94cf5306cc9f9b452f0908a2a58493f2471c6f5a0b7537",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-baker-music-a-local": {
+      "file": "assets/soft-sofa-baker-music-a-local.webp",
+      "sourceSha256": "229756e3c923c1c2219661526e9009a6022559b6f35a18f87d84ff524b0222ab",
+      "sha256": "49e73df2aafb49d484c4e573cb10470156ebf485cd981ac9f71ab9559350dd04",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "soft-sofa-baker-music-b-local": {
+      "file": "assets/soft-sofa-baker-music-b-local.webp",
+      "sourceSha256": "5dfaf4eb745b2955257b3c83095bed7fb9cc29e6be05656b87aacea9d5aac3ef",
+      "sha256": "ca826997fea7765ca37a833be7ae7b85e6ed3295042968bcb16ec7ab93f2fc12",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-winter-write-a-local": {
+      "file": "assets/writing-desk-winter-write-a-local.webp",
+      "sourceSha256": "d9548672b8c238601e4793db229ed79a11f42624822ca804a48600730ce3be35",
+      "sha256": "101cb3823237f59fe9bfccf086c8c0c425f2b977436511c6b3002fc914719ffe",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-winter-write-b-local": {
+      "file": "assets/writing-desk-winter-write-b-local.webp",
+      "sourceSha256": "0ef01062e8113d2639bb9c278afa6144d91e73838a6c514a82d154896327f76b",
+      "sha256": "16c3e06d795c2d7d30244bf55349fc8c034073b6ca5f53479bb30a5108640358",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-rain-write-a-local": {
+      "file": "assets/writing-desk-rain-write-a-local.webp",
+      "sourceSha256": "a1e657333fc5b83226bd4546f67435d27df74a1b420bd58f169733b13f5133b3",
+      "sha256": "e00e0ed9d3b9170309a39947364217b1dd4b28231c212c3b5490b0f6d57a4414",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-rain-write-b-local": {
+      "file": "assets/writing-desk-rain-write-b-local.webp",
+      "sourceSha256": "e9110668c40e145cc83f923717d14de562552be1341c648cd8422be52a591015",
+      "sha256": "34c809f11d938d2d06f5a53db5fef371d56c50a6a00fc1919d733202da2c52b8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-gardener-write-a-local": {
+      "file": "assets/writing-desk-gardener-write-a-local.webp",
+      "sourceSha256": "b89b6e0b6ab2e2039db6e75074a27bc42ed02b7e78f07fee4a0951272c989e28",
+      "sha256": "529942f9f36aef4955a9793748ac288d5d447e9e18cb811b83606a9fe0d674dc",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-gardener-write-b-local": {
+      "file": "assets/writing-desk-gardener-write-b-local.webp",
+      "sourceSha256": "c7d324cea48b92c22a22741da77ddfd90eef0582a8be94f0c2c7df166e957cd3",
+      "sha256": "c080b4a6ded69bb80cecd552da63e81421f54b4b4307134f49369e1f330c5db2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-explorer-write-a-local": {
+      "file": "assets/writing-desk-explorer-write-a-local.webp",
+      "sourceSha256": "196837543d8b370ca9d930784e207205299d9a52787144716f8cb49b13e6f651",
+      "sha256": "bd2c33ab1e0223a6431589ac3d1701c1e7e5cef0a6e872f29fe323a60ba73087",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-explorer-write-b-local": {
+      "file": "assets/writing-desk-explorer-write-b-local.webp",
+      "sourceSha256": "fda73425107e2b6b520f71f4cbe43f60295b3ea83aa999d174ac0c4821abdeae",
+      "sha256": "4bd881356b144909dddd4c2fbf871db342075a328ffd41a4fe4ba42a9433e87c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-postman-write-a-local": {
+      "file": "assets/writing-desk-postman-write-a-local.webp",
+      "sourceSha256": "4c273307ef63e9a0f63653ecb107aa2b51cdb0b9d417da104e956533f4f7f0c9",
+      "sha256": "f60798998d165bd2d97b699c8a047650c884ad6569abac79e3ab9c06c9caf00b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-postman-write-b-local": {
+      "file": "assets/writing-desk-postman-write-b-local.webp",
+      "sourceSha256": "b5ce8571ce76b6dfd7ba7ad826150c251370f61af4fdd70da0a9d5da3b11d41a",
+      "sha256": "4cf7995e27f1a088f3484dd7d48e9c2adb1d94bbcf5ec380d42a9731f566128f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-festival-write-a-local": {
+      "file": "assets/writing-desk-festival-write-a-local.webp",
+      "sourceSha256": "e20fb27c37f00e11b3cbe025032b0b4e5de44564d5060fa5af62d10b9149a2ed",
+      "sha256": "c840bce07679307c590fb502f12782fa1dfe8a085ae738ae0b82bfd11aa39c08",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-festival-write-b-local": {
+      "file": "assets/writing-desk-festival-write-b-local.webp",
+      "sourceSha256": "acf3fb2b17e0364c70ef2e2696731a47a66c85edd69e0455ee9c59bce6ade8cb",
+      "sha256": "990c22ccb68f1768a6bf3e1b0572c5b7d3cc9e4f98cd36f5de8ff7449bc12aea",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-sailor-write-a-local": {
+      "file": "assets/writing-desk-sailor-write-a-local.webp",
+      "sourceSha256": "9701b9f36e25aac322f2ac26c1f8056d329ce3fe4e0a8bf11a42b1bdc1ef3792",
+      "sha256": "397eefe8fd9c0e3bc8532c0aa41c6943025732568420f9c66a0f7ba70b6a764e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-sailor-write-b-local": {
+      "file": "assets/writing-desk-sailor-write-b-local.webp",
+      "sourceSha256": "c1c68ce99e441989017a6e460822bb16a6d1fd5a7f3b157fd633d6d04933baad",
+      "sha256": "f8a89c82434250f3699bf85f0ec162b2c9ee4343c77b53a11b3b44d82e456f86",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-pajamas-write-a-local": {
+      "file": "assets/writing-desk-pajamas-write-a-local.webp",
+      "sourceSha256": "6063f4497b1d9ceb4c57dd1e51a810bd5c0957f252a48672e4a555c153c75549",
+      "sha256": "6c658475e0d7e005ae538c0c83be4b976f59c585ecf40fc0d5f50ad82bfa5c97",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-pajamas-write-b-local": {
+      "file": "assets/writing-desk-pajamas-write-b-local.webp",
+      "sourceSha256": "7af7cc6aa8b2e418aef3fb7afe45b4487ff5f748b1c82fa6df95427a5a77408f",
+      "sha256": "553695c19b53d241733063be26338be3ccd7a1700c4669e3b0343b163ec82cc0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-baker-write-a-local": {
+      "file": "assets/writing-desk-baker-write-a-local.webp",
+      "sourceSha256": "43c692e17d10454990ee7ea0c87b9819ad8fe61b2894851aec01668ad22b8c06",
+      "sha256": "119542112ef8080968128b3c5349797cbfac79c05aa945e06c82c7fc52b75522",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-baker-write-b-local": {
+      "file": "assets/writing-desk-baker-write-b-local.webp",
+      "sourceSha256": "af5127183e178ec03a3f3b946e366ef0f84721899d52c61494b4f56bc95c4b50",
+      "sha256": "eca86b3597de0f63e385e98aab2230661d6bda124df3f998a0f0d54623b47fac",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-winter-stamp-a-local": {
+      "file": "assets/writing-desk-winter-stamp-a-local.webp",
+      "sourceSha256": "1c3b023f9aea08b61f40f7bbab659ab928ec3d09b8feacea8e2ac972e3b2abb5",
+      "sha256": "f34f077d19080ec48053e5e8597e48ffccb4f185913e96c318468f30b547f367",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-winter-stamp-b-local": {
+      "file": "assets/writing-desk-winter-stamp-b-local.webp",
+      "sourceSha256": "55ce46e2fdbb7168e0c9a30158d5654b886c5bfd8b36a55c2c33a30f913c8783",
+      "sha256": "b05f6064c590cc3ec57e7d5c0ae5c7ee81b00245a0cc088b6842ee35d69bccf8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-rain-stamp-a-local": {
+      "file": "assets/writing-desk-rain-stamp-a-local.webp",
+      "sourceSha256": "827bb54c81d1606086d0916f883b2ad4287a3cc4d896b0f4c22de9a132055efd",
+      "sha256": "635b4cb9a4db16ee16b818e692cb8cae84abe84f80903b46be67ea3b7bca28f7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-rain-stamp-b-local": {
+      "file": "assets/writing-desk-rain-stamp-b-local.webp",
+      "sourceSha256": "eaf87ecdc59736d239ab86415930e5d9fd517217c23823f2e19138b62eaaf5be",
+      "sha256": "50dd6fe63910adc50fd0ae9289292ec4964d6cf0b73f421b0cc40126a5e60938",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-gardener-stamp-a-local": {
+      "file": "assets/writing-desk-gardener-stamp-a-local.webp",
+      "sourceSha256": "6be34090afe78f97ef48113589edbf8f0250970c87ec8310981b606bce7eb524",
+      "sha256": "f1f78a851ec5e06f8ca5e3af1db8e20aa58bd2dce9a6e0014580d50b768e1d74",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-gardener-stamp-b-local": {
+      "file": "assets/writing-desk-gardener-stamp-b-local.webp",
+      "sourceSha256": "3efd3426c8dd30a9ecdf0442bb998bd926ae441e744b2193aedfd16176012f2c",
+      "sha256": "354617e8967d20eb546737a4790bc6b539498e822abb04140eec079608261611",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-explorer-stamp-a-local": {
+      "file": "assets/writing-desk-explorer-stamp-a-local.webp",
+      "sourceSha256": "2a5ddede642c0d0f5f4e9cc5c38478c3ee69358af0cd4ad08c84beda60b29105",
+      "sha256": "d8ddde54cf8ad4204acbebbda1a55cdd96c03e6c0e99d03120c63f97d62aabbb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-explorer-stamp-b-local": {
+      "file": "assets/writing-desk-explorer-stamp-b-local.webp",
+      "sourceSha256": "43dce0bb1c2849bea1673870c9e593fa457a9e6618dab9d0b055b1b7b269e459",
+      "sha256": "83a7f8d89d178566d20fecc7bd55f886a03e16333b2aa7e81b9c1e7d8249287a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-postman-stamp-a-local": {
+      "file": "assets/writing-desk-postman-stamp-a-local.webp",
+      "sourceSha256": "668693d4e74f8bcc1be3c4b29679701570300eb1118a87cf235ee6509c95e31b",
+      "sha256": "b03f958be04203469e2172eeb37195dba48826a622deada65d7ccf2b3ea2e3af",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-postman-stamp-b-local": {
+      "file": "assets/writing-desk-postman-stamp-b-local.webp",
+      "sourceSha256": "2c47c85d45660e8dcb2400560401550a9d45a938b2ffd9256a1147ccccd4a757",
+      "sha256": "c6fec16b81a0a38f3871c8e9caa0cb605e3dbe944d349ea6c0f6c233f28bc452",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-festival-stamp-a-local": {
+      "file": "assets/writing-desk-festival-stamp-a-local.webp",
+      "sourceSha256": "4a985352483602e3bbc2884f1ed1d00070cd80bd09fe5194f7be5666e5fbd227",
+      "sha256": "50de955abba81548cdfa4097440868d332c7364d20a0b54fcd69c0b9e1b4d484",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-festival-stamp-b-local": {
+      "file": "assets/writing-desk-festival-stamp-b-local.webp",
+      "sourceSha256": "d2b45a984bf0605d0beedba9210327d731ec6eee1cdacda30860d3eb1b1cb375",
+      "sha256": "7dc31f1baa19994d747aa88c2973e43a8ec765a41a4ebb1bba5005c2bd1d2481",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-sailor-stamp-a-local": {
+      "file": "assets/writing-desk-sailor-stamp-a-local.webp",
+      "sourceSha256": "3234382d287507efed87fce80f6870f3fa3a243644c96ee29f9480ab1be32008",
+      "sha256": "be6112631b17099701b8a9bcea028a72ea2e8bc71bc6ca73ff8acff9f07b62ad",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-sailor-stamp-b-local": {
+      "file": "assets/writing-desk-sailor-stamp-b-local.webp",
+      "sourceSha256": "cd89e534dd9af1b67ca1596de2709e5e93b8a54f62a747728319ad6949a39170",
+      "sha256": "05a75c7212821e813e246da125d5b8f8550ceea7583413f42463db37fc214d80",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-pajamas-stamp-a-local": {
+      "file": "assets/writing-desk-pajamas-stamp-a-local.webp",
+      "sourceSha256": "c172382b09a270e7532fe7e69b821e0dd298de649600524bb0574215d546bb26",
+      "sha256": "953fe18d3f4fccf55e4cf7f2b9d313887106dd964b6d48bc1943cf4a68bda6ec",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-pajamas-stamp-b-local": {
+      "file": "assets/writing-desk-pajamas-stamp-b-local.webp",
+      "sourceSha256": "0b84c8ed1a3ff7fcfab813a6f40c227dd1fbcf8c0201f9624f9585a694abae5d",
+      "sha256": "627348c4d3d8b92dc9377a1b91ef070de449a62dfdc050be08e39d67114c04ad",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-baker-stamp-a-local": {
+      "file": "assets/writing-desk-baker-stamp-a-local.webp",
+      "sourceSha256": "16c484c7a570c1c427f69087030eec94a329e904213687be2c991d40ece7ff93",
+      "sha256": "deec6824ed665a0aa1440819f21f4e54fa54f5a3367c4b5a2ca59112bc1a528a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "writing-desk-baker-stamp-b-local": {
+      "file": "assets/writing-desk-baker-stamp-b-local.webp",
+      "sourceSha256": "828739000be05bd0fff9a8c0be4b379ded5261cbbb87ca7dc804bc7023d2b9f1",
+      "sha256": "80750517166102104e187011723c813ae7cd8bb012c2106906452dc577f39a15",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-winter-snack-a-local": {
+      "file": "assets/tea-table-winter-snack-a-local.webp",
+      "sourceSha256": "27fc33e032d6c551634da4d8391e1619fe45aea36e7d88bf6259807101b3d221",
+      "sha256": "4247b2b38b91c11a66e21b5f2ffdeb3fd2d8d21e01e1c2d24baba4dfa2762f7e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-winter-snack-b-local": {
+      "file": "assets/tea-table-winter-snack-b-local.webp",
+      "sourceSha256": "e1d16664829a8353892087a73180ec3c338b61e4d1d24599a9b555ed9f231f1d",
+      "sha256": "48b6a5bcc980c39a5514cf193fda792fca51162773eb517382d8da2a714b9214",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-rain-snack-a-local": {
+      "file": "assets/tea-table-rain-snack-a-local.webp",
+      "sourceSha256": "42db388958baa0bd30d8d97b99bdb8b106c2ac48f23b1e946c7e9c985ec582cd",
+      "sha256": "ade301a07fcdea005bf36774810ab7684dfb782332a389556d20e1abb52ca522",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-rain-snack-b-local": {
+      "file": "assets/tea-table-rain-snack-b-local.webp",
+      "sourceSha256": "163c88e6361e0ffa87085ee165e579b0ee78dd2bc592b996a196a7c4b58efd4a",
+      "sha256": "0499ad99d062562c4d28b26b7cde9b9a2dc7897d783b9626c2854177d711a06c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-gardener-snack-a-local": {
+      "file": "assets/tea-table-gardener-snack-a-local.webp",
+      "sourceSha256": "c43658243bdde12fdb487aef93f3bf65c17949e4571421d321ac0cc41ee28372",
+      "sha256": "4cee904f9c55e67d80038eb1292fddefa4be73a0ed87f63c849ebb3ad8f8f5ea",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-gardener-snack-b-local": {
+      "file": "assets/tea-table-gardener-snack-b-local.webp",
+      "sourceSha256": "389b9be17fd7a6fa56c814735d4ce190e7f52e742f8b677815e0ec9e8171a33f",
+      "sha256": "f8b20a60220be7237bd1a8aaa5c8cbbe0bb06601d4f448b3436e11cd441d95e6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-explorer-snack-a-local": {
+      "file": "assets/tea-table-explorer-snack-a-local.webp",
+      "sourceSha256": "a6218cfaf2e72dc855ced305f0cd84a94357a993e0f312994102445e21496a67",
+      "sha256": "f94477db6049f5ade5656c53531780bff6d578c4a71dac816669c2d79e3aec7b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-explorer-snack-b-local": {
+      "file": "assets/tea-table-explorer-snack-b-local.webp",
+      "sourceSha256": "701cdb0b4db44ecc1b117504731a87e0a31b56cd7ba1ea2458efa811a23b4db3",
+      "sha256": "cbf0b3c7a7194d497539fb6d7745c3449824ced46bc6ea7ec0ed7db6ad537616",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-postman-snack-a-local": {
+      "file": "assets/tea-table-postman-snack-a-local.webp",
+      "sourceSha256": "157414091f15bafa7624ce43d088bb45d1cdde1d4a556615c15e22c2ceb7199d",
+      "sha256": "203bf13ac4f63094141b812680e08a373ea1ef97b6d68c137007232bca73355c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-postman-snack-b-local": {
+      "file": "assets/tea-table-postman-snack-b-local.webp",
+      "sourceSha256": "4bc5a716a220ec40cc11c0454f6aaa2d21606aefcdfe0252eb3ba7d21c71fdb2",
+      "sha256": "8b6f091324d9085db039b96696c1b0de38f0d072bcf70acdc98680bf7271927f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-festival-snack-a-local": {
+      "file": "assets/tea-table-festival-snack-a-local.webp",
+      "sourceSha256": "7a791f08a45e1be60c6df520f0f758aef3e39260c0d192b287fe59d553d7b981",
+      "sha256": "48a7ec05620bce92d9cd407cce3bc7529f6ea7f5908ced44ac703bc2c9ab0725",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-festival-snack-b-local": {
+      "file": "assets/tea-table-festival-snack-b-local.webp",
+      "sourceSha256": "bce33172dda2aed29d90f91cfff9b01d048f2f56ceae9b265322875a9196989a",
+      "sha256": "8e3e511a472d1e060cbb9bd07fa5cc17e468dc2e44009ab1c388e5b72c7d9458",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-sailor-snack-a-local": {
+      "file": "assets/tea-table-sailor-snack-a-local.webp",
+      "sourceSha256": "d0fab6ae60988b57364484fe12560ad541fc32f59d7cb7154c89197ac7681cd7",
+      "sha256": "d688705a8076db8f59b6452f14d35b6c255f0ca1cee400a10e1b1885a93d5b2d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-sailor-snack-b-local": {
+      "file": "assets/tea-table-sailor-snack-b-local.webp",
+      "sourceSha256": "e29c12c66b5e9ab9e05e5a2b446a8aa4742150e316b148207431692124d531a4",
+      "sha256": "f79ba869616f05b9c7b93b386d6fb0dce89ca0e6f94a6d4c245de74b09f77d21",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-pajamas-snack-a-local": {
+      "file": "assets/tea-table-pajamas-snack-a-local.webp",
+      "sourceSha256": "a2179f1f040f7aa6aa8d31e478eab4fe5346e8bd6dab8638c4d5fa645de421d6",
+      "sha256": "33f6bea7e49bf8c7e032c50102b7fb43a819202838db221e53c8090433b1c3ce",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-pajamas-snack-b-local": {
+      "file": "assets/tea-table-pajamas-snack-b-local.webp",
+      "sourceSha256": "4846d88c2fe2e739d0ebf5d45f347ba4f48597de4a51ea5391f4c31f82d9ee0c",
+      "sha256": "848e5b96eb281ccf0963a2a3815f70bf01d04a874414879afd8f626af338d452",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-baker-snack-a-local": {
+      "file": "assets/tea-table-baker-snack-a-local.webp",
+      "sourceSha256": "ae28b69eaa7ee9f3a339a7454be7971d44c41a7bd056ac96f56a0368915eb9ed",
+      "sha256": "cd3c1c344a9d37314072832e709e7129816571bce0432953fc1afaf21ec61fd6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-baker-snack-b-local": {
+      "file": "assets/tea-table-baker-snack-b-local.webp",
+      "sourceSha256": "9387576300f58d5bcc71436a69dc3b506103719414d39df00745250de45ced9e",
+      "sha256": "65926caf1703ca7d7b0f07425f96259ef63be10f96ca4cba60d970877473b874",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-winter-stir-a-local": {
+      "file": "assets/tea-table-winter-stir-a-local.webp",
+      "sourceSha256": "e57d1405d0c8a92e98e5026253a53c01d98020a52f9fc26fb2d8859dc077d9a9",
+      "sha256": "c38ab298b2e0527950709d1f387ff288cd3028f3bc77eaadd75be3c6d0b9b9b4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-winter-stir-b-local": {
+      "file": "assets/tea-table-winter-stir-b-local.webp",
+      "sourceSha256": "becc6dc395f7347d72c2a85b51d06414d8047fe9ab5b773b5a6eba7b4536df82",
+      "sha256": "11c047aa7de5ef79f7b9f460acc3572a196390c0786188e4c27d96c13bf51785",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-rain-stir-a-local": {
+      "file": "assets/tea-table-rain-stir-a-local.webp",
+      "sourceSha256": "75b9a7d7f1a7e1a3e1a1347c90b8c8b03b01cff3fe6d81d86f8d93dfe6db761c",
+      "sha256": "2b7aeb9d7f7f24a7c23f113d0ab05f39c3e62b4202e10b3e75a83737418e0d3c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-rain-stir-b-local": {
+      "file": "assets/tea-table-rain-stir-b-local.webp",
+      "sourceSha256": "688a9871df5cd04c731761090beb22697c65d2ade437c8ea0595d3e04cc0ae0b",
+      "sha256": "b75b2cfb8af59b05c1b60cc92416a7f45f2c728b2bfc3b65ba63e281d40a5351",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-gardener-stir-a-local": {
+      "file": "assets/tea-table-gardener-stir-a-local.webp",
+      "sourceSha256": "b875107a5d6ed76fba35a1dc05a8ff90fc49b95ff9e3e710c5b9313366b7ad10",
+      "sha256": "fb58220148e01be8070ad860062aa822b0bc6c67759bba6a45ef58a9b4df2d2d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-gardener-stir-b-local": {
+      "file": "assets/tea-table-gardener-stir-b-local.webp",
+      "sourceSha256": "90fd6b9f31f59f6771af2daee6b53ecb1dcd2a09ac4463eeadc01b9ab0e473d1",
+      "sha256": "8afa01774ac8a4eb63793f922d3ef57ca7922b4496c17d087f84867df4415aa0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-explorer-stir-a-local": {
+      "file": "assets/tea-table-explorer-stir-a-local.webp",
+      "sourceSha256": "cc4e9b1a50414a3e6b9cf26da3dcc394977ffb4bc1bdac892abcd3ed9bdc7270",
+      "sha256": "44c5fd2fca6337ba7be837449de1d7b9040f4a8c60214b76fab2cf6e4273ed09",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-explorer-stir-b-local": {
+      "file": "assets/tea-table-explorer-stir-b-local.webp",
+      "sourceSha256": "295dab9c965d045e2e18aef0a01f435ee47dd21635479aae3349ac89112add64",
+      "sha256": "3c75ec4111d68c1abb7d1ed6dbfdd717fc9078bb3dbe133baca9ce3bb45b64cb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-postman-stir-a-local": {
+      "file": "assets/tea-table-postman-stir-a-local.webp",
+      "sourceSha256": "047f4153de95f93c7b89a7e1190cdc767b7e8b726d22e0ad85729091f2ea01b9",
+      "sha256": "c16778a30f8ee381ead0fd736a375b02e691d26c5239e8284a83f06bb39ceca0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-postman-stir-b-local": {
+      "file": "assets/tea-table-postman-stir-b-local.webp",
+      "sourceSha256": "bebc72deb1b8fbb4b788c5f764d128cb8cff93eb5b97b21822c9a187c1722772",
+      "sha256": "1df3490ff2877760aadc1c5461d555d7e65e7fe596a95e519a51e2d05452b0f7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-festival-stir-a-local": {
+      "file": "assets/tea-table-festival-stir-a-local.webp",
+      "sourceSha256": "b3790b72a3c1e65e537e69f62c1c479d4ea6e0f25d2ac89a58a3094a0a2b09c4",
+      "sha256": "80527a84f50af41a78a1d5af99bb91bfc16014bc5fbab0060127f3cfc76ad76b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-festival-stir-b-local": {
+      "file": "assets/tea-table-festival-stir-b-local.webp",
+      "sourceSha256": "c1c51afe4d0ee6aa3410691d88a92f953c3da56219c8ed05c5bbf2bd84711ea9",
+      "sha256": "606471e58dbd3370ea88317b07d86e96430e993b3d4f30d55a644b0e1fef2d09",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-sailor-stir-a-local": {
+      "file": "assets/tea-table-sailor-stir-a-local.webp",
+      "sourceSha256": "39a6a2a87d14a8e9514cc539e9c7e65139f431eb090c9ada2613772a7d0034e9",
+      "sha256": "30b012cf9565e48273e1c8672eb217e233ac2f1a9db00af5321c14ffe00554cf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-sailor-stir-b-local": {
+      "file": "assets/tea-table-sailor-stir-b-local.webp",
+      "sourceSha256": "d727b71307cabb5208d870ab1609e80fb8b66ca1807b0b0f9a10152585caa7df",
+      "sha256": "f017b4d88212d0c1212d0d87ab0a76fe2b7162702867e158d19c42c1e183cd7c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-pajamas-stir-a-local": {
+      "file": "assets/tea-table-pajamas-stir-a-local.webp",
+      "sourceSha256": "15db096f36f6a67b941da18c6394dea2bdea34a59ab5ae5bd32ebf90ff55c1f5",
+      "sha256": "943ebcf1d9d751f17a7d5cb08365928123775f7c2d4bc5309e7b478e29bba5d6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-pajamas-stir-b-local": {
+      "file": "assets/tea-table-pajamas-stir-b-local.webp",
+      "sourceSha256": "e3dc08941eb6af2b11de6d4623207f6a81a660924012bdf1af8b8778752d749e",
+      "sha256": "3a7d5838c368ad55389f33eb5ab1e2c2e47e7d4d4b3f90630e7936d1dbc3c942",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-baker-stir-a-local": {
+      "file": "assets/tea-table-baker-stir-a-local.webp",
+      "sourceSha256": "195f2c70b81b4fecb280d742e0047607b78043ff614e2bb704268158cacbbf7d",
+      "sha256": "34fb14c164830ddbe970d08f005417a7f5aeea0805b02a37f8a965b611125d6d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "tea-table-baker-stir-b-local": {
+      "file": "assets/tea-table-baker-stir-b-local.webp",
+      "sourceSha256": "b47db369b8fedbac7213a7fa26dde2f5405d085d612d22891a8dea24ff1e8cf9",
+      "sha256": "53698f62f84f86742c0ea6f9281d0e1404983bee0d60ff5346db644bbb198a42",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-winter-paint-a-local": {
+      "file": "assets/easel-winter-paint-a-local.webp",
+      "sourceSha256": "c2926079ad24a8c76746dbd76efa4acedb1ef9d7ca504089d5131505b2271f3c",
+      "sha256": "7ba11b463c3239eeed13ff5da1cca57a951454c8d041a67339ab20feefabd816",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-winter-paint-b-local": {
+      "file": "assets/easel-winter-paint-b-local.webp",
+      "sourceSha256": "7bb63c97732cd6a8ddf437e7fa0fa978e56e68e6097f64b5e93a9820f2e45aac",
+      "sha256": "5cb06a0d45ebc38d529fa32b68a227880644c7ea6be5078176019b9310eec08e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-rain-paint-a-local": {
+      "file": "assets/easel-rain-paint-a-local.webp",
+      "sourceSha256": "f49aecbd7b862cc17bb86d5187b04ecae9dba2ba2a387d34bcdbfca9453aa056",
+      "sha256": "5b6d90d6a9af926498004f8485867da35ddb1cd523333c43fc712bfc134492bf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-rain-paint-b-local": {
+      "file": "assets/easel-rain-paint-b-local.webp",
+      "sourceSha256": "3cbcb5391ada99ddf721d80595974502c93a7e88b9ddd9b164fa8b619530a030",
+      "sha256": "9106ac5bb9acb001c36e153a184e0fa97dfaffb3fa10eeb73b037a7bb20d68b0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-gardener-paint-a-local": {
+      "file": "assets/easel-gardener-paint-a-local.webp",
+      "sourceSha256": "47abb74cfa5c8c1e60a0185053fcf542bf02ad9c609023f3f55a55b8a32cce7c",
+      "sha256": "d00a924f430c3d46d18baefed2f6f2aacfa4fbe6ee037a0c992b4b9ad12ef534",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-gardener-paint-b-local": {
+      "file": "assets/easel-gardener-paint-b-local.webp",
+      "sourceSha256": "61e07ada8a43f99ebd9d12e51c2177fc793cb5d9777b9119b045797f98cb8746",
+      "sha256": "18b2d42e0a74f8609f0033fbd3eca38555abd32703b5ccff5eec79672f614afc",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-explorer-paint-a-local": {
+      "file": "assets/easel-explorer-paint-a-local.webp",
+      "sourceSha256": "0fa2a12c6d9d4ac278fee38779f36d454059983f7abe1ba004f5e4bddf3528f0",
+      "sha256": "40377e2c48e9d0335579b520fdabf060eac9903936d9a43193f791b315be9ed0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-explorer-paint-b-local": {
+      "file": "assets/easel-explorer-paint-b-local.webp",
+      "sourceSha256": "97a1fe06e4a26d86569ece7276e1cbf6815f50a9ffb34f58e54fe59183618bef",
+      "sha256": "786ea855dda2bb634f2c1e0cdb77ce9aef78ff4b9f1432fc64718ca35f266db0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-postman-paint-a-local": {
+      "file": "assets/easel-postman-paint-a-local.webp",
+      "sourceSha256": "46d83b03c4966b4a7121353d1d53024d7f210da79e52fedbfa94405e89b49a7c",
+      "sha256": "ccf863721e4c5fb479db72f03dde26780613a47b6ecd435dce05ab256fabbd8d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-postman-paint-b-local": {
+      "file": "assets/easel-postman-paint-b-local.webp",
+      "sourceSha256": "36bc73cdf4ab5fa8c82a63768d3171517aad486aa0070d33c1956c3ea2dc08d2",
+      "sha256": "945c5bfa5723b8e86814a25759a87a066efeb9d259769f3ce7cc07ded782c023",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-festival-paint-a-local": {
+      "file": "assets/easel-festival-paint-a-local.webp",
+      "sourceSha256": "047a93d2cd580b4d19c52c0ed9df045128550e1966215498c8b19712f1324f44",
+      "sha256": "42cca67098d97985e85ecc1b87c1f02ed8487f2f503a0a248a11699287a54fcf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-festival-paint-b-local": {
+      "file": "assets/easel-festival-paint-b-local.webp",
+      "sourceSha256": "534b1ac9c8acf64418e1131ac81a46273599aac300c797e0fc6ff1daa41a83b8",
+      "sha256": "691476b2e9bc49fba9454d8bac3abaf706d20e566bf4a4e548bbeb19524167fd",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-sailor-paint-a-local": {
+      "file": "assets/easel-sailor-paint-a-local.webp",
+      "sourceSha256": "d91c75c1675e02d4ba503157bce519e9d5f83ab24fc2c31a5b3f367a2c164232",
+      "sha256": "54033aaf19698fa44943d0a239280df8a9b2d4d8dbc560c59189bb05584b5354",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-sailor-paint-b-local": {
+      "file": "assets/easel-sailor-paint-b-local.webp",
+      "sourceSha256": "b36ff8bc69aaed8cbae8c3445aaeee876bb8809194e205b9d4a704abb3b571da",
+      "sha256": "cb11f92c22a1a661ac0919ad949f997ae9498221ba4c502a3b07a299296b9899",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-pajamas-paint-a-local": {
+      "file": "assets/easel-pajamas-paint-a-local.webp",
+      "sourceSha256": "0b35b48a3e76b5e191d8610a56344726482a583859508c41d2ec78693ef4bc2a",
+      "sha256": "a827f85ffac71e68582176672203bff18fcd1cc977410da3ef5d63e78b8ec8f4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-pajamas-paint-b-local": {
+      "file": "assets/easel-pajamas-paint-b-local.webp",
+      "sourceSha256": "c2f3e94d8a68fa8f2b270d75704854fda05c9640526e9c1378b9613766ff6bdc",
+      "sha256": "743d5280f1535ae85fbdba83f572013ca3ae40b1277c0570c0d4925b8f60cb7e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-baker-paint-a-local": {
+      "file": "assets/easel-baker-paint-a-local.webp",
+      "sourceSha256": "f9dc9863227474d7e5decbdf271292308a2298e85c82bc6cf407706ddd687379",
+      "sha256": "27ffa689a998655511d21e761044bba1b90c0391200449cb668b3f4b698df484",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-baker-paint-b-local": {
+      "file": "assets/easel-baker-paint-b-local.webp",
+      "sourceSha256": "0ece5d6a24fc2fa181af09e7e2ab4ba6c7908ac191b4cdec4310072f84fddef6",
+      "sha256": "7593fd2f06261e1fb47ab47e485dc44d389634534a42a84a0ec1ed6a64f6d746",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-winter-mix-a-local": {
+      "file": "assets/easel-winter-mix-a-local.webp",
+      "sourceSha256": "e3bc67a872220b72a0a6dafd1550886c360773e20f7626a41b497a9fe5706651",
+      "sha256": "97ec88349b32ccef6e9f911e83b3f341fd9a174306404db0f54dd1d5a23596ab",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-winter-mix-b-local": {
+      "file": "assets/easel-winter-mix-b-local.webp",
+      "sourceSha256": "54940e24fd237bc1ea5ba562b88e571251e0482f859b76d8e18ed0b0bf0d4ed1",
+      "sha256": "1de5a72a9104db74c4ea7695f794931d2d3fba9fbe435954ccb90a72d5f40825",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-rain-mix-a-local": {
+      "file": "assets/easel-rain-mix-a-local.webp",
+      "sourceSha256": "5aae2bffd476386e7c1eba82aa353965360a478030423ed76475d3692f14a9aa",
+      "sha256": "1efe1ddfc6a577f10f7470a9295a89418cc4b94df104d1dc7ef6f1d8fb831b3a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-rain-mix-b-local": {
+      "file": "assets/easel-rain-mix-b-local.webp",
+      "sourceSha256": "d17e9ef570645c7e867e537840a9d558ba89accb0ff6b7835dc69edb52fe5234",
+      "sha256": "88dfabbee77a4401bb36ecd427622e65f4feacf7db33835ea498625278c90f5d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-gardener-mix-a-local": {
+      "file": "assets/easel-gardener-mix-a-local.webp",
+      "sourceSha256": "c0bef401b03740f954fa4b4b3bf79e01b9b441884c80597f6d0d16199c038e08",
+      "sha256": "07937bcb113c989980b577614e5c41c1b8185eda05bf2512fa7d294e741edd33",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-gardener-mix-b-local": {
+      "file": "assets/easel-gardener-mix-b-local.webp",
+      "sourceSha256": "ae0a52404f9800594921b80427f9f0f0b427bc43116443d2d26282bc40a58d2a",
+      "sha256": "ff74538e4d1574ccdb220bdf4dde97eb4e7e35ccc2da37f6390047a31e5dce79",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-explorer-mix-a-local": {
+      "file": "assets/easel-explorer-mix-a-local.webp",
+      "sourceSha256": "e0c5a50bcd2b0023e826ca01cc7e18506e4c65c952a0798e9f9e579f7595b8d9",
+      "sha256": "74c12153afc95b5caaeb1feb76207f3a4eee7e1e566ee1792ce48d16b440371b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-explorer-mix-b-local": {
+      "file": "assets/easel-explorer-mix-b-local.webp",
+      "sourceSha256": "a218ac23d7a7e638bdda850b31d714abeeaea58c12e3c971369e9fd84a164d68",
+      "sha256": "78469241cc667589e4af838c29118b4c2dd6e840065fdca8b4a49ad30b88ad59",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-postman-mix-a-local": {
+      "file": "assets/easel-postman-mix-a-local.webp",
+      "sourceSha256": "4f370ccdd3b8058298d637a412bc2e155b2547c3aa3dd183331c540728d68c3e",
+      "sha256": "6eed3f6e872667019ce617866a2225c1bb9c578ca714e8a389c02413162fe25a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-postman-mix-b-local": {
+      "file": "assets/easel-postman-mix-b-local.webp",
+      "sourceSha256": "23daff1ec5d9092f3c615c32a2fdee703b44736e2fa147ad5e29835e1018d4c2",
+      "sha256": "30b110bd9faf3754469a100e98df92464f5b349fe67de32596936d0882e27799",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-festival-mix-a-local": {
+      "file": "assets/easel-festival-mix-a-local.webp",
+      "sourceSha256": "15fca2113527aad6fa0ffc058032fc89994e43cdd0d0aef527aa729db83ebb51",
+      "sha256": "4cad02fbee3a15d839eb31c07dea61b51b151a2e41927bcd938a9652da17d1a4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-festival-mix-b-local": {
+      "file": "assets/easel-festival-mix-b-local.webp",
+      "sourceSha256": "d51f30c014dbe3ee7ef511456819848f8c8bafc3c5fd8679c426d72b9ccfcac7",
+      "sha256": "55a2866b9bf3d7bbbc191520ac1cdf3269e6521ece310643318799bb2e1e06c8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-sailor-mix-a-local": {
+      "file": "assets/easel-sailor-mix-a-local.webp",
+      "sourceSha256": "76f1c0f4e6a179401acba795ceacc1e2c22d9e280dd9125e08317241018ff8f8",
+      "sha256": "910e067ae029901e12a514b560ab9d56fa736d0b70fad4256a33a2d8e8b20376",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-sailor-mix-b-local": {
+      "file": "assets/easel-sailor-mix-b-local.webp",
+      "sourceSha256": "fe97f6b1aea636add142710a6eb314d0cf761487a95e1771e31e3145b0788cb3",
+      "sha256": "c8596046007d28000a993266970ba8beb945153ec7c7833401b3ce6c7e8333d5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-pajamas-mix-a-local": {
+      "file": "assets/easel-pajamas-mix-a-local.webp",
+      "sourceSha256": "edfd96a9e3d397cfa2f3958bab131e69dc881f6d56d8454b482e09e6055b6065",
+      "sha256": "d65299cbece3998ead2f66fac3f14199574fadcaabb71d0aa9183cd5c4f2d0d2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-pajamas-mix-b-local": {
+      "file": "assets/easel-pajamas-mix-b-local.webp",
+      "sourceSha256": "5f036703af655d6caaf39dcb5e0e2b8e755d3c5a49ccf50ee486b0bf7d603056",
+      "sha256": "00eebbb04916dfb31590f157bd867669fa57963e7994087a343068a9e97f447d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-baker-mix-a-local": {
+      "file": "assets/easel-baker-mix-a-local.webp",
+      "sourceSha256": "77b75aac330bed2f855caa739db7d76f9530b7f3200b14e92ab20f8787ae910b",
+      "sha256": "054935a6edcc96edeafc0644475eeb0b1318d2e9f43ece0154b2e754f9cc6add",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "easel-baker-mix-b-local": {
+      "file": "assets/easel-baker-mix-b-local.webp",
+      "sourceSha256": "10db63a22b9e74a3330d898659b2f6328ec203ad0081d1d171575db3f81021f6",
+      "sha256": "9e155699e8541b31b79cdb07dbd7ad6a2d5b692878227d630c421f0c50ebc106",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-winter-water-a-local": {
+      "file": "assets/plant-bench-winter-water-a-local.webp",
+      "sourceSha256": "b54093893da8551e6a95eb5c57018c3d34ff6cc7aa73180a3150494d6fd30f35",
+      "sha256": "51d398d9685ce9a411177cc4d3ebd3972d13fd614491773e84b9182cb790a81d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-winter-water-b-local": {
+      "file": "assets/plant-bench-winter-water-b-local.webp",
+      "sourceSha256": "a2060eaaff3d68222efc01cf53b9ee59ad3916b49e75ccc1569673ade6f1a0f2",
+      "sha256": "03bc4adee2e78210ea0812d73d6d856c4ae765f3d1f72e2bf1a6d3c08b1d05c3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-rain-water-a-local": {
+      "file": "assets/plant-bench-rain-water-a-local.webp",
+      "sourceSha256": "05186a3212bbfb5c07e9056fef38d38e96b401fe311e3358dfc1424b3c6850c8",
+      "sha256": "b816b386a44c5b66e0507f1b8bf652884a648c9ae1d7fda97d20c6b9cb00ae9d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-rain-water-b-local": {
+      "file": "assets/plant-bench-rain-water-b-local.webp",
+      "sourceSha256": "b02b59eb85f9cfefd38bcc90c71f5887b36a9bb9a1a1b28f0bdbc12ba85d1f21",
+      "sha256": "6976f9a8addb3a916a38a669b561a7c5110035e024b07c34367d7c8f687b2f2e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-gardener-water-a-local": {
+      "file": "assets/plant-bench-gardener-water-a-local.webp",
+      "sourceSha256": "33e9f912daa74a214e647ed62d69f0c16ac99dfce8feeacff50f45a603f00d6f",
+      "sha256": "a95883520b87821fcb23e934195c6726ec8f060c3791392b24efceee6d03bcd8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-gardener-water-b-local": {
+      "file": "assets/plant-bench-gardener-water-b-local.webp",
+      "sourceSha256": "9337f47546fa7f146cb5560fb642f5347adae46537529a6768d6061fd04e1c1f",
+      "sha256": "22d79273323bcf6b5c421f31e9d244455a0c8b496e53152958bf1884f514a05b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-explorer-water-a-local": {
+      "file": "assets/plant-bench-explorer-water-a-local.webp",
+      "sourceSha256": "a71ad4e4aed9d7bd6394967d2e18c614a6bb87ff3e6d71b3af80750b95c4fd21",
+      "sha256": "68efedb0196be83c40edf20c73dc468d25bf2d015993035fe4eac5b31beecc36",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-explorer-water-b-local": {
+      "file": "assets/plant-bench-explorer-water-b-local.webp",
+      "sourceSha256": "2aff21a888a5891338ed65fbd19cdb04a0b11f1f454843d76c57f2e3eb2d2e9a",
+      "sha256": "700002c3d9938601bf28082a65c530954ec6cf0417b0ab7bc40c936f5dd4a71a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-postman-water-a-local": {
+      "file": "assets/plant-bench-postman-water-a-local.webp",
+      "sourceSha256": "10331084c3d67b2b85abb24e37b09cf13623fc6875a66d73a1b962da9674f498",
+      "sha256": "d7567c3a4af719d19dee2dd6877a3c14ecdce56e1f86dc5616e2d0bcb240ea54",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-postman-water-b-local": {
+      "file": "assets/plant-bench-postman-water-b-local.webp",
+      "sourceSha256": "8ac6122594c6815a3e008a6c873b7af0e6b8c93eab7c9fc6dc5dd830db80faeb",
+      "sha256": "11fe53c7342d5a80ead0a9a8161cc3fe64fb9ee5490dfa29e4bf0d8e5047fad9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-festival-water-a-local": {
+      "file": "assets/plant-bench-festival-water-a-local.webp",
+      "sourceSha256": "403556771c7aac3c8c22855eba93e0eba49bc775fbbf9d49e481f86232afc0a1",
+      "sha256": "ca44c5eb4f449a45cacb3aa65f7d2efd87fc416557bc9b227a6a881ddf9e0df8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-festival-water-b-local": {
+      "file": "assets/plant-bench-festival-water-b-local.webp",
+      "sourceSha256": "65cbeb526bee28b3ea60383c79cd437412016dd7268d07eaec45d12cf1b08b6c",
+      "sha256": "7e58d5721ef5d5a9091374947f84397c2636d6a8b8a6b663c4e0644d42b6f348",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-sailor-water-a-local": {
+      "file": "assets/plant-bench-sailor-water-a-local.webp",
+      "sourceSha256": "fac778e13b9aec183d653b2c649ff4d48cb9c1c3bd3bc4c9a4cff384cd77a610",
+      "sha256": "4feb1ee9d6e15011347c8d782527c5a2e47f5c0d5fc8738ca49da3f8656160c2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-sailor-water-b-local": {
+      "file": "assets/plant-bench-sailor-water-b-local.webp",
+      "sourceSha256": "2009cc04cabba9421da19b07c1f92913c211391a8f9e8fda54a8ad330c94cf09",
+      "sha256": "4737a19ff711c6921e04f19ed062ea666edff35c398ee9eaf459c6c277bf107a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-pajamas-water-a-local": {
+      "file": "assets/plant-bench-pajamas-water-a-local.webp",
+      "sourceSha256": "a2428fca90e8a288d38c1de30290df8ff5af623ed24883ef534014f12a46439d",
+      "sha256": "fdfa6342f114b1ed2ee15907f1cb9473b276cbec746bd16347a3bf1dddb88714",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-pajamas-water-b-local": {
+      "file": "assets/plant-bench-pajamas-water-b-local.webp",
+      "sourceSha256": "e48417f765894a077f16a134505a168a901dae1a9170681919808245c38b3495",
+      "sha256": "b1f5bb50e8520a6defd255db078c82f0bdc4b23ccb2529e4ab1a0b2aed8fd572",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-baker-water-a-local": {
+      "file": "assets/plant-bench-baker-water-a-local.webp",
+      "sourceSha256": "19224b605d898a5ad41cf23ccde75fc3c43b97066811d2ab2e14d4f1d9c75c1d",
+      "sha256": "14d3d365e9a2172fee45b30fb802cdc5ba844301acd20e8c410a7531f777fc90",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-baker-water-b-local": {
+      "file": "assets/plant-bench-baker-water-b-local.webp",
+      "sourceSha256": "4e59bf3297194e1821dd1a202637ac9dc5c3ae2c743fe1a3b0c739f20d6595cc",
+      "sha256": "9b94f01bc4dbfd3852582d58c44f17b7e11997a066bfb922e3e79438c1b4102c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-winter-prune-a-local": {
+      "file": "assets/plant-bench-winter-prune-a-local.webp",
+      "sourceSha256": "469c939f18e8ec6fb0dfa8de872533f669b24fc2e39e6303ee5670b58d183058",
+      "sha256": "65bf2b46b8eb292f4c672954215c56fede8c94e6095c4bb93d23db1fea3e6dfb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-winter-prune-b-local": {
+      "file": "assets/plant-bench-winter-prune-b-local.webp",
+      "sourceSha256": "b7e60b6485e8131360e300a841b142d2897d9051b808a48adffafa12cc8412f3",
+      "sha256": "dc76ecc9ed81f5a99a177356b66bf9f6408a32756526c753f71847102f4462eb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-rain-prune-a-local": {
+      "file": "assets/plant-bench-rain-prune-a-local.webp",
+      "sourceSha256": "4531f42f987c60a1f5781996813893cf08473c948f033a89d8d448871bf608f4",
+      "sha256": "f525f96f5ef8270d1c4438c5997b9f3ce613466c099088e0852c6a615d4d7f12",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-rain-prune-b-local": {
+      "file": "assets/plant-bench-rain-prune-b-local.webp",
+      "sourceSha256": "804be10dc9204c79d68f8b6b78be2855f3cd4716e972a4ad5044737b8961fbd2",
+      "sha256": "7b810af26cf239642a5c8f51c5a68de0746dcfaf769c19f4a56c8c8506628dbe",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-gardener-prune-a-local": {
+      "file": "assets/plant-bench-gardener-prune-a-local.webp",
+      "sourceSha256": "c3ae8f31ecf1f8bef68a8d4376f392686d15e33b5e8dfdac1ddba36b6a2b8e4b",
+      "sha256": "300c521b6c43f2868d578b6e9e70d62a400afd73acd48cc188c9f4000bf46453",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-gardener-prune-b-local": {
+      "file": "assets/plant-bench-gardener-prune-b-local.webp",
+      "sourceSha256": "115a1bb73bddd432130bb5c25d53f50bfe3ad730276afd8d6eef6e4ea9275884",
+      "sha256": "e2d86afdd5c41faf2ebe20b8c172c3a2ee08465841cb9f9e663db626cb53ef84",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-explorer-prune-a-local": {
+      "file": "assets/plant-bench-explorer-prune-a-local.webp",
+      "sourceSha256": "45f174d148f31a18c9d55c0a585ec71191b0997c57252c565611932bc99f9a82",
+      "sha256": "ec0b2bd931b0d57b178382a3c4e9d224947afe4e4acce31af72c07858250b63f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-explorer-prune-b-local": {
+      "file": "assets/plant-bench-explorer-prune-b-local.webp",
+      "sourceSha256": "ac526ab3d01857e8bd02b92ebb2b2ed6bba238efebc6c8c005678657587d1f00",
+      "sha256": "413d818efda45945ea3700c5305fd0d1f2ccb9767ee8ccd6d27c705d4c2997f2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-postman-prune-a-local": {
+      "file": "assets/plant-bench-postman-prune-a-local.webp",
+      "sourceSha256": "b331cbdfec09a6ed92b7d04639b503a25a395b0d07413b5648d9d32362cab8e5",
+      "sha256": "d88328d8fb5c44d4c5d881399f8eeef53ff3eb6c55897d9362a9ef27fe52756d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-postman-prune-b-local": {
+      "file": "assets/plant-bench-postman-prune-b-local.webp",
+      "sourceSha256": "e2939a4ff68feb61f59e15ccc8b807cfe9f106da628a7f30e49425fa233a29e5",
+      "sha256": "5b4b196b65bc84be9111a5ea063c2d3b1b36d70c60ee2149fb687845da7eb188",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-festival-prune-a-local": {
+      "file": "assets/plant-bench-festival-prune-a-local.webp",
+      "sourceSha256": "b62be0bd77aaaf751fec29b29cf3556a14303ce7686ec72d4caea6f0c5b0e078",
+      "sha256": "87d0e0991df5ca5653992d8525e27bceee2a4d1f5332444bec4359667bfa19ff",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-festival-prune-b-local": {
+      "file": "assets/plant-bench-festival-prune-b-local.webp",
+      "sourceSha256": "b9be04b0d84d50a97ce3ee53d5ad88515be2f34d1eb510d7e3fc621a75470c9f",
+      "sha256": "d9309067b1148f60d774541da34cc48cd2a9c637fa40dbd10f1766f28afd5d6a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-sailor-prune-a-local": {
+      "file": "assets/plant-bench-sailor-prune-a-local.webp",
+      "sourceSha256": "4ff9019e1310cabce7a39fded1cbab0fd97060d271159cfc0240a7dbb3ac496b",
+      "sha256": "83caa3db3f7a288abb8ed46225eeccf8f25bcca4d19f8c0a437838a53db7e2d5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-sailor-prune-b-local": {
+      "file": "assets/plant-bench-sailor-prune-b-local.webp",
+      "sourceSha256": "f509fad1b2df4a95840b1238338a6573a46a53881560453723b968811acabea7",
+      "sha256": "98119a3ab55e1ef1eec99b97ea7a136fab4acddd875181b87616ff19b2ccae6f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-pajamas-prune-a-local": {
+      "file": "assets/plant-bench-pajamas-prune-a-local.webp",
+      "sourceSha256": "d3779326bdc5f8ead5123ae9299081e0ea2ac096aeb09a07a79b42077db90c13",
+      "sha256": "ddc053a3b7d027e23e1f5b135f11a1c601309b2e3cd5ad18bdd66f536965c9d2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-pajamas-prune-b-local": {
+      "file": "assets/plant-bench-pajamas-prune-b-local.webp",
+      "sourceSha256": "971345dea89145e09b49a46beb899686d537cb73c3be3fa4d447796d34096646",
+      "sha256": "c091d5bc880edd1d9e289e08838190637a05d2ffa308fe0bd18e96cf21f43e2c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-baker-prune-a-local": {
+      "file": "assets/plant-bench-baker-prune-a-local.webp",
+      "sourceSha256": "538f5462d717ab1db5a557398b118dba897cfb461d64e8a909bd040b175d620f",
+      "sha256": "0936fbafafaacfad02783f5b89cb61ac4fbb7b1db5e22577a91b93430bf784dd",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "plant-bench-baker-prune-b-local": {
+      "file": "assets/plant-bench-baker-prune-b-local.webp",
+      "sourceSha256": "50daafea2ca294fc2eab86af26fdcc1651f9a9801d93d3db85777ffdbb063d1c",
+      "sha256": "7dd45138b49f0d2ba075e87afb6e80bdfcdf5774c30ccc02835a2e6aae9e83b3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-winter-knit-a-local": {
+      "file": "assets/craft-seat-winter-knit-a-local.webp",
+      "sourceSha256": "97c0c37aa32b6aa34bb58aa8a5ca57804d86f04d84b2cd41c1476b910b4cd874",
+      "sha256": "51c8c5156fdcf78b895a5d611fe6e69b197aefe9f711e11950229bae598814b4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-winter-knit-b-local": {
+      "file": "assets/craft-seat-winter-knit-b-local.webp",
+      "sourceSha256": "9b9dcc0adaad3c7b461622998e6d905301ccc236d94b3d1f9f96a46955efa443",
+      "sha256": "2213681deec9c0dcfead3dc1e93696ed4dfa0723c08d20139cae1bb23ba68023",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-rain-knit-a-local": {
+      "file": "assets/craft-seat-rain-knit-a-local.webp",
+      "sourceSha256": "f7b74fc5cbeb71b128f40ab8a77ba6983434c5ef9e0fcedfee18778c6100d179",
+      "sha256": "75ec84c3887c1e514dbef678b0b546754ad6a9ac43341d2e8d7751ea2d40b692",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-rain-knit-b-local": {
+      "file": "assets/craft-seat-rain-knit-b-local.webp",
+      "sourceSha256": "0c6be334245bddd0a50e23417c3650275292060e7e106bf0d37e6893d2c5d98a",
+      "sha256": "a175730d3090234e16c888837d173837371a18661996d255375b1cd3ad3bfa65",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-gardener-knit-a-local": {
+      "file": "assets/craft-seat-gardener-knit-a-local.webp",
+      "sourceSha256": "50832c43c63e7bfedd65cd562eff39861808e1ae2f63e2d4682f3a3fa4052f90",
+      "sha256": "f4848ea9dba8a99de885773a865449006d8e38752bdaf27e1e9dbb556bc1b722",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-gardener-knit-b-local": {
+      "file": "assets/craft-seat-gardener-knit-b-local.webp",
+      "sourceSha256": "722a49b5ca1547ce53eabba3e0be1f9e90bf7239e591fbf3aa2083836e01efb6",
+      "sha256": "ae0aa5a2118b27337b4e00634ea6e1cbdcc7935618c365eb23d247a7e25de2a0",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-explorer-knit-a-local": {
+      "file": "assets/craft-seat-explorer-knit-a-local.webp",
+      "sourceSha256": "b24e88d36463996001be74db47a8688b5d6144c308c4ec4f2a8c03f97e02ca98",
+      "sha256": "237b11282877bbd840a42830e273dfa8c35c60212520aaf07becfe70dedc84d8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-explorer-knit-b-local": {
+      "file": "assets/craft-seat-explorer-knit-b-local.webp",
+      "sourceSha256": "525c3fb1b0f4e6c7fd5f5045e96266c5f34459a851e37d986ff32feb253277ac",
+      "sha256": "623fc80f2c58edeb329e475fa733fa8ba1a853c8736870c0b21b600136318b5d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-postman-knit-a-local": {
+      "file": "assets/craft-seat-postman-knit-a-local.webp",
+      "sourceSha256": "4deb8abc40d3640b75b25cf0d721a9c310ff9c0a89d4749ed6f11477e811323a",
+      "sha256": "ac0faa5d7b05a440e857ad098378b65ff133e066a89f5138d2dfdc245e5ce7c5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-postman-knit-b-local": {
+      "file": "assets/craft-seat-postman-knit-b-local.webp",
+      "sourceSha256": "6a31e0c6590e7e3f34d1fafd5c9bf0d4450b17734dbeca7f0146b6d60e6f1b61",
+      "sha256": "6c53e94a17b4bd1206b127f958996695b0399a1d8047a921d6ebc09c6c1c97c6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-festival-knit-a-local": {
+      "file": "assets/craft-seat-festival-knit-a-local.webp",
+      "sourceSha256": "c15c0f5fcf5290a5e82908698b5767bba1f5e8a7bb96d2bbd9fd08e5e24416a1",
+      "sha256": "0fddfb99bc89e21fcfc4f9dc5f4537a3fe5dc84d061b0bc24a38b59726ed8ddb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-festival-knit-b-local": {
+      "file": "assets/craft-seat-festival-knit-b-local.webp",
+      "sourceSha256": "1091893d3b222955f51b67d1fe738f96802df51e05c5eedc3be72d71d5dd7c32",
+      "sha256": "f78cb87786b0d2ffc0c603751893b4ee3b74ae510476fa7a745053b66f299f81",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-sailor-knit-a-local": {
+      "file": "assets/craft-seat-sailor-knit-a-local.webp",
+      "sourceSha256": "7fb27eceb2689259271935ee9867de763cab52394fa4d489df459964c453636a",
+      "sha256": "2af865047d37a48b3eda1fc2078f9c2f6701741ef7ca0043937e65bca97fccf5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-sailor-knit-b-local": {
+      "file": "assets/craft-seat-sailor-knit-b-local.webp",
+      "sourceSha256": "7fd01e3bcd1f854eff6d700a03108898db2e93e0aa3afcd93be6ef438a178364",
+      "sha256": "00aea11d82ef6d8da2b1493eddf5f146523f81b28384faac78c7b71bcae91c96",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-pajamas-knit-a-local": {
+      "file": "assets/craft-seat-pajamas-knit-a-local.webp",
+      "sourceSha256": "1b0c37b8edcb6ef01dd96849dba6ec1a071c91b4ca13a4c93c7bfedb1ef214ac",
+      "sha256": "8153e2025da5b7eb05115d50b31ad5265bb20371f2957bd52380b91b03e5f357",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-pajamas-knit-b-local": {
+      "file": "assets/craft-seat-pajamas-knit-b-local.webp",
+      "sourceSha256": "6986804304ef8fd26fc731db62f8f8aa254c3eeb3cbe18e8d23186cbb72ea7b5",
+      "sha256": "3f72eb59119a64482498c2231e951f0fd7ead3af357845d763b70d7e29b80f74",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-baker-knit-a-local": {
+      "file": "assets/craft-seat-baker-knit-a-local.webp",
+      "sourceSha256": "5a3c2f05c11ebe869f3d42514586a5906fbf2004a213269356beaa3a1086bed4",
+      "sha256": "92a9caa0dcd8e646eb95789baa593909687eab11b8dfe21fe6983b7f1254ef9a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-baker-knit-b-local": {
+      "file": "assets/craft-seat-baker-knit-b-local.webp",
+      "sourceSha256": "fb8a1f7269acea26ec71c811ff149dffdc5b7377e109d3c9f4cc60de591249ad",
+      "sha256": "7e13135b5ccf0befdf8b9dd428cfdf7ae59c885a57e5da45ed8d2b41c4a2f730",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-winter-wind-a-local": {
+      "file": "assets/craft-seat-winter-wind-a-local.webp",
+      "sourceSha256": "9e76fad1d778b39082210dbc9fbdfdf138ca6dbb30339b22528496968ddf7cb5",
+      "sha256": "359e5a281e08471eb82b34edc39f227257c9e2d062227bcdb67cb5de1231bc28",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-winter-wind-b-local": {
+      "file": "assets/craft-seat-winter-wind-b-local.webp",
+      "sourceSha256": "3bfb326dee89dc239fed2844438cb5ed1ec00bf1cffecce22e5c7e437b2b1533",
+      "sha256": "201313159df2a347bc467c0e9ad1a33ac3a5eb820b3be7d6d04e65b232e6d9f4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-rain-wind-a-local": {
+      "file": "assets/craft-seat-rain-wind-a-local.webp",
+      "sourceSha256": "118b3f2cddc0ef65ca541d1d60909f125d0774e728b8f161f83a826e4adad350",
+      "sha256": "5c2c24e60560daa9df59c556685b1977eb3b83baa7e02e1aaefcf48ccc60a02f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-rain-wind-b-local": {
+      "file": "assets/craft-seat-rain-wind-b-local.webp",
+      "sourceSha256": "b1b2e32288b148b2754a38c53c62a1f4be100c5281f70b0f30599da91f806747",
+      "sha256": "3e17f9e7a6ccb5d95c0cba0cf59e18ca91bd47c81ba17771d8075ae05f92b780",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-gardener-wind-a-local": {
+      "file": "assets/craft-seat-gardener-wind-a-local.webp",
+      "sourceSha256": "f2ed275ca12e3ab2e7ebec2b0fdf4d7d2cee7fad8b3910bfb2add6d53422aec4",
+      "sha256": "8d141478b66bd9a46da73a8109441080174e555572934bc441dc5324974ad850",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-gardener-wind-b-local": {
+      "file": "assets/craft-seat-gardener-wind-b-local.webp",
+      "sourceSha256": "d76755e2aab885b628e3a97e4f36f78d79c59a65b65b53c445e83b561ffa76bf",
+      "sha256": "df844af46f416beee036430e7808ef1aa32c3a333d14c025efd688f91580955f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-explorer-wind-a-local": {
+      "file": "assets/craft-seat-explorer-wind-a-local.webp",
+      "sourceSha256": "091d081bec6f589eba039e096421b41145fea69fac46759afca4a101d2d16f70",
+      "sha256": "eefdc7c160840be20bc0e332afb766089d8225ce4ef1869afaae793fdd415650",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-explorer-wind-b-local": {
+      "file": "assets/craft-seat-explorer-wind-b-local.webp",
+      "sourceSha256": "6b3759fca80e2725adc05f2ad08f2147dab9000f681f4e25319a718a4fed22e1",
+      "sha256": "6d1d7c388ce988740ddd2dfd8ddb0de39655da69e03120badb33f10c70e43692",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-postman-wind-a-local": {
+      "file": "assets/craft-seat-postman-wind-a-local.webp",
+      "sourceSha256": "5c5cb829a91d52fb60242b7b2411840687fbeff8d2332d9853d23be7229546d3",
+      "sha256": "60552556a90a1b6b2cae8acea1b819ca35a721c45145aeb27e34a1ead3c617d2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-postman-wind-b-local": {
+      "file": "assets/craft-seat-postman-wind-b-local.webp",
+      "sourceSha256": "a891c778c083286b585047c27202d628401222d2f15e2ba8d931f377cadf7d80",
+      "sha256": "8a1163ad953efabf353126a257497ca4e4dc340d303ad669cdff902163032ca3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-festival-wind-a-local": {
+      "file": "assets/craft-seat-festival-wind-a-local.webp",
+      "sourceSha256": "453a8c5a2dcf9db44c903fbbc2366fd1427241caeaaf3506af9343108dd733c9",
+      "sha256": "12c1aa1fd3d25aaddba4712d9cbd860dff2318d6bb7229e85f675e0a2972d79d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-festival-wind-b-local": {
+      "file": "assets/craft-seat-festival-wind-b-local.webp",
+      "sourceSha256": "4d91e4687403585530aadbf9450d5f69c3e0d90699aec3c3b8f2077ad93cc492",
+      "sha256": "f450adbd5cee895f20c2d875c5f3adfa8cfdc787ba0f4796bb7972262b9389c3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-sailor-wind-a-local": {
+      "file": "assets/craft-seat-sailor-wind-a-local.webp",
+      "sourceSha256": "bace348bf3e11532f94f4396cc3ebe7b738235466d4dd541d27fa220a746a3c1",
+      "sha256": "28a59e895a5ecf31b233f15e1387896d28ffca54373aa3d6ac8b2f59a9d328f1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-sailor-wind-b-local": {
+      "file": "assets/craft-seat-sailor-wind-b-local.webp",
+      "sourceSha256": "d02c8f8e1be74b7487622d3c9e65371b673f8eb4b09b08344eb051ca0bd5d9c7",
+      "sha256": "a98d34badb65aca494a4ce59b29af0cdedd52682d82c82515f1fe2ccaa17ddec",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-pajamas-wind-a-local": {
+      "file": "assets/craft-seat-pajamas-wind-a-local.webp",
+      "sourceSha256": "6cb02bd60c47721505bc3e1f6c06ea8de02062b8c75ee094421766ded0cc9e08",
+      "sha256": "fb57bbff4a36aca6d36d333c4817f68a03524eec07be42f9b48cb8ece37990ad",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-pajamas-wind-b-local": {
+      "file": "assets/craft-seat-pajamas-wind-b-local.webp",
+      "sourceSha256": "1d3df269c868b0f811b11c49885ba27dcf1de07a156c1e235bf641d8cf72ab46",
+      "sha256": "1503d9846920c4418026417b580466ecff47514eae73808ea4374e844ae3797d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-baker-wind-a-local": {
+      "file": "assets/craft-seat-baker-wind-a-local.webp",
+      "sourceSha256": "ace6fdc9a747c2c50b616e7fa093b713b169ec2e5fca564158f119368558bfeb",
+      "sha256": "6c116a8831c4e19c1393fe850fcc0c27ccf7faa237426f5e3a8bbb4f7b831ac3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "craft-seat-baker-wind-b-local": {
+      "file": "assets/craft-seat-baker-wind-b-local.webp",
+      "sourceSha256": "51786e6e9ed010dff393e674d51bec142ea7ec8218dd87f77e460ec02ebd9d2a",
+      "sha256": "205f369235d65c06030b3fac8293534603a0dd51a904bde217dd9cee0305f8d8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-winter-observe-a-local": {
+      "file": "assets/telescope-station-winter-observe-a-local.webp",
+      "sourceSha256": "1baed052a5b6789f05b7bb9d3a7c587e0f0a58a89e6199c799d0e9b0317c7a1b",
+      "sha256": "d74e74e1ab87707392d5ee38fa214345b2821a4e938bcd198fe094d63c1ecdaf",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-winter-observe-b-local": {
+      "file": "assets/telescope-station-winter-observe-b-local.webp",
+      "sourceSha256": "8cd320fc7f9c7b1c7ee6f66a5605b007e6e77edc9d067c43de462b80795b7fde",
+      "sha256": "1a8bfc681d274fe4b7ecdddcbe215f291c7095608ad91233b1a30c5b83723cda",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-rain-observe-a-local": {
+      "file": "assets/telescope-station-rain-observe-a-local.webp",
+      "sourceSha256": "b4f550ecfd6afc854acf2477e1a9a884639fc834d77bb4e20796219e5748353b",
+      "sha256": "b46398d4f6e74b1e9551a01c24758b0c8c42b84a0ba2d0ccf6cbcad9233238c4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-rain-observe-b-local": {
+      "file": "assets/telescope-station-rain-observe-b-local.webp",
+      "sourceSha256": "42e9ec904ff20f686a9872f1e35a3e17db9f7cc55ed317a3e941019dd48244b1",
+      "sha256": "4c547a3ef7e05b8b5b6ffd86571bd513c0d119acf1ee3ea99b9edfbba14e0c08",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-gardener-observe-a-local": {
+      "file": "assets/telescope-station-gardener-observe-a-local.webp",
+      "sourceSha256": "25be259a665429b0de4cb816baf62201aa5f002fd0e28cbf78162e50d5600a30",
+      "sha256": "e2e509e66bf264cff2205dd5389e4fd005bd04fd1ac3c3d4e2c697a4fedac361",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-gardener-observe-b-local": {
+      "file": "assets/telescope-station-gardener-observe-b-local.webp",
+      "sourceSha256": "acaa611ac43fd0096734b8dc3abec3b188bd6d1e27bd41149273954ee5ac62c8",
+      "sha256": "3f4e539657d283a56b0772ce88962dc0198c3802ce5c8cb2ba1ff57dd78803e9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-explorer-observe-a-local": {
+      "file": "assets/telescope-station-explorer-observe-a-local.webp",
+      "sourceSha256": "876b6aed3109c0341befca67d522011f94c59511bcae62bf2936ce96ea3db559",
+      "sha256": "1b71bbba23eb59794913957149f37b16f5f5beabf106ebacc01f21b152b0a590",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-explorer-observe-b-local": {
+      "file": "assets/telescope-station-explorer-observe-b-local.webp",
+      "sourceSha256": "bb9c8ed42b774f7143d62125aa32fa17a207ee534047c2ee846af8942b84b251",
+      "sha256": "208aef90909255c2eec70e498e7a2b20b5290ad5546c70501d9697fbef02a2b9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-postman-observe-a-local": {
+      "file": "assets/telescope-station-postman-observe-a-local.webp",
+      "sourceSha256": "a089b2104699ecfe9278366745714aa8115db304a9ae2254f733ff785dc99729",
+      "sha256": "2a697cef61c1f5cb072d42252ab01f3438e6a82598958c4d2f477983323978a6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-postman-observe-b-local": {
+      "file": "assets/telescope-station-postman-observe-b-local.webp",
+      "sourceSha256": "2f60f359354951f3b1afff5a15dc984f0f6f4aa9273f9d76092cde9bce54509e",
+      "sha256": "a349db1754a452fdcd74fd07bb832283beaf3264e658b972d8cb3795171e636c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-festival-observe-a-local": {
+      "file": "assets/telescope-station-festival-observe-a-local.webp",
+      "sourceSha256": "86e4ec9b5a6428e925dfb8766ce1415386ed296fa02dc0cd4a274eedd74d24e0",
+      "sha256": "311d651e04b0a6ca931e09ed1087a7bf252dc9552c15cac48f3654998b50702f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-festival-observe-b-local": {
+      "file": "assets/telescope-station-festival-observe-b-local.webp",
+      "sourceSha256": "1e6a9cf85ac3f22347c34827ed0af1e62eba765609e72c72f8c8d3b506b3ffb4",
+      "sha256": "37b85062d68612dd44315cef0a01b415ee17cc786e64835daa34a4104e20f1c5",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-sailor-observe-a-local": {
+      "file": "assets/telescope-station-sailor-observe-a-local.webp",
+      "sourceSha256": "339fb98d57ef1208dca25e73e83666d82855d82cce36e83593bf484726c77ffa",
+      "sha256": "404532c23d5aad3aabfc2e07b9762319f6059f59aebb0f7454b4b77a5ac911cb",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-sailor-observe-b-local": {
+      "file": "assets/telescope-station-sailor-observe-b-local.webp",
+      "sourceSha256": "1b5a064ea175bbc39aa67248436bfc61ca231ad2e6dd40b037bea81dfa9dbdea",
+      "sha256": "3614a340cea511033f897e3ff541f61ad5e52fe3b87cb7aa04646f7787635b4d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-pajamas-observe-a-local": {
+      "file": "assets/telescope-station-pajamas-observe-a-local.webp",
+      "sourceSha256": "2a94e5d8f573be4d962bfef000534759cfcab78750d7c5691737669a68e542e7",
+      "sha256": "f3994ec63bb39bc34ba87a78b07fd534400985528dfaf691e7070bc60a42d992",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-pajamas-observe-b-local": {
+      "file": "assets/telescope-station-pajamas-observe-b-local.webp",
+      "sourceSha256": "e7d03b3e1cf7a8b0d2a00c28a2a89e62d9e02b3e1865548892763a14df8e0630",
+      "sha256": "6ab79833c862612b571d9fa4765ab9461173353ab7b483900fb51eb9c02d898f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-baker-observe-a-local": {
+      "file": "assets/telescope-station-baker-observe-a-local.webp",
+      "sourceSha256": "bceb260089338373ee09281b2a6895ec501a0f35c7e449652791a2458b12b03b",
+      "sha256": "2dc9b58016c4a844108d39d8b555277a592909a21db5889bfc946faa5b69ad6b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-baker-observe-b-local": {
+      "file": "assets/telescope-station-baker-observe-b-local.webp",
+      "sourceSha256": "f73bc654ff55a49ab6d12a139cc3ead20e866a27529bab51fb26508222a8318c",
+      "sha256": "c6dd11787fb5f741c50e9c0e3c42b78f507c68928fbb018ad591247f947b7770",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-winter-note-a-local": {
+      "file": "assets/telescope-station-winter-note-a-local.webp",
+      "sourceSha256": "b9c16a220b385e8014d44d178f2bef6d0b82af1328baf883dca3920b007391c7",
+      "sha256": "38653d0b3faaba5b25d2f5e009bf21b8dc83b156c7ee3faa1b0224274b264a16",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-winter-note-b-local": {
+      "file": "assets/telescope-station-winter-note-b-local.webp",
+      "sourceSha256": "c3270fc6f752f7e068e8d621d084a3c50d7dea478c73993fa2207849053ded6d",
+      "sha256": "89aafc63c8f1d805f7f24d633a830d00fd09619fa59f0beb3c27064c4c22127e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-rain-note-a-local": {
+      "file": "assets/telescope-station-rain-note-a-local.webp",
+      "sourceSha256": "2d19d240f3d8256c7ff247278eed3caad601b6d4e723566a124f621a2e58aa67",
+      "sha256": "b1cf53f60f848a9a77b2bf4ed2edb5c46a9440ef2cf6a0b8358056a6147d11a4",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-rain-note-b-local": {
+      "file": "assets/telescope-station-rain-note-b-local.webp",
+      "sourceSha256": "f2feed17d3dc489999571001aa7b539c7b42363536bf88b0b7cc4051b0b888fb",
+      "sha256": "8e4fc0a16a279ec971921dc6a5b0beaf0aace14fb15ece1e29d7ddc197042b17",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-gardener-note-a-local": {
+      "file": "assets/telescope-station-gardener-note-a-local.webp",
+      "sourceSha256": "6fddc7c2ff4e191b01cfb4c29a8b3f78edb215e9e1bfabcc89ec74c6fc359b0c",
+      "sha256": "8e185a2d0cb0f074bdb454ce4bd36ce27fe26e9e098802812bd92d7bb2ea8d72",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-gardener-note-b-local": {
+      "file": "assets/telescope-station-gardener-note-b-local.webp",
+      "sourceSha256": "ef01f0141f1f1ab1846523d868e58f85d536658804b7c374a4e8eb232d5b3c8e",
+      "sha256": "4c679a7f029ddad2dae45c138f21c610be7ae9fa0995868bdaead40d45eeb960",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-explorer-note-a-local": {
+      "file": "assets/telescope-station-explorer-note-a-local.webp",
+      "sourceSha256": "052c74d232bafbeb79ba8867a65dc5c00d54886d8123d5d75edcf69f898aa596",
+      "sha256": "291c200e555506f2732c36e03aa65629568770459f4fd4ee8dd81f3caa940bc6",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-explorer-note-b-local": {
+      "file": "assets/telescope-station-explorer-note-b-local.webp",
+      "sourceSha256": "d97ae056a0ac20d55d07963367e6e4cdfe5b84438f3e8a4623dd249c36fc63ae",
+      "sha256": "47b3776c37ef6686c1be50d5c94ed083792249856342a195b73a29c4ace2c3ae",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-postman-note-a-local": {
+      "file": "assets/telescope-station-postman-note-a-local.webp",
+      "sourceSha256": "b0a274d953c5157fbd67d853c2caedd94ddb44eb511c56707cc84d39bcbea024",
+      "sha256": "c090e6bd652879a1335f7f34654710af8bb3b42a92740be4f9a29b3119078fc2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-postman-note-b-local": {
+      "file": "assets/telescope-station-postman-note-b-local.webp",
+      "sourceSha256": "413ea9c8352f10e097f523255533db1ad0b93002356289d6272d1bd2eaecf373",
+      "sha256": "99963468af5d6a6e21319c2414af2322e180f7d86e4a5204be672173fa37c95f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-festival-note-a-local": {
+      "file": "assets/telescope-station-festival-note-a-local.webp",
+      "sourceSha256": "bfb9d1de630012d440a47a2adc05be38a87a3478d8868988d64be9879dc8fecf",
+      "sha256": "7ae631c865d437425ed97a423077e84676ae6b73598c49330b10a2c753f39c52",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-festival-note-b-local": {
+      "file": "assets/telescope-station-festival-note-b-local.webp",
+      "sourceSha256": "5aa7d7bd98e406e2a7927f80c42c008cacbe86ea2405665271232c77da8e1583",
+      "sha256": "c692807d63864fc831f77bfb4a6bd48f80dcceabb65c0bbefe63e620906c9d1c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-sailor-note-a-local": {
+      "file": "assets/telescope-station-sailor-note-a-local.webp",
+      "sourceSha256": "348e79f522e76827c74f72fc1768daf637f4255c04609869a898c7bb8afe2ea8",
+      "sha256": "1c3b1814234619a5f3e253ea00fd15e66fafd314611a49577a83f4e963930f7c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-sailor-note-b-local": {
+      "file": "assets/telescope-station-sailor-note-b-local.webp",
+      "sourceSha256": "f171c9ba389042172186fd7014607153061e66bfac2b958026fb8215305efae4",
+      "sha256": "abc099aafdb851c82138c0f5b9ed8bd9d3bdf67c49a13d3495c31985b903e157",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-pajamas-note-a-local": {
+      "file": "assets/telescope-station-pajamas-note-a-local.webp",
+      "sourceSha256": "a0ac097c47859c2ab248451c62fe7e8986ee35e69e70483c5b50434b451ebace",
+      "sha256": "a3267b634481f6463f96e7fb48503d96d5df21f87e14a171552c7a1a84330756",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-pajamas-note-b-local": {
+      "file": "assets/telescope-station-pajamas-note-b-local.webp",
+      "sourceSha256": "d7e462f8e5ccb68efe43a1050f67d2f5fba659d5ecac00791fe45e6ab6079ba0",
+      "sha256": "d345fb7fd297d79c34fcf176f66dde4de62496f08ca584174b78e643062ee10b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-baker-note-a-local": {
+      "file": "assets/telescope-station-baker-note-a-local.webp",
+      "sourceSha256": "bd6aa622b8afdb68e78ee7cb9be039d42e03debb124e315685058901ccceb606",
+      "sha256": "619a93b38e3592461cb7bd64ce46477f127a70ab565b0c58ede2199182441cd3",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "telescope-station-baker-note-b-local": {
+      "file": "assets/telescope-station-baker-note-b-local.webp",
+      "sourceSha256": "8fe20b9827df1c9bf1a8d0928d8e140e592bd17593b5a9721b1f5a7fde93bd51",
+      "sha256": "d5ed5b55361d64543457c272a49363472b2fbbc2b82f120ab94aaca5028e638b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-winter-play-a-local": {
+      "file": "assets/mini-piano-winter-play-a-local.webp",
+      "sourceSha256": "2860e0bcf43a2e6b24ec88fb4e232029e0d28e8742afb33406250aeb8b5375e6",
+      "sha256": "a9dd45c9beb3364b5a58a660f40473d87524c3fbfc0d6525bfda53b57ca48c54",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-winter-play-b-local": {
+      "file": "assets/mini-piano-winter-play-b-local.webp",
+      "sourceSha256": "b33f2d6370dbc8cf150eb74e1200452024ddde3932a64fc4997cdb60ecda8c79",
+      "sha256": "510a4826af71372f7e5e32cda95ab0595b984657a468acc324ae4ada4f6bbc2b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-rain-play-a-local": {
+      "file": "assets/mini-piano-rain-play-a-local.webp",
+      "sourceSha256": "e824df46c56b9b3b85927145d916e552b85747f04b83e51e434417d8564ba045",
+      "sha256": "00244730bacd649571892990dc9a7651e0b80b9f3bd864cd5aba25a677975751",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-rain-play-b-local": {
+      "file": "assets/mini-piano-rain-play-b-local.webp",
+      "sourceSha256": "83889c0932ba0e575d369646c3a1c66aae56453385bbe25acb8ece87703f8101",
+      "sha256": "43b8bdf862aa12e1d972e80cb60519b5db9ff2bdb4bcdd7fec2bbde47f0757d1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-gardener-play-a-local": {
+      "file": "assets/mini-piano-gardener-play-a-local.webp",
+      "sourceSha256": "0ae95a6674304c26e56bd1d3fa990ead1e09deea534acb69463a8aaf66b32c1a",
+      "sha256": "f0972e70565930df78baf8ef6d3f4fd824276a4aa9e120e635641451d24a3b6f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-gardener-play-b-local": {
+      "file": "assets/mini-piano-gardener-play-b-local.webp",
+      "sourceSha256": "0faf474c3472c5dd34496c8d47cc289dac0ead4d6b3c4ebe5f570db30ddbee77",
+      "sha256": "e5113bd60cb71b737acd587ad9b19acb8a2dceb94e5f11e65c0fc6738394dace",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-explorer-play-a-local": {
+      "file": "assets/mini-piano-explorer-play-a-local.webp",
+      "sourceSha256": "80d22d4c129ecda083098e655a3fde3fdafce1dc143d43b9bef7edaacde46814",
+      "sha256": "43eba4239a0c0ea9ad03433344e53ead8779e8802e775b0f4f5e567f7746c212",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-explorer-play-b-local": {
+      "file": "assets/mini-piano-explorer-play-b-local.webp",
+      "sourceSha256": "3e44a42986fc10303f06bd504c29a57296dad186c3736b3e337b23aebd1a5d2e",
+      "sha256": "cbf3e74e42d30ce3420cdab58db8b8db57f8f1284fcb15516a13ea875c114804",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-postman-play-a-local": {
+      "file": "assets/mini-piano-postman-play-a-local.webp",
+      "sourceSha256": "022598a2a9e7b98e5033156efcb3b824a63248a2d47109f992a31aea09bff8e0",
+      "sha256": "ff25d6911111a260e54595d20939c6a5aa3489d7b057c7614ad0aeaef0285b8a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-postman-play-b-local": {
+      "file": "assets/mini-piano-postman-play-b-local.webp",
+      "sourceSha256": "2f0f1bb29d7913c61a5aa1033bf5d2450e1c7dac31fb4d3228286cd756a299df",
+      "sha256": "a901c8eeb04bfc146019f52224173405c843e08b71631f93c3f5a42ffc65a2d8",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-festival-play-a-local": {
+      "file": "assets/mini-piano-festival-play-a-local.webp",
+      "sourceSha256": "1ab88ded18c3626290f54b8938c7c90cd9bdcc58eb0488ec421687512155157a",
+      "sha256": "4d42d18eb4037d649282e574546f757c10a8bef7ae1ce26c79f35a7af329ed87",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-festival-play-b-local": {
+      "file": "assets/mini-piano-festival-play-b-local.webp",
+      "sourceSha256": "ff8edbc5f416ec5f1d8a51a4dfc76268b679420e56ab9b8bf203513c1428c9b6",
+      "sha256": "c00132d96e39a8b76e5df7cf7fe251350f5aea319960fb936ab9f1d398197c13",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-sailor-play-a-local": {
+      "file": "assets/mini-piano-sailor-play-a-local.webp",
+      "sourceSha256": "31fc27d5fde3179c0b68246b9c349705e449a3809a2d7b564e6edffcf1ec9a84",
+      "sha256": "f9da6769a68a90232161eb9e78774a642dad41a5d110c991e2916cca0fd72689",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-sailor-play-b-local": {
+      "file": "assets/mini-piano-sailor-play-b-local.webp",
+      "sourceSha256": "0cd92f7d1ca19c2ce9237668c0e8c1c6720fb9461f34358eaa938281035092cf",
+      "sha256": "cb0ee4614ca5cbfc05099d004273a7ceaecf969b358c0fae7822f0f22c2b7b4b",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-pajamas-play-a-local": {
+      "file": "assets/mini-piano-pajamas-play-a-local.webp",
+      "sourceSha256": "9a7d66dcc8e88c83a6d76efeddf1a5d2c492eda6ad6a9baddd55d292a3c4ea76",
+      "sha256": "67c0d4fd9ad8f9e5821b1fb4aea913f9561f8d98af64d8f1a57f2e39b0b9e26d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-pajamas-play-b-local": {
+      "file": "assets/mini-piano-pajamas-play-b-local.webp",
+      "sourceSha256": "0bdceacd33063f0f093bf73935636ac9502222123e6334c640b1aa0d979d861a",
+      "sha256": "8328d6baab3e9cf2ce422022185db34f3e0ce20bddabcea93e5fa37a82ae2914",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-baker-play-a-local": {
+      "file": "assets/mini-piano-baker-play-a-local.webp",
+      "sourceSha256": "b9493748e319b519411bc12189c60c33339e9d6556f53c1ba5bcfe5a3bc13076",
+      "sha256": "8850299a873efb178b2ae647dcc1a293e20bf69de164fe7444f07e23246038e7",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-baker-play-b-local": {
+      "file": "assets/mini-piano-baker-play-b-local.webp",
+      "sourceSha256": "34b6e6b01f671874711cf05e02ccff714ec366e69569093f26a110d258b92cf6",
+      "sha256": "4c322c254267850df3314264b6c01fa07f4c2ce0c536e89dd287fd9522db745d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-winter-score-a-local": {
+      "file": "assets/mini-piano-winter-score-a-local.webp",
+      "sourceSha256": "39d2aec75ef0c2ead1fa9fec8f5358d99297bfd9e62beef1568024e33497379c",
+      "sha256": "0fad13cd27a9cb057c55975587b5a46851e134118a754ce2fb42342be065b4f2",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-winter-score-b-local": {
+      "file": "assets/mini-piano-winter-score-b-local.webp",
+      "sourceSha256": "a93a3e585603023a8089e459c91eefd4141decf864ed7d8c1a8f5bb1bf0b9bf7",
+      "sha256": "2d115a098e05cb2afbce15efbb2bed0853473fc5f5887dc81813175c212e52fc",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-rain-score-a-local": {
+      "file": "assets/mini-piano-rain-score-a-local.webp",
+      "sourceSha256": "e68c68ff4899bf5c350b3ffd928525bc69770ef31904da90133971635970fda7",
+      "sha256": "a2ee6d99ea71db3588aa8ebe99deb5362d091201e3dae958b13f99ebebfca10a",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-rain-score-b-local": {
+      "file": "assets/mini-piano-rain-score-b-local.webp",
+      "sourceSha256": "acf47552ce576a14d45d4f2ab43ed78fbbd47798cbea00041b679680fb0502cc",
+      "sha256": "a30ab6654e12e68b1d18ecedfc97cf6332f834dc33ce55ded0e044d59fb3855d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-gardener-score-a-local": {
+      "file": "assets/mini-piano-gardener-score-a-local.webp",
+      "sourceSha256": "16b0d5b0c136f5826fb30df840e4954c1acce3fc9bc878bac3c35076c1f60644",
+      "sha256": "0cf0cafe3b5d3af55d84096103061c48a7a557234747535d8b17a49fcd39903c",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-gardener-score-b-local": {
+      "file": "assets/mini-piano-gardener-score-b-local.webp",
+      "sourceSha256": "b39044a50718dd9e3e391e130df96d81f3e9e190b7bb214bbad3fd62584bcc0f",
+      "sha256": "a998e26df8985d25175222a3ac05f94ffd8e88ba49269e30a3e03cc10e216518",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-explorer-score-a-local": {
+      "file": "assets/mini-piano-explorer-score-a-local.webp",
+      "sourceSha256": "d8d6635bcd58ae0eceec5d56e75a3ed8fae9c5282207c9c04fc52c3a57463763",
+      "sha256": "4992dfc07a5a25fb6928a309fbde3003c3c821c4158c4c88b62040951174da34",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-explorer-score-b-local": {
+      "file": "assets/mini-piano-explorer-score-b-local.webp",
+      "sourceSha256": "a26fd29c6f0ff2488f96897dae4a5edc3b42fd9c94db80cdbc33aad605d2baa8",
+      "sha256": "27247dabe6a9be722b8ba6a5b4857bd1f43b1361b528ed9479472b2e92e594af",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-postman-score-a-local": {
+      "file": "assets/mini-piano-postman-score-a-local.webp",
+      "sourceSha256": "31595facbdac25e049b28d3056b659802800dada7f05140cc04604b4cde52a8e",
+      "sha256": "2ee0d406575139693c19398e475878a14b14472d47c719a236f4be72ddae4271",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-postman-score-b-local": {
+      "file": "assets/mini-piano-postman-score-b-local.webp",
+      "sourceSha256": "030a32dbc307b68c1e613dff07a74c0b3de6849bd9bf8bffba26b6301710e33e",
+      "sha256": "fe3e41a95d79a8bd63a7be9cbf19149270795e04740fb882655f28d947da3d6d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-festival-score-a-local": {
+      "file": "assets/mini-piano-festival-score-a-local.webp",
+      "sourceSha256": "b316af1ecc17b282692fb8e172a8c1bf96001db328df6dfd12cd745d284c17d6",
+      "sha256": "945b2aded642bc0bba2dbc1a657f6597464f3a63bb3e7a8d73a6ddfcf2fd5093",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-festival-score-b-local": {
+      "file": "assets/mini-piano-festival-score-b-local.webp",
+      "sourceSha256": "037afe5efb8558309c477bc4c8af4e7ea242fb7bdf63921da84c36454e2515a1",
+      "sha256": "8351d758f17604d9f8a9bd80a66150520a984004b2872fcd371a06745f8e469d",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-sailor-score-a-local": {
+      "file": "assets/mini-piano-sailor-score-a-local.webp",
+      "sourceSha256": "54e60aed6c5d1893c90e7fbbcac455e6e76022a03f0081bdd642ca2e28b93324",
+      "sha256": "c93ab4d5e330c767675ac2a1b9deae1ea979d2dfc69b940197ea14da8e5d271f",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-sailor-score-b-local": {
+      "file": "assets/mini-piano-sailor-score-b-local.webp",
+      "sourceSha256": "8c4e11ff46d0aefadb98c4169f28508876f8ecf345ce55979505867a2dcaa98f",
+      "sha256": "205d49321bf36d6a1666a35a856bbf4a4f7c160f18975a6fd921f0daa02c8dc1",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-pajamas-score-a-local": {
+      "file": "assets/mini-piano-pajamas-score-a-local.webp",
+      "sourceSha256": "af154786e0f66452e5fea924d0d58fc9c2af3614c61a4d966303c1f909b15322",
+      "sha256": "a200096b1430a68e1ffb010e230f7dd4a6d56698965258fafcc50ab7e8265ab9",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-pajamas-score-b-local": {
+      "file": "assets/mini-piano-pajamas-score-b-local.webp",
+      "sourceSha256": "ac87f1eba6d8b746c70eb8ec4c8f643c9ca6beb435e6599771d1580cd955cc9f",
+      "sha256": "1093d4c91c5965efa143f06821fa8666ac4c4e365c770f4636bc989b13b47c08",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-baker-score-a-local": {
+      "file": "assets/mini-piano-baker-score-a-local.webp",
+      "sourceSha256": "5b3223e035a0fb9c6911b060b8c1bb982e766bb1a64b3251101c7c0d27eab539",
+      "sha256": "ae00c865385d4de133c71ac09a316484c6aba4757fcf4255a7de5ae09367b10e",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    },
+    "mini-piano-baker-score-b-local": {
+      "file": "assets/mini-piano-baker-score-b-local.webp",
+      "sourceSha256": "c2464cd6ef70e9ef33ab4a507f54a51f0b260213faaca19a66d470fc169b17f1",
+      "sha256": "b592aed25a1d885b8951480118a2839b9be51ef93259404f9d2e3038b66cf8ba",
+      "visiblePixelsLossless": true,
+      "width": 1254,
+      "height": 1254
+    }
+  }
+}

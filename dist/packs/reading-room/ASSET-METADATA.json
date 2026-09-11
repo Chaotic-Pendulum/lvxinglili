@@ -1,0 +1,310 @@
+{
+  "version": 3,
+  "generator": "built-in image_gen",
+  "oneImagePerPose": true,
+  "atlasesUsedForInteractions": false,
+  "pixelsEditedByCode": false,
+  "commonCanvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "sharedFurniturePivot": [
+    0.5370813397129187,
+    0.9609250398724083
+  ],
+  "notes": [
+    "装扮预览只有人物，家具空图没有人物，互动图关联两者。",
+    "每帧独立生成；示例不使用裁切矩形、逐帧位移补偿或骨骼叠图。",
+    "生成笔触与轮廓仍有少量差异，详情见各组检查记录。"
+  ],
+  "assets": {
+    "chair-empty": {
+      "file": "assets/chair-empty.png",
+      "sha256": "ee5ff3e6bf9809b67a0a8acb13060bf19087535cff0842481bb66dc6b87f6ae3",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        138,
+        46,
+        1208,
+        1203
+      ],
+      "transparentPixels": 714067
+    },
+    "base-outfit": {
+      "file": "assets/base-outfit.png",
+      "sha256": "e68280f8c8e5efde321878203edbbd7c4cb3b7f52842f47d1a90e5d31a3d0ca1",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        264,
+        26,
+        1085,
+        1224
+      ],
+      "transparentPixels": 945664
+    },
+    "base-read-a": {
+      "file": "assets/base-read-a.png",
+      "sha256": "a3c2189c057365afa97e78c2f4d40341e50d6f35b030e182ebb1e2ed47504c5b",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        137,
+        43,
+        1208,
+        1205
+      ],
+      "transparentPixels": 708301
+    },
+    "base-read-b": {
+      "file": "assets/base-read-b.png",
+      "sha256": "046e8744419489ae1379b244e7fbb409f2d39bda50cf10afea47d2b657028e2e",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        136,
+        43,
+        1210,
+        1207
+      ],
+      "transparentPixels": 705041
+    },
+    "base-tea-a": {
+      "file": "assets/base-tea-a.png",
+      "sha256": "6b807612e44968871f8512d32ea152c4c93cb4aeeb51203d8292321a717e74f4",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        136,
+        41,
+        1210,
+        1206
+      ],
+      "transparentPixels": 702071
+    },
+    "base-tea-b": {
+      "file": "assets/base-tea-b.png",
+      "sha256": "54e02911688a87b04d3aed5a35ab367abed3e5a0c5a1594a26e17a7aa0f14afb",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        135,
+        39,
+        1213,
+        1207
+      ],
+      "transparentPixels": 695958
+    },
+    "winter-outfit": {
+      "file": "assets/winter-outfit.png",
+      "sha256": "3cfa8751f974decc00b0f02cabdf3cdd1edc7ac4bf1f156bf9133317bccc11e0",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        262,
+        23,
+        1090,
+        1229
+      ],
+      "transparentPixels": 927680
+    },
+    "winter-read-a": {
+      "file": "assets/winter-read-a.png",
+      "sha256": "3229a5645f8efd354243c6323957d3720c0bea9a1826d2700a8dac3193fda900",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        136,
+        41,
+        1208,
+        1207
+      ],
+      "transparentPixels": 705030
+    },
+    "winter-read-b": {
+      "file": "assets/winter-read-b.png",
+      "sha256": "cf2d79936d0f56cd329b27c492f74fff94002ed62a35188989d2bc4ee1f8ec88",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        134,
+        39,
+        1210,
+        1209
+      ],
+      "transparentPixels": 700924
+    },
+    "winter-tea-a": {
+      "file": "assets/winter-tea-a.png",
+      "sha256": "e069064e73b9e2aa20a779441822b1b89363e6229af8f0fd73591460c5896525",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        136,
+        40,
+        1209,
+        1209
+      ],
+      "transparentPixels": 703093
+    },
+    "winter-tea-b": {
+      "file": "assets/winter-tea-b.png",
+      "sha256": "af9869577d99f8d6fd680d2199949504d00411f405616dfd6d12fcc64850b82d",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        133,
+        36,
+        1209,
+        1210
+      ],
+      "transparentPixels": 695644
+    },
+    "rain-outfit": {
+      "file": "assets/rain-outfit.png",
+      "sha256": "656ed7202232ca2045729f43dab09e620217abe6cdc593c26ff2d24adfccc74b",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        264,
+        8,
+        1085,
+        1227
+      ],
+      "transparentPixels": 933522
+    },
+    "rain-read-a": {
+      "file": "assets/rain-read-a.png",
+      "sha256": "3991943ddd1632df3368e2b47c36f77aff130f5edea7bb4cf910b3926ad0b06b",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        136,
+        41,
+        1210,
+        1206
+      ],
+      "transparentPixels": 704277
+    },
+    "rain-read-b": {
+      "file": "assets/rain-read-b.png",
+      "sha256": "4dadbead8d8bba493f05384ef8d6ff78e0e43e2e0beb1042bcfd83fe4c2ace51",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        135,
+        39,
+        1210,
+        1208
+      ],
+      "transparentPixels": 699593
+    },
+    "rain-tea-a": {
+      "file": "assets/rain-tea-a.png",
+      "sha256": "19d75c1d8c953bda5bd8f975f29489c0f7b5707f1b39a9a6e6fcc9357edefe52",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        135,
+        40,
+        1213,
+        1208
+      ],
+      "transparentPixels": 697935
+    },
+    "rain-tea-b": {
+      "file": "assets/rain-tea-b.png",
+      "sha256": "92bb24c7bb25b349c9a771a8d81c779dff1940f409196860448960e725515438",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alpha32Bounds": [
+        134,
+        39,
+        1214,
+        1209
+      ],
+      "transparentPixels": 693118
+    }
+  }
+}

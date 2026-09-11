@@ -1,0 +1,13 @@
+Original demonstration artwork and configuration for Roam Atelier.
+Created using the built-in image generation tool, September 2026.
+
+To the extent the contributors hold rights in these generated assets,
+permission is granted to use, copy, modify, distribute and sublicense them
+under the MIT License included at the project root. The assets are supplied
+AS IS, without a warranty of exclusivity, copyrightability or noninfringement.
+
+This permission covers the original demonstration images in this pack and
+its authored configuration. It does not cover third-party maps, external
+reference material introduced by users, or other independently licensed files.
+
+See PROMPTS.md and ASSET-METADATA.json for generation and inspection records.

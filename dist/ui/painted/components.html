@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>手绘界面组件 · 漫游工坊</title>
+<link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../../ui-skin.css">
+<style>
+body{margin:0;background:#e7e8dc;color:#314434;font:16px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif}.component-lab{max-width:1080px;margin:auto;padding:32px 22px 50px}.component-lab h1{margin:0;font:600 30px/1.5 "Songti SC",serif}.intro{color:#65705b;margin:8px 0 26px}.lab-grid{display:grid;grid-template-columns:250px minmax(0,1fr);gap:28px;align-items:start}.controls{display:grid;gap:20px;padding:22px 0}.controls label{display:grid;gap:8px}.controls input{width:100%;accent-color:#43684e}.controls output{font-variant-numeric:tabular-nums;color:#705633}.controls a{color:#416249}.sample-stage{min-height:520px;padding:30px 22px;display:grid;gap:26px;align-content:start;justify-items:start;background-color:#a5b194;background-image:linear-gradient(45deg,#9daa8c 25%,transparent 25%),linear-gradient(-45deg,#9daa8c 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#9daa8c 75%),linear-gradient(-45deg,transparent 75%,#9daa8c 75%);background-size:24px 24px;background-position:0 0,0 12px,12px -12px,-12px 0}.button-row{display:flex;gap:14px;flex-wrap:wrap;max-width:100%}.button-row .btn{width:var(--sample-button-width,160px);height:46px;max-width:100%}.sample-panel{border-width:1px;border-style:solid;border-color:transparent;width:var(--sample-panel-width,440px);max-width:100%;min-height:220px;padding:26px}.sample-panel h2{font:600 24px/1.5 "Songti SC",serif;margin:0 0 12px}.sample-panel p{margin:0 0 22px}.fine{font-size:13px;color:#627056;margin-top:18px}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #397357;outline-offset:4px}@media(max-width:680px){.lab-grid{grid-template-columns:1fr}.controls{padding:0;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.controls label:last-of-type{grid-column:1/-1}.sample-stage{padding:24px 14px;min-height:440px}.component-lab{padding:22px 14px}.button-row{gap:8px}}
+</style></head><body>
+<main class="component-lab" id="component-lab">
+<h1>手绘界面组件</h1><p class="intro">同一套贴图，试试不同宽度与边框。这里的调整只影响预览。</p>
+<div class="lab-grid"><section class="controls" aria-label="组件调节">
+<label for="button-width">按钮宽度 <output id="button-width-label">160 px</output><input id="button-width" type="range" min="90" max="300" value="160"></label>
+<label for="edge-width">边框厚度 <output id="edge-width-label">10 px</output><input id="edge-width" type="range" min="6" max="16" value="10"></label>
+<label for="panel-width">面板宽度 <output id="panel-width-label">440 px</output><input id="panel-width" type="range" min="250" max="650" value="440"></label>
+<a href="../../?developer=1">回到游戏</a>
+</section>
+<section class="sample-stage" id="sample-stage" aria-label="手绘素材预览">
+<div class="button-row"><button class="btn painted-button primary" type="button">出发看看</button><button class="btn painted-button" type="button">稍等一下</button></div>
+<div class="sample-panel painted-panel"><h2>今日小记</h2><p>风从窗边经过，书页轻轻翻了一下。</p><button class="btn painted-button primary" type="button">收进相册</button></div>
+</section></div>
+<p class="fine">四个角保持形状，中间和边缘延展。文字与按钮操作仍由页面控制。</p>
+</main>
+<script>
+(()=>{
+const root=document.getElementById('component-lab'),stage=document.getElementById('sample-stage');
+const bind=(id,apply)=>{const input=document.getElementById(id),label=document.getElementById(id+'-label');input.addEventListener('input',()=>{label.textContent=input.value+' px';apply(Number(input.value))});};
+bind('button-width',n=>stage.style.setProperty('--sample-button-width',n+'px'));
+bind('panel-width',n=>stage.style.setProperty('--sample-panel-width',n+'px'));
+bind('edge-width',n=>{stage.style.setProperty('--ui-button-edge',n+'px');stage.style.setProperty('--ui-panel-edge',Math.round(n*1.8)+'px')});
+})();
+</script></body></html>

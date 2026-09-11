@@ -1,0 +1,119 @@
+/* Painted artwork is a skin: all sizing, spacing, positioning and hit areas stay in the existing styles. */
+:root {
+  --ui-paper-image: url("./ui/painted/paper-panel-q90.webp");
+  --ui-neutral-image: url("./ui/painted/button-neutral-q90.webp");
+  --ui-primary-image: url("./ui/painted/button-primary-q90.webp");
+  --ui-paper-slice: 110;
+  --ui-neutral-slice: 96 138 112 138;
+  --ui-primary-slice: 84 112 84 112;
+  --ui-panel-edge: 18px;
+  --ui-hud-edge: 10px;
+  --ui-button-edge: 10px;
+  --ui-dock-edge: 9px;
+}
+
+.world-shell :is(.world-brand, .world-status, .game-dock, .companion-note, .scene-footer, .trip-away, .housing-panel, .workspace-overlay:not(:has(.atlas-page)), .item-card, .shop-card),
+.workspace-overlay:not(:has(.atlas-page)) .panel,
+.modal,
+.painted-panel {
+  border-color: transparent;
+  border-image-source: var(--ui-paper-image);
+  border-image-slice: var(--ui-paper-slice) fill;
+  border-image-width: var(--ui-panel-edge);
+  border-image-repeat: stretch;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.world-shell :is(.world-brand, .world-status, .game-dock, .companion-note, .scene-footer) {
+  border-image-width: var(--ui-hud-edge);
+}
+.world-shell :is(.item-card, .shop-card) {
+  border-image-width: 11px;
+}
+.world-shell .shop-art {
+  background: transparent;
+}
+.world-shell .item-card.chosen {
+  box-shadow: inset 0 0 0 2px #547858;
+}
+
+/* Map surfaces and all controls inside the map keep their existing styling. */
+.workspace-overlay:not(:has(.atlas-page)) .btn,
+.housing-panel .btn,
+.modal .btn,
+.painted-button {
+  border-color: transparent;
+  border-image-source: var(--ui-neutral-image);
+  border-image-slice: var(--ui-neutral-slice) fill;
+  border-image-width: var(--ui-button-edge);
+  border-image-repeat: stretch;
+  background: transparent;
+  box-shadow: none;
+  color: #594832;
+}
+.workspace-overlay:not(:has(.atlas-page)) .btn.primary,
+.housing-panel .btn.primary,
+.modal .btn.primary,
+.painted-button.primary {
+  border-image-source: var(--ui-primary-image);
+  border-image-slice: var(--ui-primary-slice) fill;
+  color: #fff6df;
+  background: transparent;
+}
+.world-shell .workspace-overlay:not(:has(.atlas-page)) .btn:is(:hover, :active),
+.world-shell .housing-panel .btn:is(:hover, :active),
+.modal .btn:is(:hover, :active),
+.painted-button:is(:hover, :active),
+.painted-button.primary:is(:hover, :active) {
+  background: transparent;
+}
+.workspace-overlay:not(:has(.atlas-page)) .btn.danger,
+.modal .btn.danger {
+  color: #9d4738;
+}
+
+.world-shell .dock-item {
+  position: relative;
+  isolation: isolate;
+  color: #665136;
+}
+.world-shell .dock-item::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  pointer-events: none;
+  border: var(--ui-dock-edge) solid transparent;
+  border-image-source: var(--ui-neutral-image);
+  border-image-slice: var(--ui-neutral-slice) fill;
+  border-image-repeat: stretch;
+}
+.world-shell .dock-item.active {
+  color: #fff6df;
+}
+.world-shell .dock-item.active::before {
+  border-image-source: var(--ui-primary-image);
+  border-image-slice: var(--ui-primary-slice) fill;
+}
+.world-shell .dock-item > span,
+.world-shell .dock-item.active > span {
+  background: transparent;
+  box-shadow: none;
+}
+.world-shell .dock-item:hover::before {
+  filter: brightness(1.04);
+}
+.world-shell .dock-item:active::before {
+  filter: brightness(0.94);
+}
+
+.world-shell .world-brand .brand-mark {
+  background: transparent;
+  color: #4f6b42;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .world-shell .dock-item::before { transition: none; }
+}

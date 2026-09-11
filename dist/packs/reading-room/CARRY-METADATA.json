@@ -1,0 +1,330 @@
+{
+  "status": "complete",
+  "tool": "built-in image_gen",
+  "totalItems": 100,
+  "existingItems": 2,
+  "newItems": 98,
+  "completedSheets": 7,
+  "plannedSheetCount": 7,
+  "layout": "Six 4x4 atlases followed by one 2x2 atlas; zero-based row/column/cellIndex; row-major order.",
+  "referenceFile": "reference/equipment.png",
+  "referenceSha256": "e6cc4f4d583c71f934c6491ee67a3e0fde773976080b004cd26e5099ae50e196",
+  "sheets": [
+    {
+      "file": "sheet-01.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1197936,
+      "partialAlphaPixels": 372790,
+      "opaquePixels": 1790,
+      "transparentFraction": 0.761796,
+      "sha256": "27aa9486bdfce4dae07d2c6097011296fb6251ffa99db25d124091c48ed50e0c",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-01.response.json",
+      "promptFile": "prompts/sheet-01.txt",
+      "promptSha256": "04e5781fc16b57353f80aceea359825ec39c3ea6bfc1ed14b26ef6760bf47491"
+    },
+    {
+      "file": "sheet-02.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1238147,
+      "partialAlphaPixels": 332922,
+      "opaquePixels": 1447,
+      "transparentFraction": 0.787367,
+      "sha256": "0e6ed312e584f278270acb2f55eb15d0ea4b46d561feb58f6fcd703c2ab2c9db",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-02.response.json",
+      "promptFile": "prompts/sheet-02.txt",
+      "promptSha256": "4ea2ef2cc91f10d1c1345f408fcd1332c18e4ee6f90eb4369028d83403186084"
+    },
+    {
+      "file": "sheet-03.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1159446,
+      "partialAlphaPixels": 411606,
+      "opaquePixels": 1464,
+      "transparentFraction": 0.737319,
+      "sha256": "e349435854d8bd84a50141236d6052f6937d832b48918f128ca426207b6e8b14",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-03.response.json",
+      "promptFile": "prompts/sheet-03.txt",
+      "promptSha256": "4dd6b5206c088bae23489768057807ddb99df19bb0f24b5fe33e5b7dc245d991"
+    },
+    {
+      "file": "sheet-04.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1143018,
+      "partialAlphaPixels": 428301,
+      "opaquePixels": 1197,
+      "transparentFraction": 0.726872,
+      "sha256": "76ebe77ee3b5c578f625d7fbc7e8267f2211308744db9aa04f435845b6d9e5b7",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-04.response.json",
+      "promptFile": "prompts/sheet-04.txt",
+      "promptSha256": "88645caed003fdf22a30b12a0a2b4fbc1e5853172f338edaa4cca9b5e167681c"
+    },
+    {
+      "file": "sheet-05.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1182110,
+      "partialAlphaPixels": 389541,
+      "opaquePixels": 865,
+      "transparentFraction": 0.751732,
+      "sha256": "fae91ca533be95ab4f7ad44f5c1fc84e4da5a04b0640df9da9a771c18876fcfa",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-05.response.json",
+      "promptFile": "prompts/sheet-05.txt",
+      "promptSha256": "9030ec8d086c0a134eddf91c48493454b0a15e75e1213a80358412ac1aee1cf8"
+    },
+    {
+      "file": "sheet-06.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1200824,
+      "partialAlphaPixels": 370528,
+      "opaquePixels": 1164,
+      "transparentFraction": 0.763632,
+      "sha256": "b5d05820e92418675738df06e4ecee334fbf2900b1f45093ad5d4d549c0952ad",
+      "gridColumns": 4,
+      "gridRows": 4,
+      "cellWidth": 313.5,
+      "cellHeight": 313.5,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 313,
+          "y": 313,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 2,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        },
+        {
+          "index": 3,
+          "x": 940,
+          "y": 940,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-06.response.json",
+      "promptFile": "prompts/sheet-06.txt",
+      "promptSha256": "7543be7a4b6e736afd999e39504a9b07b1e717a7e6a1c88355d8fd6ca13aed37"
+    },
+    {
+      "file": "sheet-07.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "hasAlpha": true,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "transparentPixels": 1251218,
+      "partialAlphaPixels": 320624,
+      "opaquePixels": 674,
+      "transparentFraction": 0.795679,
+      "sha256": "cf7efeb480ed000b80f1d8b9623ad9a994c3c8cdb831c0347ae2c492394ef075",
+      "gridColumns": 2,
+      "gridRows": 2,
+      "cellWidth": 627.0,
+      "cellHeight": 627.0,
+      "orderVerified": true,
+      "cellMapping": "planned row-major mapping unchanged",
+      "boundaries": [
+        {
+          "index": 1,
+          "x": 627,
+          "y": 627,
+          "verticalPixelsAtAlpha160": 0,
+          "horizontalPixelsAtAlpha160": 0
+        }
+      ],
+      "sourceResponseFile": "sheet-07.response.json",
+      "promptFile": "prompts/sheet-07.txt",
+      "promptSha256": "d29994b88ea1800d26ed827e4b81518722bf55b6a2e02fca6e181252c8094466"
+    }
+  ],
+  "pixelEditsPerformed": false,
+  "qaNotes": [
+    "Every generated icon was visually checked against the planned cell identity and order. No mapping changes were needed.",
+    "All final sheets contain genuine RGBA transparency; dimensions were read from the actual files.",
+    "A read-only alpha check found zero pixels with alpha >=160 on every internal equal-cell row and column boundary.",
+    "Source rectangles remain fractional where required: 313.5px cells for 4x4; 627px for 2x2. No files were cropped, resized, repainted, or composited.",
+    "Rejected sheet-05-boundary-crossing.png is retained under rejected for provenance; use only sheet-01.png through sheet-07.png in this folder."
+  ]
+}

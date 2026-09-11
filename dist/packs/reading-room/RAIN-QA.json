@@ -1,0 +1,130 @@
+{
+  "method": "Built-in image_gen only; exactly one pose per image and generation call; outputs copied byte-for-byte; no PNG pixel editing in code. Full canvas frames, no per-frame registration or crop metadata.",
+  "assets": [
+    {
+      "file": "rain-outfit.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "656ed7202232ca2045729f43dab09e620217abe6cdc593c26ff2d24adfccc74b",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaNonzeroBounds": [
+        0,
+        0,
+        1226,
+        1254
+      ],
+      "alpha32Bounds": [
+        264,
+        8,
+        1085,
+        1227
+      ],
+      "transparentPixels": 933522,
+      "edgePixelsAlpha32": 0
+    },
+    {
+      "file": "rain-read-a.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "3991943ddd1632df3368e2b47c36f77aff130f5edea7bb4cf910b3926ad0b06b",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaNonzeroBounds": [
+        0,
+        38,
+        1213,
+        1254
+      ],
+      "alpha32Bounds": [
+        136,
+        41,
+        1210,
+        1206
+      ],
+      "transparentPixels": 704277,
+      "edgePixelsAlpha32": 0
+    },
+    {
+      "file": "rain-read-b.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "4dadbead8d8bba493f05384ef8d6ff78e0e43e2e0beb1042bcfd83fe4c2ace51",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaNonzeroBounds": [
+        0,
+        34,
+        1213,
+        1254
+      ],
+      "alpha32Bounds": [
+        135,
+        39,
+        1210,
+        1208
+      ],
+      "transparentPixels": 699593,
+      "edgePixelsAlpha32": 0
+    },
+    {
+      "file": "rain-tea-a.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "19d75c1d8c953bda5bd8f975f29489c0f7b5707f1b39a9a6e6fcc9357edefe52",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaNonzeroBounds": [
+        0,
+        35,
+        1217,
+        1254
+      ],
+      "alpha32Bounds": [
+        135,
+        40,
+        1213,
+        1208
+      ],
+      "transparentPixels": 697935,
+      "edgePixelsAlpha32": 0
+    },
+    {
+      "file": "rain-tea-b.png",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "sha256": "92bb24c7bb25b349c9a771a8d81c779dff1940f409196860448960e725515438",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "alphaNonzeroBounds": [
+        0,
+        34,
+        1220,
+        1254
+      ],
+      "alpha32Bounds": [
+        134,
+        39,
+        1214,
+        1209
+      ],
+      "transparentPixels": 693118,
+      "edgePixelsAlpha32": 0
+    }
+  ]
+}

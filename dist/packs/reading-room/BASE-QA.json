@@ -1,0 +1,233 @@
+{
+  "version": 3,
+  "generator": "built-in image_gen",
+  "individualImagePerPose": true,
+  "atlasesUsed": false,
+  "pngPixelsEditedByCode": false,
+  "commonCanvas": {
+    "width": 1254,
+    "height": 1254
+  },
+  "renderRule": "Use complete images at an identical fixed square position and size. No source rectangles, per-frame transforms, fitted registration, offsets or equipment layers.",
+  "logicalFurnitureGroundReference": {
+    "x": 673.5,
+    "y": 1205,
+    "space": "common 1254 square; one shared reference, not per-frame correction"
+  },
+  "activities": {
+    "reading": {
+      "files": [
+        "base-read-a.png",
+        "base-read-b.png"
+      ],
+      "durationsMs": [
+        3200,
+        800
+      ]
+    },
+    "tea": {
+      "files": [
+        "base-tea-a.png",
+        "base-tea-b.png"
+      ],
+      "durationsMs": [
+        3500,
+        1500
+      ]
+    }
+  },
+  "wardrobePreview": {
+    "file": "base-outfit.png",
+    "containsFurniture": false,
+    "containsProps": false
+  },
+  "alphaBoundsThreshold": 32,
+  "assets": {
+    "chair-empty": {
+      "file": "chair-empty.png",
+      "sha256": "ee5ff3e6bf9809b67a0a8acb13060bf19087535cff0842481bb66dc6b87f6ae3",
+      "bytes": 1537959,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 45.4092,
+        "lowAlphaPercent1to15": 0.747
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 138,
+        "top": 46,
+        "rightExclusive": 1208,
+        "bottomExclusive": 1203
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 138,
+        "top": 46,
+        "right": 46,
+        "bottom": 51
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    },
+    "base-outfit": {
+      "file": "base-outfit.png",
+      "sha256": "e68280f8c8e5efde321878203edbbd7c4cb3b7f52842f47d1a90e5d31a3d0ca1",
+      "bytes": 1254636,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 60.137,
+        "lowAlphaPercent1to15": 0.6984
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 264,
+        "top": 26,
+        "rightExclusive": 1085,
+        "bottomExclusive": 1224
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 264,
+        "top": 26,
+        "right": 169,
+        "bottom": 30
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    },
+    "base-read-a": {
+      "file": "base-read-a.png",
+      "sha256": "a3c2189c057365afa97e78c2f4d40341e50d6f35b030e182ebb1e2ed47504c5b",
+      "bytes": 1577444,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 45.0425,
+        "lowAlphaPercent1to15": 0.7084
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 137,
+        "top": 43,
+        "rightExclusive": 1208,
+        "bottomExclusive": 1205
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 137,
+        "top": 43,
+        "right": 46,
+        "bottom": 49
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    },
+    "base-read-b": {
+      "file": "base-read-b.png",
+      "sha256": "046e8744419489ae1379b244e7fbb409f2d39bda50cf10afea47d2b657028e2e",
+      "bytes": 1623392,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 44.8352,
+        "lowAlphaPercent1to15": 0.6343
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 136,
+        "top": 43,
+        "rightExclusive": 1210,
+        "bottomExclusive": 1207
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 136,
+        "top": 43,
+        "right": 44,
+        "bottom": 47
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    },
+    "base-tea-a": {
+      "file": "base-tea-a.png",
+      "sha256": "6b807612e44968871f8512d32ea152c4c93cb4aeeb51203d8292321a717e74f4",
+      "bytes": 1615771,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 44.6464,
+        "lowAlphaPercent1to15": 0.6745
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 136,
+        "top": 41,
+        "rightExclusive": 1210,
+        "bottomExclusive": 1206
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 136,
+        "top": 41,
+        "right": 44,
+        "bottom": 48
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    },
+    "base-tea-b": {
+      "file": "base-tea-b.png",
+      "sha256": "54e02911688a87b04d3aed5a35ab367abed3e5a0c5a1594a26e17a7aa0f14afb",
+      "bytes": 1721196,
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "fullyTransparentPercent": 44.2576,
+        "lowAlphaPercent1to15": 0.6893
+      },
+      "boundsAlphaAtLeast32": {
+        "left": 135,
+        "top": 39,
+        "rightExclusive": 1213,
+        "bottomExclusive": 1207
+      },
+      "marginsAlphaAtLeast32": {
+        "left": 135,
+        "top": 39,
+        "right": 41,
+        "bottom": 47
+      },
+      "edgePixelsAlphaAtLeast32": 0
+    }
+  },
+  "limitations": [
+    "Canonical chair retained the prior reference footprint instead of the requested approximate inset bounds.",
+    "Generated visible edges and texture are not pixel-identical across edits.",
+    "Occupied-frame ground edge varies by two source pixels; no compensating renderer adjustment is supplied.",
+    "Low-alpha edge residues are preserved unchanged from the model output."
+  ],
+  "occupiedBoundsSpreadSourcePixels": {
+    "left": 2,
+    "top": 4,
+    "rightExclusive": 5,
+    "bottomExclusive": 2
+  }
+}

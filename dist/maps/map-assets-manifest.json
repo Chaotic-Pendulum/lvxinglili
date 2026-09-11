@@ -1,0 +1,92 @@
+{
+  "project": "Roam Atelier",
+  "retrievedDate": "2026-09-10",
+  "assets": [
+    {
+      "file": "world-standard-GS2020-4403.jpg",
+      "title": "世界地图",
+      "reviewNumber": "GS(2020)4403号",
+      "mapScalePrinted": "1:57000000",
+      "width": 1280,
+      "height": 905,
+      "bytes": 204032,
+      "sha256": "6f123158acd0fbc5e9b94bb3f461dae4362a63ca312e135a3cc2eb70b0945ca7",
+      "sourcePage": "https://www.haojiang.gov.cn/gkmlpt/content/1/1810/post_1810674.html",
+      "downloadUrl": "https://mmbiz.qpic.cn/mmbiz_jpg/QFoLZf9dncskGgVeasYEqYUs0ZicL0CM8gPqY23e52LfA7ictD5iccic4wMbsz2nZbwib48yaUiaa82kzEibknVKeOEOg/0?wx_fmt=jpeg",
+      "sourcePublicationDate": "2020-08-31",
+      "retrievedDate": "2026-09-10",
+      "modifications": "None. File copied byte-for-byte from downloaded image; no crop, redraw, recolor, relabel, projection change or recompression.",
+      "notes": "Intact 1280-pixel repost linked by the Shantou Haojiang district government in its MNR 2020 standard-map announcement. The embedded review label is small at this resolution. Not the high-resolution service download."
+    },
+    {
+      "file": "china-standard-GS2023-2764.jpg",
+      "title": "中国地图 1:740万 界线版 无邻国 无河流 线划二",
+      "reviewNumber": "GS(2023)2764号",
+      "mapScalePrinted": "1:7400000",
+      "width": 9567,
+      "height": 6791,
+      "bytes": 11485286,
+      "sha256": "722e442bd57d0b373742fd895373d41a9df01e97134f23b539a18d9d2a45dd8e",
+      "sourcePage": "https://m.bjnews.com.cn/detail/1693209500129622.html",
+      "downloadUrl": "https://media.bjnews.com.cn/image/2023/08/28/5360273246799342539.jpg",
+      "sourcePublicationDate": "2023-08-28",
+      "retrievedDate": "2026-09-10",
+      "modifications": "None. File copied byte-for-byte from downloaded image; no crop, redraw, recolor, relabel, projection change or recompression.",
+      "notes": "Full 9567-pixel JPG published by Beijing News with the explicit caption 自然资源部供图. Province-level boundaries and labels, Taiwan, Hong Kong, Macau and South China Sea inset preserved. Review label visually legible."
+    }
+  ],
+  "provinceIdentifiers": {
+    "file": "china-province-identifiers.json",
+    "recordCount": 34,
+    "sourceFile": "province-identifiers-source-MZT074-2024.pdf",
+    "sourceUrl": "https://mzt.xinjiang.gov.cn/xjmzt/c113005/202405/6ad2556413ab420fae43e2f81bda98dd/files/%E5%B1%85%E6%B0%91%E5%AE%B6%E5%BA%AD%E7%BB%8F%E6%B5%8E%E7%8A%B6%E5%86%B5%E6%A0%B8%E5%AF%B9%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%8D%A2%E6%8E%A5%E5%8F%A3.pdf",
+    "source": "MZ/T 074-2024, Appendix D.2, printed page 29 / PDF page 31, published by Xinjiang Civil Affairs Department",
+    "transformation": "Names transcribed from official table. Six-digit administrative identifiers recovered by removing the six trailing zeroes from exchange codes, exactly as table note describes. Non-province records for Ministry of Civil Affairs and Xinjiang Production and Construction Corps excluded. No geometry."
+  },
+  "terms": {
+    "officialService": "https://bzdt.tianditu.gov.cn/",
+    "alternativeOfficialService": "https://beijing.tianditu.gov.cn/bzdt/",
+    "summary": "Official standard-map service says standard maps are available for public free browsing and download, and direct use must retain the review number. It names news/publication/background design uses. It says edited map content, including enlargement, reduction or cropping, needs review before public use. No separate open-source/Creative Commons license was identified. A source map review number is not a certification of a new interactive site or derivative map.",
+    "implementation": "Keep the two reference JPGs intact. The native interactive atlas uses separately attributed vector sources with their own hashes. Do not assign the reference JPG review numbers to the interactive map. See interactiveAtlas for transformations and limits.",
+    "limitations": "The national service domains failed DNS during retrieval, so latest versions and a definitive site-use permission were not verified. Chinese hosting alone does not establish legal compliance. No map geometry or marker coordinates are supplied."
+  },
+  "vectorAssets": [
+    {
+      "file": "geometry/world.json",
+      "bytes": 308216,
+      "sha256": "66bfe44ff831b3cb705f7c66ef4fcccf2a85d1badc29c30852922204158fcbab",
+      "sourceRepository": "https://github.com/JayMuShui/chinese-global-compliant-geodata",
+      "sourceRevision": "3cf3485789876c37be6193bf2848cf9aaa40f758",
+      "sourcePath": "src/geojson/globe/world.json",
+      "upstreamAttribution": "Surbowl world-geo-json-zh, as attributed by the pinned repository",
+      "retrievedDate": "2026-09-10",
+      "modifications": "Source bytes unchanged. SVG projection is generated separately; all rings, islands and boundary segments are retained. Matching destination codes group existing polygons into one interaction target. No manual boundary drawing.",
+      "reviewNumber": null
+    },
+    {
+      "file": "geometry/china.json",
+      "bytes": 1698253,
+      "sha256": "11c45e97b70165dfb2bc0c5c8e428108a4723d055e8ffa1663b5eb05783e15d3",
+      "sourceRepository": "https://github.com/JayMuShui/chinese-global-compliant-geodata",
+      "sourceRevision": "3cf3485789876c37be6193bf2848cf9aaa40f758",
+      "sourcePath": "src/geojson/countries/as/chn/global/chn-level-1.json",
+      "upstreamAttribution": "Tianditu, May 2024, as attributed by the pinned repository",
+      "retrievedDate": "2026-09-10",
+      "modifications": "Source bytes unchanged. SVG projection is generated separately; all rings, islands and boundary segments are retained. Matching destination codes group existing polygons into one interaction target. No manual boundary drawing.",
+      "reviewNumber": null
+    }
+  ],
+  "interactiveAtlas": {
+    "generator": "scripts/build-maps.mjs",
+    "outputs": [
+      "world-atlas.json",
+      "china-atlas.json"
+    ],
+    "projection": {
+      "world": "Natural Earth I, 150°E central meridian",
+      "china": "Conic conformal, 105°E central meridian, 25°N and 47°N parallels; independent South China Sea inset"
+    },
+    "verification": "34 province identifiers; Taiwan, Hong Kong and Macau under China; source geometry spot checks for Zangnan, Aksai Chin, Diaoyu Islands; 10 source sea-boundary segments; source byte hashes. These checks do not constitute an official map review.",
+    "limitations": "Vector data comes through an open-source mirror, not a new official download or certified 2026 standard-map product. The raster review numbers belong only to the separate reference JPGs. Public release of the derivative interactive map requires the applicable map review."
+  }
+}
