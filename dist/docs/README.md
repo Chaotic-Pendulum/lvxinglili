@@ -1,6 +1,6 @@
 <img src="dist/app-icon-q90.webp" alt="漫游工坊图标" width="96" align="right">
 
-# 漫游工坊 · Roam Atelier Q90
+# 旅行栗栗
 
 **给角色布置一个家，等它寄回旅行来信。**
 
